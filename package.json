@@ -17,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/mteubnerfoster/project-2-electric-boogaloo/issues"
   },
-  "homepage": "https://github.com/mteubnerfoster/project-2-electric-boogaloo#readme"
+  "homepage": "https://github.com/mteubnerfoster/project-2-electric-boogaloo#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.12.0"
+  }
 }
