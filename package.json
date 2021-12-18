@@ -1,0 +1,21 @@
+{
+  "name": "joint-delight",
+  "version": "1.0.0",
+  "description": "This is project 2 for the UW Coding Boot Camp.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mteubnerfoster/project-2-electric-boogaloo.git"
+  },
+  "keywords": [],
+  "author": "Kevin Ang, Marc Pacampara, Oscar Plumridge, Megan Teubner-Foster, Hailey Van Tussenbroek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mteubnerfoster/project-2-electric-boogaloo/issues"
+  },
+  "homepage": "https://github.com/mteubnerfoster/project-2-electric-boogaloo#readme"
+}
