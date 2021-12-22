@@ -1,7 +1,9 @@
 [
     {
       "username": "test",
-      "password": "123456"
+      "email": "test@test.com",
+      "password": "123456",
+      "dateOfBirth": "2001-06-23"
     }
   ]
   
