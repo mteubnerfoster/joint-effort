@@ -12,7 +12,7 @@ Category.belongsTo(User, {
   foreignKey: 'user_id'
 });
 
-Comment.belongsTo(Category, {
+Product.belongsTo(Category, {
   foreignKey: 'category_id'
 })
 
