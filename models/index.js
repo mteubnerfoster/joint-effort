@@ -3,6 +3,7 @@ const Strain = require('./Strain');
 const Category = require('./Category');
 const Product = require('./Product');
 
+// Working on these still 
 User.hasMany(Category, {
   foreignKey: 'user_id',
   onDelete: 'CASCADE'
@@ -22,11 +23,11 @@ Category.hasMany(Product, {
 });
 
 Product.belongsTo(Strain, {
-  foreignKey: 'user_id',
+  foreignKey: 'product_id',
 });
 
 Strain.hasMany(Product, {
-  foreignKey: 'user_id'
+  foreignKey: 'product_id'
 });
 
 module.exports = { User, Strain, Category, Product };
