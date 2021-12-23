@@ -22,11 +22,11 @@ Category.hasMany(Product, {
 });
 
 Product.belongsTo(Strain, {
-  foreignKey: 'user_id',
+  foreignKey: 'product_id',
 });
 
 Strain.hasMany(Product, {
-  foreignKey: 'user_id'
+  foreignKey: 'product_id'
 });
 
 module.exports = { User, Strain, Category, Product };
