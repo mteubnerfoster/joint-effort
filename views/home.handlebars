@@ -1,1 +1,46 @@
-<h1> HOME EXPERIMENT</h1>
+<!-- Button to Open the Modal -->
+ <button type="button" class="d-none btn btn-primary" data-toggle="modal" data-target="#myModal" id='modalBtn'>test button</button>
+
+{{!-- Main Section  --}}
+<section class='section'>
+ <div class="container">
+     <div class="row">
+     <div class="col-sm-4">
+         <h3>Distance</h3>
+         <p>API data</p>
+         <p>sdfghjkl</p>
+     </div>
+
+     <div class="col-sm-4">
+         <h3>Categories</h3>
+         <p>api data</p>
+         <p>asdfghjkl</p>
+     </div>
+
+     <div class="col-sm-4">
+         <h3>Price</h3>        
+         <p>api data</p>
+        <p>asdfghjkl</p>
+     </div>
+     </div>
+ </div>
+
+</section>
+
+ <div class="container">
+    {{>modal}}
+ </div>
+
+
+<!-- The social media icon bar -->
+<div class="icon-bar">
+  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="google"><i class="fa fa-google"></i></a>
+  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+</div>
+
+{{!-- Google Map --}}
+<iframe width="1000" height="450" style="overflow:auto; position:relative; top:600px; left: 150px" loading="lazy" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAa31jpey7LHij6uxEA9JI3Ksqc92rWGME&q=Space+Needle,Seattle+WA"></iframe>
+
