@@ -3,6 +3,7 @@ const Strain = require('./Strain');
 const Category = require('./Category');
 const Product = require('./Product');
 
+// Working on these still 
 User.hasMany(Category, {
   foreignKey: 'user_id',
   onDelete: 'CASCADE'
