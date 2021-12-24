@@ -1,32 +1,25 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Strain extends Model {}
+class Strain extends Model { }
 
 Strain.init(
   {
-   strain_name: {
-     type: DataTypes.STRING,
-     allowNull: false
-   },
-   dateCreated: {
-     type: DataTypes.DATE,
-     defaultValue: Date.now
-   },
-    user_id: {
+    id: {
       type: DataTypes.INTEGER,
-      references: {
-        model: 'user',
-        key: 'id'
-      }
+      allowNull: false,
+      primaryKey: true,
+      autoIncrement: true,
     },
-    product_id: {
-        type: DataTypes.INTEGER,
-        references: {
-          model: 'product',
-          key: 'id'
-        }
-      },
+    strain_name: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      unique: true
+    },
+    dateCreated: {
+      type: DataTypes.DATE,
+      defaultValue: Date.now
+    },
   },
   {
     sequelize,

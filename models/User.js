@@ -16,10 +16,6 @@ User.init(
             primaryKey: true,
             autoIncrement: true,
         },
-        username: {
-            type: DataTypes.STRING,
-            allowNull: false,
-        },
         email: {
             type: DataTypes.STRING,
             allowNull: false,
@@ -46,9 +42,6 @@ User.init(
     {
         hooks: {
             beforeCreate: async (newUserData) => {
-                let ageChecker = new Date();
-                console.log(ageChecker)
-                console.log(newUserData.dateOfBirth)
                 newUserData.password = await bcrypt.hash(newUserData.password, 10);
                 return newUserData;
             },
