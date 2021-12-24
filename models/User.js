@@ -49,6 +49,8 @@ User.init(
                 let ageChecker = new Date();
                 console.log(ageChecker)
                 console.log(newUserData.dateOfBirth)
+                //figure out if age is bigger than 21, if it is continue
+                //if not throw error
                 newUserData.password = await bcrypt.hash(newUserData.password, 10);
                 return newUserData;
             },
