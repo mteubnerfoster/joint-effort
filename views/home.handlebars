@@ -2,30 +2,26 @@
  <button type="button" class="d-none btn btn-primary" data-toggle="modal" data-target="#myModal" id='modalBtn'>test button</button>
 
 {{!-- Main Section  --}}
-<section class='section'>
- <div class="container">
-     <div class="row">
-     <div class="col-sm-4">
-         <h3>Distance</h3>
-         <p>API data</p>
-         <p>sdfghjkl</p>
-     </div>
+<section class='herolight light p-4'>
+        <div class="container d-flex flex-row bg-dark herodark p-2">
+            <div class="row choiceCards p-0 justify-content-around">
+                <button class="col weedCard text-warning my-1">
+                    <h3>WEED</h3>
+                    <p class="mb-0">Pick Your</p>
+                    <p>Strain</p>
+                </button>
 
-     <div class="col-sm-4">
-         <h3>Categories</h3>
-         <p>api data</p>
-         <p>asdfghjkl</p>
-     </div>
+                <button class="col foodCard text-warning my-1">
+                    <h3>FOOD</h3>
+                    <p class="mb-0">Pick Your</p>
+                    <p>Truck</p>
+                </button>
+            </div>
+        </div>
 
-     <div class="col-sm-4">
-         <h3>Price</h3>        
-         <p>api data</p>
-        <p>asdfghjkl</p>
-     </div>
-     </div>
- </div>
 
 </section>
+
 
  <div class="container">
     {{>modal}}
