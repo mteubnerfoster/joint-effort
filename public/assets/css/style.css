@@ -1,13 +1,55 @@
+:root {
+    --dark-brown: #3C1C14;
+    --khaki: #E7C896;
+    --med-brown: #85684A;
+    --light-brown: #A48467;
+    --grey-brown: #9C7C74;
+    --dark-grey: #212529;
+    --white: white;
+    --green: #284328;
+    --medgreen:#357335;
+}
+
+
 body {
-    background-image: url("../photos/je-background.jpg");
-    background-color: black;
+    /* background-image: url("../photos/je-background.jpg"); */
+    background-color: var(--dark-brown);
     /* background-attachment: fixed; */
     /* background-repeat: repeat; */
     background-size: cover;
-    background-position: center;
     background-attachment: fixed;
  }
 
+.mainlogo{
+    justify-content: center;
+}
+
+.mainImage{
+    background-image: url("..//photos/mainlogo.jpeg"); 
+    background-color: var(--dark-brown);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top:400px;
+    padding-bottom: 800px;
+
+
+}
+
+/* .zoom{  
+    height:100vh;  
+    width:100%;  
+    display:grid;  
+    place-items:center;  
+    position:fixed;  
+    top:0;  
+    left:0;
+    max-width: 150%;
+    max-height: 150%;
+} */
+
+
+ .hidden { 
+    display: none; }
 
  .modal {
     margin-top: 200px;
@@ -20,13 +62,25 @@ header {
 nav {
     align-content: center;
     margin: 0;
+    max-height: 50px;
 
+}
+
+.testSection{
+    color: white;
+}
+
+#plant {
+    color: white;
 }
 
 .navbar {
     position: fixed;
     width: 100%;
     z-index: 9999;
+    opacity: .9;
+    transition: top 0.3s;
+    background-color: #E7C896 !important;
 }
 
 .navbar-collapse {
@@ -48,7 +102,7 @@ nav {
     justify-content: center;
     align-content: center;
     padding-top: 200px;
-
+    background-color: var(--med-brown);
 }
 
 .foodCard {
@@ -56,46 +110,97 @@ nav {
     filter: grayscale(90%);
     opacity: .8;
     min-width: 250px;
-    min-height: 450px;
+    min-height: 300px;
     max-width: 250px;
-    padding-top: 50px;
+    padding-top: 40px;
     text-align: center;
     border-radius: 5px;
-    color: #db9d00;
+    color: var(--khaki);
     margin:50px;
     border: none;
     cursor: pointer;
 }
 
-.weedCard {
+.plantCard {
     background-image: url("../photos/weedcard.jpeg");
     filter: grayscale(90%);
-    opacity: .8;
+    opacity: .9;
     min-width: 250px;
-    min-height: 450px;
+    min-height: 300px;
     max-width: 250px;
-    padding-top: 50px;
+    padding-top: 40px;
     border-radius: 5px;
-    color: #db9d00;
+    color: var(--khaki);
     margin:50px;
     border: none;
     cursor: pointer;
+    
 }
 
+/* carousel */
+.carousel{
+    max-width: 800px;
+
+}
+
+.slide{
+    justify-content: center;
+}
+
+.carousel-inner{
+    align-content: center;
+
+}
+
+.strainContainer {
+    justify-content: center;
+    padding: 0%;
+    margin-top: 100px;
+ }
+
+/* lined tabs */
+
+.lined .nav-link {
+    border: none;
+    border-bottom: 3px solid transparent;
+    color: var(--medgreen)
+  }
+  
+  .lined .nav-link:hover {
+    border: none;
+    border-bottom: 3px solid transparent;
+    color: var(--green);
+  }
+  
+  .lined .nav-link.active {
+    background: none;
+    color: rgb(167, 167, 167);
+    border-color: var(--medgreen);
+  }
+
+.strainFont{
+    color: var(--white);
+}
+  
 
 
 .herolight {
     width: 100%;
     font-family: Copperplate, Papyrus, fantasy;
     /* box-sizing: border-box; */
-    opacity: 0.9;
+    padding-top: 50px;
 
  }
 
-.herodark {
-    max-width: 750px;
+.herokhaki {
+
     max-height: 560px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
+    /* background-image: url("../photos/je-background.jpg");  */
+    background-color: var(--med-brown);
+    width: 100%;
+    justify-content: center;
+
 
 }
 
@@ -103,6 +208,34 @@ nav {
  text-align: center;
  font-family: Copperplate, Papyrus, fantasy;
  }
+
+.foodBtn{
+    background-color: #212529;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 32px;
+    margin: 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    align-items: center;
+    max-width: 200px;
+    min-width: 200px;
+    text-align: center;
+}
+
+.plantSection{
+    min-height: 400px;
+    max-height: 400px;
+    align-content: center;
+}
+
+.plantInfo{
+
+}
 
 .alert {
  position: relative;
@@ -114,8 +247,6 @@ nav {
     justify-content: center;
     padding: 0%;
     margin-top: 100px;
-
-
  }
 
 .container-btn {
@@ -175,17 +306,35 @@ nav {
     filter: grayscale(0%);
     opacity: 1;
     min-width: 250px;
-    min-height: 450px;
+    min-height: 300px;
     max-width: 250px;
     align-items: center;
 }
 
-.weedCard:hover {
+.plantCard:hover {
     background-image: url("../photos/weedcard.jpeg");
     filter: grayscale(0%);
     opacity: 1;
     min-width: 250px;
     max-width: 250px;
-    min-height: 450px;
+    min-height: 300px;
     align-content: center;
+}
+
+.foodBtn:hover {
+    background-color: #3B8C02;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 32px;
+    margin: 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    align-items: center;
+    max-width: 200px;
+    min-width: 200px;
+    text-align: center;
 }

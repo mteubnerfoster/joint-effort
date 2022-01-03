@@ -1,42 +1,66 @@
 <!-- Button to Open the Modal -->
- <button type="button" class="d-none btn btn-primary" data-toggle="modal" data-target="#myModal" id='modalBtn'>test button</button>
+<button type="button" class="d-none btn btn-primary" data-toggle="modal" data-target="#myModal" id='modalBtn'>test
+    button</button>
 
-{{!-- Main Section  --}}
-<section class='herolight light p-4'>
-        <div class="container d-flex flex-row bg-dark herodark p-2">
-            <div class="row choiceCards p-0 justify-content-around">
-                <button class="col weedCard text-warning my-1">
-                    <h3>WEED</h3>
-                    <p class="mb-0">Pick Your</p>
-                    <p>Strain</p>
-                </button>
 
-                <button class="col foodCard text-warning my-1">
-                    <h3>FOOD</h3>
-                    <p class="mb-0">Pick Your</p>
-                    <p>Truck</p>
-                </button>
-            </div>
-        </div>
 
+
+{{!-- Main Section --}}
+<section class='mainLogo'>
+    <div class="mainImage zoom" id='zoom'>
+
+    </div>
 
 </section>
 
 
- <div class="container">
+
+<section class='herolight light'>
+    <div class="d-flex flex-row herokhaki mx-0">
+        {{!-- <img src="../photos/je-background.jpg" alt=""> --}}
+        <div class="row choiceCards p-0 justify-content-around">
+            <button class="col plantCard my-1" onclick="showCarousel()">
+                <h3>CANNABIS</h3>
+                <p class="mb-0">Plant Info</p>
+            </button>
+
+            <button class="col foodCard my-1" onclick="showFoodCategories()">
+                <h3>EATS</h3>
+                <p class="mb-0">Pick Your Food</p>
+            </button>
+        </div>
+    </div>
+
+
+</section>
+<section id="plant" class='hidden bg-dark plantSection'>
+    <div id='plantTypeCard' class='plantInfo'>
+        {{>plant}}
+    </div>
+</section>
+<section id="food" class='hidden'>
+    {{!-- <div class="container d-flex flex-row bg-dark herodark p-2"> --}}
+        <div id=' foodTypeCard'>
+            {{>food}}
+        </div>
+        {{!--
+    </div> --}}
+</section>
+
+<div class="container">
     {{>modal}}
- </div>
+</div>
 
 
 <!-- The social media icon bar -->
 <div class="icon-bar">
-  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-  <a href="#" class="google"><i class="fa fa-google"></i></a>
-  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+    <a href="#" class="google"><i class="fa fa-google"></i></a>
+    <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+    <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
 </div>
 
 {{!-- Google Map --}}
-<iframe width="1000" height="450" style="overflow:auto; position:relative; top:600px; left: 150px" loading="lazy" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAa31jpey7LHij6uxEA9JI3Ksqc92rWGME&q=Space+Needle,Seattle+WA"></iframe>
-
+<iframe width="1000" height="450" style="overflow:auto; position:relative; top:600px; left: 150px" loading="lazy"
+    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAa31jpey7LHij6uxEA9JI3Ksqc92rWGME&q=Space+Needle,Seattle+WA"></iframe>
