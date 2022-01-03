@@ -12,6 +12,8 @@
 }
 
 
+
+
 body {
     /* background-image: url("../photos/je-background.jpg"); */
     background-color: var(--dark-brown);
@@ -59,9 +61,6 @@ nav {
 
 }
 
-.testSection {
-    color: white;
-}
 
 #plant {
     color: white;
@@ -74,7 +73,7 @@ nav {
 }
 
 .foodSectionLeft{
-    max-width: 50%;
+    max-width: 30%;
     padding:50px;
     padding-right: 20px;
     background-color: var(--lightgrey);
@@ -85,7 +84,7 @@ nav {
 }
 
 .foodSectionRight{
-    max-width: 50%;
+    max-width: 70%;
 }
 
 .foodDiv{
@@ -152,11 +151,12 @@ justify-content: right;
 
 .foodImageCard {
     background-image: url("../photos/chickenfood.jpeg");
-    max-height: 460px;
-    min-height: 460px;
+    max-height: 513px;
+    min-height: 513px;
     filter: grayscale(.9);
 }
 
+/* nav bar */
 .navbar {
     position: fixed;
     width: 100%;
@@ -167,7 +167,34 @@ justify-content: right;
 }
 
 .navbar-collapse {
-    justify-content: end;
+    justify-content: center;
+}
+
+.dropdown-menu{
+    background-color: var(--khaki);
+    min-width: 250px;
+    justify-content: right;
+}
+
+.nav-item-btn{
+    max-width: 100px;
+    background-color: var(--dark-grey);
+    color: var(--white);
+    border-radius: 5px;
+    margin:10px;
+
+}
+.inputfield{
+margin:10px;
+max-width: 200px;
+background-color: var(--white);
+color: var(--dark-grey);
+border:none;
+border-radius: 5px;
+}
+
+.signup-q{
+font-size: 10px;
 }
 
 .jumbotron {
@@ -353,10 +380,6 @@ justify-content: right;
     align-content: center;
 }
 
-<<<<<<< HEAD
-.plantInfo {}
-=======
->>>>>>> 4932f1dfab6e08140d5edd15059c8f54013e8aa8
 
 .alert {
     position: relative;
