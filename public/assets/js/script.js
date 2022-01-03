@@ -68,54 +68,20 @@ $('#save').on('click', function (event) {
 
 // plant section
 
-function showCarousel() {
+function showPlantTabs() {
+
   var plants = document.getElementById("plant");
   if (plants.style.display === "block") {
+    $('.plantHidden').fadeOut('slow');
     plants.style.display = "none";
+
   } else {
+    $('.plantHidden').fadeIn('slow');
     plants.style.display = "block";
+
   }
 }
 
-// $('.plantCard').click(function (){
-//   console.log('clicked plant card');
-//   plantTypes();
-//   $(".plantCard").attr("disabled", true);
-// });
-
-// function plantTypes(){
-//   let plantTitle = $('<h1>');
-//   let indicaTitle = $('<h2>');
-//   let indicaInfo = $('<div>');
-//   let sativaTitle = $('<h2>');
-//   let sativaInfo = $('<div>');
-//   let hybridTitle = $('<h2>');
-//   let hybridInfo = $('<div>');
-
-//   plantTitle.attr('class', 'plantTitle');
-//   indicaTitle.attr('class', 'indicaTitle');
-//   indicaInfo.attr('class', 'indicaInfo');
-//   sativaTitle.attr('class','sativaTitle');
-//   sativaInfo.attr('class','sativaInfo');
-//   hybridTitle.attr('class','hybridTitle');
-//   hybridInfo.attr('class','hybridInfo');
-
-//   plantTitle.text('Cannabis Plant Types');
-//   indicaTitle.text('Indica');
-//   indicaInfo.text('Indica cannabis strains usually come from short, bushy plants. Indica strains typically grow in slightly cooler climates than other types of cannabis. They’re often purchased by people who like to enjoy cannabis at night. If you want to put a movie on, read a book, or just go about your bedtime routine, you may be looking for an Indica that can serve as a nightcap. People often refer to the effects of Indicas as a “body high.”');
-//   sativaTitle.text('Sativa');
-//   sativaInfo.text('Physically speaking, Sativas typically grow on taller, thinner plants. These strains seem to grow most naturally in warm or tropical climates. Of course, any type of cannabis can be grown effectively just about anywhere now, thanks to indoor growing facilities. Sativa strains are a popular choice for the morning or the middle of the day, especially among people who plan on doing something active.');
-//   hybridTitle.text('Hybrid');
-//   hybridInfo.text("Some say Indicas are for eating snacks and getting comfortable, Sativas are for being active and alert, and Hybrids are somewhere in the middle. Truthfully, though, the most significant similarities between categories are physical. That is, Indicas normally grow like other Indicas, and Sativas grow like other Sativas. This is important for growers to know as they cultivate the healthiest cannabis possible, but it isn’t necessarily a predictor of the effects of cannabis. Some people ask about Indicas, Sativas, and Hybrids just because they hear those words get thrown around a lot. An experienced budtender will undoubtedly understand what you mean and be able to help you find an appealing strain. Still, though, it’s better to use terms that more accurately reflect what you want. If you want to feel calm and sleepy, say that. If you want to feel inspired and euphoric, say that. If you’re just sampling different strains to find a new favorite, that’s good to know too.");
-
-//   plantTypeCard.append(plantTitle);
-//   plantTypeCard.append(indicaTitle);
-//   plantTypeCard.append(indicaInfo);
-//   plantTypeCard.append(sativaTitle);
-//   plantTypeCard.append(sativaInfo);
-//   plantTypeCard.append(hybridTitle);
-//   plantTypeCard.append(hybridInfo);
-// };
 
 
 
@@ -123,8 +89,10 @@ function showCarousel() {
 function showFoodCategories() {
   var foods = document.getElementById("food");
   if (foods.style.display === "block") {
+    $('.foodHidden').fadeOut('slow');
     foods.style.display = "none";
   } else {
+    $('.foodHidden').fadeIn('slow');
     foods.style.display = "block";
   }
 }
@@ -135,15 +103,15 @@ function showFoodCategories() {
 //   $(".foodCard").attr("disabled", true);
 // });
 
-// function foodTypes(){
-//   for (let i = 0; i < foodCategories.length; i++) {
-//     var foodButton = $('<button>');
-//     foodButton.attr('class', 'foodBtn')
-//     foodButton.text(foodCategories[i]);
-//     foodTypeCard.append(foodButton)
+function foodTypes(){
+  for (let i = 0; i < foodCategories.length; i++) {
+    var foodButton = $('<button>');
+    foodButton.attr('class', 'foodBtn')
+    foodButton.text(foodCategories[i]);
+    foodTypeCard.append(foodButton)
     
-//   }
-// };
+  }
+};
 
 // navbar scroll
 window.onscroll = function() {scrollFunction()};
@@ -156,17 +124,46 @@ function scrollFunction() {
   }
 }
 
-// main logo zoom on scroll
-// const zoomElement = document.querySelector(".zoom");
-// let zoom = 1;
-// const ZOOM_SPEED = 0.2;
 
-// document.addEventListener("wheel", function(e) {  
-    
-//     if(e.deltaY > 0){    
-//         zoomElement.style.transform = `scale(${zoom += ZOOM_SPEED})`;  
-//     }else {    
-//         zoomElement.style.transform = `scale(${zoom -= ZOOM_SPEED})`;  }
-      
 
-// });
+// card animation
+$(document).ready(function() {
+
+  //window and animation items
+  var animation_elements = $.find('.animationCard');
+  var web_window = $(window);
+
+  //check to see if any animation containers are currently in view
+  function check_if_in_view() {
+    //get current window information
+    var window_height = web_window.height();
+    var window_top_position = web_window.scrollTop();
+    var window_bottom_position = (window_top_position + window_height);
+
+    //iterate through elements to see if its in view
+    $.each(animation_elements, function() {
+
+      //get the element sinformation
+      var element = $(this);
+      var element_height = $(element).outerHeight();
+      var element_top_position = $(element).offset().top;
+      var element_bottom_position = (element_top_position + element_height);
+
+      //check to see if this current container is visible (its viewable if it exists between the viewable space of the viewport)
+      if ((element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position)) {
+        element.addClass('in-view');
+      } else {
+        element.removeClass('in-view');
+      }
+    });
+
+  }
+
+  //on or scroll, detect elements in view
+  $(window).on('scroll resize', function() {
+      check_if_in_view()
+    })
+    //trigger our scroll event on initial load
+  $(window).trigger('scroll');
+
+});
