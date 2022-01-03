@@ -68,6 +68,96 @@ nav {
 
 #plant {
     color: white;
+    max-height: 400px;
+}
+
+/* food section */
+.foodSection{
+    background-color: var(--lightgrey);
+}
+
+.foodSectionLeft{
+    max-width: 50%;
+    padding:50px;
+    padding-right: 20px;
+    background-color: var(--lightgrey);
+    text-align: right;
+}
+.foodTitle1{
+    padding-bottom:5px;
+}
+
+.foodSectionRight{
+    max-width: 50%;
+}
+
+.foodDiv{
+justify-content: right;
+}
+
+.foodbtn {
+    justify-content: right;
+    text-decoration: none;
+    background-color: var(--lightgrey);
+    border: none;
+    border-bottom: 3px solid transparent;
+    font-weight: bold;
+
+}
+
+.foodbtn:hover {
+    justify-content: right;
+    text-decoration: none;
+    background-color: var(--lightgrey);
+    border: none;
+    color: var(--green);
+    border-bottom: 3px solid transparent;
+    border-bottom-color: var(--medgreen);
+}
+
+.foodbtn.active {
+    justify-content: right;
+    text-decoration: none;
+    background-color: var(--medgreen);
+    border: none;
+    border-bottom: 3px solid transparent;
+    
+}
+
+
+.submitbtn {
+    margin-top: 20px;
+    justify-content: right;
+    text-decoration: none;
+    background-color: var(--lightgrey);
+    border: 3px solid;
+    font-weight: bold;
+
+}
+
+.submitbtn:hover {
+    justify-content: right;
+    text-decoration: none;
+    background-color: var(--lightgrey);
+    color: var(--green);
+    border: 3px solid transparent;
+    border-color: var(--medgreen);
+}
+
+.submitbtn.active {
+    justify-content: right;
+    text-decoration: none;
+    background-color: var(--medgreen);
+    border: none;
+    border-bottom: 3px solid transparent;
+    
+}
+
+.foodImageCard {
+    background-image: url("../photos/chickenfood.jpeg");
+    max-height: 460px;
+    min-height: 460px;
+    filter: grayscale(.9);
 }
 
 .navbar {
@@ -265,9 +355,6 @@ nav {
     align-content: center;
 }
 
-.plantInfo{
-
-}
 
 .alert {
  position: relative;
