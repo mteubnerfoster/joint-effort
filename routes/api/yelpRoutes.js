@@ -1,7 +1,7 @@
 const router = require('express').Router();
 
 router.get('/', async (req, res) => {
-    console.log(req.body)
+    console.log(req.query)
     // todo
     // get yelp search using user input search term and location
 
