@@ -3,7 +3,8 @@
     <h2>results</h2>
     {{!-- each output will become a button that when they press will search dispensaries near them --}}
     {{#each yelpOutput}}
-    <button class="yelpFood" data-lat={{coordinates.latitude}} data-long={{coordinates.longitude}}>
+    <button class="yelpFood" data-lat={{coordinates.latitude}} data-long={{coordinates.longitude}} data-alias={{alias}}
+        data-id={{id}}>
         <div>
             <p>Name: {{name}}</p>
             <p>Link:
