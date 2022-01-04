@@ -55,6 +55,7 @@ body {
 
 header {
     width: 100%;
+    font-family: Copperplate, Papyrus, fantasy;
 }
 
 nav {
@@ -77,15 +78,28 @@ nav {
 
 .foodSectionLeft{
     max-width: 30%;
-    padding:50px;
-    padding-right: 20px;
+padding-top: 50px;
+padding-bottom: 50px;
+padding-right:0px;
+    /* padding-right: 0px; */
     background-color: var(--lightgrey);
     text-align: right;
 }
 .foodTitle1{
     padding-bottom:5px;
+    margin-right: 20px;
 }
 
+.foodprompt-1 {
+    margin-bottom: 0px;
+    margin-right:20px;
+    font-style: italic;
+}
+
+.foodprompt-2 {
+    margin-right:20px;
+    font-style: italic;
+}
 .foodSectionRight{
     max-width: 70%;
 }
@@ -94,13 +108,25 @@ nav {
 justify-content: right;
 }
 
+.btnList{
+    align-items: end;
+}
+
+/* .cfimage{
+    background-image: url("..//photos/chineseFood.jpeg"); 
+    max-height: 50px;
+} */
+
 .foodbtn {
     justify-content: right;
     text-decoration: none;
-    background-color: var(--lightgrey);
-    border: none;
-    border-bottom: 3px solid transparent;
+    background-color: var(--lightgrey) !important;
+    border: none !important;
+    border-bottom: 3px solid transparent !important;
     font-weight: bold;
+    padding-right: 0px;
+    color: var(--dark-grey);
+    border-radius: 0px !important;
 
 }
 
@@ -109,20 +135,41 @@ justify-content: right;
     text-decoration: none;
     background-color: var(--lightgrey);
     border: none;
-    color: var(--green);
+    color: var(--medgreen);
     border-bottom: 3px solid transparent;
-    border-bottom-color: var(--medgreen);
+    border-bottom-color: var(--medgreen) !important;
+    border-radius: 0px !important;
 }
 
 .foodbtn.active {
     justify-content: right;
     text-decoration: none;
-    background-color: var(--medgreen);
+    background-color: var(--dark-grey);
     border: none;
-    border-bottom: 3px solid transparent;
+    border-radius: 5px 0 0 5px;
+    color:var(--green);
+    border-radius: 0px;
+    /* border-bottom: 3px solid transparent; */
     
 }
 
+/* meal ideas */
+.idea-title{
+    padding-top:40px;
+    border-bottom: 3px solid transparent;
+    border-bottom-color: var(--medgreen);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.dishtop {
+    margin-top: 40px;
+}
+
+.bullet {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 .submitbtn {
     margin-top: 20px;
@@ -131,6 +178,7 @@ justify-content: right;
     background-color: var(--lightgrey);
     border: 3px solid;
     font-weight: bold;
+    margin:20px;
 
 }
 
@@ -153,12 +201,33 @@ justify-content: right;
 }
 
 .foodImageCard {
-    background-image: url("../photos/chickenfood.jpeg");
-    max-height: 513px;
-    min-height: 513px;
-    filter: grayscale(.9);
+    background-image: url("../photos/meal.jpg");
+    min-height: 590px;
+    padding-top: 100px;
+
 }
 
+.dishes {
+    background-color: var(--dark-grey);
+    opacity: .9;
+    max-width:400px;
+    min-width: 300px;
+    max-height: 300px;
+    min-height: 420px;
+    margin: auto;
+    /* display: none; */
+    color: var(--white);
+    border-radius: 5px;
+    
+}
+
+
+
+
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
 /* nav bar */
 .navbar {
     position: fixed;
@@ -175,7 +244,7 @@ justify-content: right;
 
 .dropdown-menu{
     background-color: var(--khaki);
-    min-width: 250px;
+    min-width: 220px;
     justify-content: right;
 }
 

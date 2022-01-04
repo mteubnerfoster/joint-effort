@@ -17,13 +17,13 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav justify-content-end">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#plant">Cannabis</a>
+              <a class="nav-link" href="#plant" onclick="showPlantTabs()">Cannabis</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#food">Eats</a>
+              <a class="nav-link" href="#food" onclick="showFoodCategories()">Eats</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -34,7 +34,7 @@
                 <input type='text' data-value='user-name' class="dropdown-item inputfield " placeholder='username'>
                 <input type='text' data-value='user-name' class="dropdown-item inputfield" placeholder='password'>
                 <a class="dropdown-item nav-item-btn" href="#">SUBMIT</a>
-                <a class="dropdown-item" href="#">Sign Up!</a>
+                <a class="dropdown-item" href="/login">Sign Up!</a>
 
               </div>
             </li>
