@@ -52,4 +52,23 @@ router.post('/logout', (req, res) => {
   }
 });
 
+// router.delete("/user/:id", (req, res) => {
+//   User.destroy({
+//     where: {
+//       id: req.params.id
+//     }
+//   })
+//   .then(userData => {
+//     if (!userData) {
+//       res.status(404).json({ message: 'No users found with this account information.' });
+//       return;
+//     }
+//     res.json(userData);
+//   })
+//   .catch(err => {
+//     console.log(err);
+//     res.status(500).json(err);
+//   });
+// });
+
 module.exports = router;
