@@ -168,7 +168,7 @@ justify-content: right;
     margin-bottom: 10px;
 }
 
-.submitbtn {
+.submit-btn {
     margin-top: 20px;
     justify-content: right;
     text-decoration: none;
@@ -179,7 +179,7 @@ justify-content: right;
 
 }
 
-.submitbtn:hover {
+.submit-btn:hover {
     justify-content: right;
     text-decoration: none;
     background-color: var(--lightgrey);
@@ -188,7 +188,7 @@ justify-content: right;
     border-color: var(--medgreen);
 }
 
-.submitbtn.active {
+.submit-btn.active {
     justify-content: right;
     text-decoration: none;
     background-color: var(--medgreen);
@@ -202,10 +202,11 @@ justify-content: right;
     min-height: 590px;
     padding-top: 100px;
 
+
 }
 
 .dishes {
-    background-color: var(--dark-grey);
+    background-color: var(--white);
     opacity: .9;
     max-width:400px;
     min-width: 300px;
@@ -213,8 +214,10 @@ justify-content: right;
     min-height: 420px;
     margin: auto;
     /* display: none; */
-    color: var(--white);
+    color: var(--dark-grey);
     border-radius: 5px;
+    -webkit-box-shadow: 5px 5px 15px 4px rgba(0,0,0,0.65); 
+box-shadow: 5px 5px 15px 4px rgba(0,0,0,0.65);
     
 }
 
@@ -558,4 +561,24 @@ font-size: 10px;
     max-width: 200px;
     min-width: 200px;
     text-align: center;
+}
+
+/* LOGIN page */
+.login-title {
+    color: var(--dark-grey);
+}
+
+
+.login-section {
+    background-color: var(--lightgrey);
+    color: var(--dark-grey);
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    border-radius: 5px;
+    -webkit-box-shadow: 5px 5px 15px 4px rgba(0,0,0,0.65); 
+    box-shadow: 5px 5px 15px 4px rgba(0,0,0,0.65);
+        
 }
