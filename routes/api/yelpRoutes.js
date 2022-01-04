@@ -11,8 +11,8 @@ router.get('/', async (req, res) => {
         term: req.query.food,
         latitude: req.query.lat,
         longitude: req.query.long,
+        categories: req.query.category,
         sort_by: 'distance',
-        categories: 'foodtrucks',
         limit: 20,
     }).then(response => {
         // saveJSON(response.jsonBody.businesses)
@@ -33,7 +33,7 @@ router.get('/', async (req, res) => {
 
 
 
-// helper functions
+// helper functions if we run out of api calls
 function saveJSON(response) {
     const data = JSON.stringify(response);
     fs.writeFile('sampleData.json', data, (err) => {

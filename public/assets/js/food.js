@@ -21,7 +21,7 @@ async function submitBtn() {
     foodChoice = localStorage.getItem('food');
 
     if (foodChoice) {
-        const response = await fetch(`/api/yelp?lat=${lat}&long=${long}&food=${foodChoice}`, {
+        const response = await fetch(`/api/yelp?lat=${lat}&long=${long}&food=${foodChoice}&category=foodtrucks`, {
             method: 'GET',
             headers: { 'Content-Type': 'application/json' },
         });
