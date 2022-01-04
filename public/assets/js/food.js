@@ -21,17 +21,11 @@ async function submitBtn() {
     foodChoice = localStorage.getItem('food');
 
     if (foodChoice) {
-        const response = await fetch(`/api/yelp?lat=${lat}&long=${long}&food=${foodChoice}&category=foodtrucks`, {
-            method: 'GET',
-            headers: { 'Content-Type': 'application/json' },
-        });
-        if (response.ok) {
-            console.log('response okay')
-        } else {
-            alert('failed to search');
-        }
+        document.location.replace(`/food/search?lat=${lat}&long=${long}&food=${foodChoice}&category=foodtrucks`);
+        localStorage.removeItem('food');
+    } else {
+        alert("Please select a food type")
     }
-
 }
 
 $('.foodbtn').click(btnClick)
