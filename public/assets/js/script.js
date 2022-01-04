@@ -163,31 +163,3 @@ $(document).ready(function() {
 });
 
 
-// food ideas 
-
-
-// function showCFIdeas() {
-//   $('.fb1').addClass('active');
-//   $('.fb2').removeClass('active')
-//   let chineseFood = document.getElementById("chineseFoodIdeas");
-//   if (chineseFood.style.display === "block") {
-//     // $('.foodHidden').fadeOut('slow');
-//     chineseFood.style.display = "none";
-//   } else {
-//     // $('.foodHidden').fadeIn('slow');
-//     chineseFood.style.display = "block";
-//   }
-// }
-
-// function showChickenIdeas() {
-//   $('.fb2').addClass('active');
-//   $('.fb1', '.fb3', '.fb4', '.fb5', '.fb6', '.fb7').removeClass('active')
-//   var chicken = document.getElementById("chickenIdeas");
-//   if (chicken.style.display === "block") {
-//     // $('.foodHidden').fadeOut('slow');
-//     chicken.style.display = "none";
-//   } else {
-//     // $('.foodHidden').fadeIn('slow');
-//     chicken.style.display = "block";
-//   }
-// }
