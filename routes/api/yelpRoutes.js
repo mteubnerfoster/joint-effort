@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const yelp = require('yelp-fusion');
-//tbd put in .env
-const client = yelp.client('ny7qDYbJxsMNJj5SPENk8V8dOBMpfFVacFqszDeSaICyu3Lla83Tv5EMqgvB83HZE_oM1_5FoljDNsdK9-mtHz2_1yCEviEmFuzl4uTCpNr77-eX1P4Cgc5xNE3FYXYx');
+
+const client = yelp.client(process.env.YELP_APIKEY);
 const fs = require('fs');
 
 router.get('/', async (req, res) => {
@@ -15,20 +15,18 @@ router.get('/', async (req, res) => {
         categories: 'foodtrucks',
         limit: 20,
     }).then(response => {
-        saveJSON(response.jsonBody.businesses)
-        // let sampleOutput = response.jsonBody.businesses
-        // let i = 0;
-        // sampleOutput.forEach(element => {
-        //   console.log(i)
-        //   console.log(element)
-        //   i++;
-        // });
-        // console.log(sampleOutput)
+        // saveJSON(response.jsonBody.businesses)
+        let sampleOutput = response.jsonBody.businesses
+        let i = 0;
+        sampleOutput.forEach(element => {
+            console.log(i)
+            console.log(element)
+            i++;
+        });
     }).catch(e => {
         console.log(e);
     });
-    // todo
-    // get yelp search using user input search term and location
+
 
     res.status(200).json('in api/yelp');
 });
