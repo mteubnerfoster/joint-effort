@@ -72,11 +72,11 @@ function showPlantTabs() {
 
   var plants = document.getElementById("plant");
   if (plants.style.display === "block") {
-    $('.plantHidden').fadeOut('slow');
+    $('.plantHidden').fadeToggle('slow');
     plants.style.display = "none";
 
   } else {
-    $('.plantHidden').fadeIn('slow');
+    $('.plantHidden').fadeToggle('slow');
     plants.style.display = "block";
 
   }
@@ -96,12 +96,6 @@ function showFoodCategories() {
     foods.style.display = "block";
   }
 }
-
-// $('.foodCard').click(function (){
-//   console.log('clicked plant card');
-//   foodTypes();
-//   $(".foodCard").attr("disabled", true);
-// });
 
 function foodTypes(){
   for (let i = 0; i < foodCategories.length; i++) {
@@ -167,3 +161,33 @@ $(document).ready(function() {
   $(window).trigger('scroll');
 
 });
+
+
+// food ideas 
+
+
+// function showCFIdeas() {
+//   $('.fb1').addClass('active');
+//   $('.fb2').removeClass('active')
+//   let chineseFood = document.getElementById("chineseFoodIdeas");
+//   if (chineseFood.style.display === "block") {
+//     // $('.foodHidden').fadeOut('slow');
+//     chineseFood.style.display = "none";
+//   } else {
+//     // $('.foodHidden').fadeIn('slow');
+//     chineseFood.style.display = "block";
+//   }
+// }
+
+// function showChickenIdeas() {
+//   $('.fb2').addClass('active');
+//   $('.fb1', '.fb3', '.fb4', '.fb5', '.fb6', '.fb7').removeClass('active')
+//   var chicken = document.getElementById("chickenIdeas");
+//   if (chicken.style.display === "block") {
+//     // $('.foodHidden').fadeOut('slow');
+//     chicken.style.display = "none";
+//   } else {
+//     // $('.foodHidden').fadeIn('slow');
+//     chicken.style.display = "block";
+//   }
+// }
