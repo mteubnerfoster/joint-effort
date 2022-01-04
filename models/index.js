@@ -1,7 +1,7 @@
-const User = require('./User');
-const Strain = require('./Strain');
-const Category = require('./Category');
-const Product = require('./Product');
+const User = require('./user');
+const Strain = require('./strain');
+const Category = require('./category');
+const Product = require('./product');
 
 // Working on these still 
 
