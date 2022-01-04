@@ -1,13 +1,13 @@
 console.log('food results')
 
-let lat, long;
-
+let lat;
+let long;
 
 $('.yelpFood').click(foodtruckClick)
 
 async function foodtruckClick() {
-    lat = $(this).data(lat);
-    long = $(this).data(long);
-    console.log(lat)
-    console.log(long)
+    lat = await $(this).data("lat");
+    long = await $(this).data("long");
+
+    // document.location.replace(`/food/search?lat=${lat}&long=${long}&term=${foodChoice}&category=cannabisdispensaries`);
 }

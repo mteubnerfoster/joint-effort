@@ -6,10 +6,12 @@
     <button class="yelpFood" data-lat={{coordinates.latitude}} data-long={{coordinates.longitude}}>
         <div>
             <p>Name: {{name}}</p>
-            <a href={{url}}>
-                <p>Link: {{url}}</p>
-            </a>
-            <p>Rating: {{rating}}</p>
+            <p>Link:
+                <a href={{url}}>
+                    <p>{{url}}</p>
+                </a>
+            </p>
+            <p>Rating: {{rating}}/5</p>
         </div>
     </button>
     {{/each}}

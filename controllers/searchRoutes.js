@@ -4,18 +4,17 @@ const yelp = require("yelp-fusion");
 const client = yelp.client(process.env.YELP_APIKEY);
 const fs = require("fs");
 
-router.get("/search", async (req, res) => {
+router.get("/", async (req, res) => {
 
     client.search({
-        term: req.query.food,
+        term: req.query.term,
         latitude: req.query.lat,
         longitude: req.query.long,
         categories: req.query.category,
         sort_by: 'distance',
-        limit: 20,
+        limit: 30,
     }).then(response => {
         // saveJSON(response.jsonBody.businesses)
-        // wip
         let yelpOutput = response.jsonBody.businesses
         console.log(yelpOutput)
         res.render("foodResults", { yelpOutput });
@@ -40,6 +39,7 @@ function outputJSON() {
     let jsonSampleFile = require("../sampleData.json");
     let outputJson = JSON.parse(jsonSampleFile);
     console.log(outputJson);
+    return outputJson;
 };
 
 module.exports = router;
