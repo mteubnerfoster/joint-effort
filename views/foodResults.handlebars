@@ -1,0 +1,18 @@
+<div class="testingDiv">
+    <h1> food search</h1>
+    <h2>results</h2>
+    {{!-- each output will become a button that when they press will search dispensaries near them --}}
+    {{#each yelpOutput}}
+    <button class="yelpFood" data-lat={{coordinates.latitude}} data-long={{coordinates.longitude}}>
+        <div>
+            <p>Name: {{name}}</p>
+            <a href={{url}}>
+                <p>Link: {{url}}</p>
+            </a>
+            <p>Rating: {{rating}}</p>
+        </div>
+    </button>
+    {{/each}}
+</div>
+
+<script src='/assets/js/foodResults.js'></script>

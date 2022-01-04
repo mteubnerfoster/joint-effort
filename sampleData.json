@@ -1,1 +1,868 @@
-[{"id":"UHhG9Tl2wtuyg3rgmzejTw","alias":"saffron-spice-seattle","name":"Saffron Spice","image_url":"https://s3-media1.fl.yelpcdn.com/bphoto/_K1CGA8J9PMfEKJqrqpn_g/o.jpg","is_closed":false,"url":"https://www.yelp.com/biz/saffron-spice-seattle?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg","review_count":117,"categories":[{"alias":"indpak","title":"Indian"},{"alias":"juicebars","title":"Juice Bars & Smoothies"},{"alias":"foodtrucks","title":"Food Trucks"}],"rating":3.5,"coordinates":{"latitude":47.60865879388767,"longitude":-122.34008240558089},"transactions":["delivery"],"price":"$","location":{"address1":"93 Pike St","address2":"Ste 3","address3":"","city":"Seattle","zip_code":"98101","country":"US","state":"WA","display_address":["93 Pike St","Ste 3","Seattle, WA 98101"]},"phone":"+12066822593","display_phone":"(206) 682-2593","distance":1442.993169319352},{"id":"EesCQi6OGjK6_yJ1nlIYxQ","alias":"my-sweet-lil-cakes-seattle-2","name":"My Sweet Lil Cakes","image_url":"https://s3-media3.fl.yelpcdn.com/bphoto/FH9ChlxqmejIrr37_TxCQg/o.jpg","is_closed":false,"url":"https://www.yelp.com/biz/my-sweet-lil-cakes-seattle-2?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg","review_count":116,"categories":[{"alias":"desserts","title":"Desserts"},{"alias":"foodtrucks","title":"Food Trucks"},{"alias":"catering","title":"Caterers"}],"rating":4.5,"coordinates":{"latitude":47.61125,"longitude":-122.33493},"transactions":["pickup"],"price":"$","location":{"address1":"","address2":null,"address3":"","city":"Seattle","zip_code":"98101","country":"US","state":"WA","display_address":["Seattle, WA 98101"]},"phone":"+12062653002","display_phone":"(206) 265-3002","distance":1708.1384679366677},{"id":"2vK5jO0iN8qLZaejIODbkA","alias":"naansense-seattle","name":"Naansense","image_url":"https://s3-media2.fl.yelpcdn.com/bphoto/clz9YBmLRZaZIbq56czsUQ/o.jpg","is_closed":false,"url":"https://www.yelp.com/biz/naansense-seattle?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg","review_count":77,"categories":[{"alias":"foodtrucks","title":"Food Trucks"},{"alias":"indpak","title":"Indian"},{"alias":"catering","title":"Caterers"}],"rating":4,"coordinates":{"latitude":47.61125,"longitude":-122.33493},"transactions":[],"price":"$","location":{"address1":"","address2":"","address3":"","city":"Seattle","zip_code":"98101","country":"US","state":"WA","display_address":["Seattle, WA 98101"]},"phone":"+12066969320","display_phone":"(206) 696-9320","distance":1708.1384679366677},{"id":"SN2wJZojnmfra9oC0kGbjg","alias":"cocina-buena-food-truck-seattle","name":"Cocina Buena -  Food Truck","image_url":"https://s3-media2.fl.yelpcdn.com/bphoto/k32t2TOCLSOYCYs1Gj8ibg/o.jpg","is_closed":false,"url":"https://www.yelp.com/biz/cocina-buena-food-truck-seattle?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg","review_count":9,"categories":[{"alias":"salad","title":"Salad"},{"alias":"bbq","title":"Barbeque"},{"alias":"foodtrucks","title":"Food Trucks"}],"rating":2.5,"coordinates":{"latitude":47.609535217285156,"longitude":-122.33599853515625},"transactions":[],"price":"$$","location":{"address1":"","address2":"","address3":null,"city":"Seattle","zip_code":"98101","country":"US","state":"WA","display_address":["Seattle, WA 98101"]},"phone":"+12069795902","display_phone":"(206) 979-5902","distance":1708.1384679366677},{"id":"Ubzl-7XDj4SAwpuSLwjF6w","alias":"silver-spork-food-truck-seattle","name":"Silver Spork Food Truck","image_url":"https://s3-media2.fl.yelpcdn.com/bphoto/0CFCZR7OW7ym0apgsCAodA/o.jpg","is_closed":false,"url":"https://www.yelp.com/biz/silver-spork-food-truck-seattle?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg","review_count":26,"categories":[{"alias":"foodtrucks","title":"Food Trucks"},{"alias":"comfortfood","title":"Comfort Food"}],"rating":4,"coordinates":{"latitude":47.61125,"longitude":-122.33493},"transactions":[],"price":"$$","location":{"address1":"","address2":"","address3":null,"city":"Seattle","zip_code":"98101","country":"US","state":"WA","display_address":["Seattle, WA 98101"]},"phone":"+12537401506","display_phone":"(253) 740-1506","distance":1708.1384679366677},{"id":"gOPpROjtxRN1gkep7tvG2Q","alias":"incredibowls-seattle-2","name":"Incredibowls","image_url":"https://s3-media1.fl.yelpcdn.com/bphoto/goM8f_kkZKr0wY7E0QwlHw/o.jpg","is_closed":false,"url":"https://www.yelp.com/biz/incredibowls-seattle-2?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg","review_count":46,"categories":[{"alias":"foodtrucks","title":"Food Trucks"},{"alias":"catering","title":"Caterers"},{"alias":"korean","title":"Korean"}],"rating":4.5,"coordinates":{"latitude":47.61125,"longitude":-122.33493},"transactions":[],"price":"$$","location":{"address1":"","address2":null,"address3":"","city":"Seattle","zip_code":"98101","country":"US","state":"WA","display_address":["Seattle, WA 98101"]},"phone":"+12063534394","display_phone":"(206) 353-4394","distance":1708.1384679366677},{"id":"ZNbLqO1tJQ3_XGSDO-Dtlg","alias":"napkin-friends-seattle","name":"Napkin Friends","image_url":"https://s3-media1.fl.yelpcdn.com/bphoto/WDuP5HfD6EwYST3ZAEHGkA/o.jpg","is_closed":false,"url":"https://www.yelp.com/biz/napkin-friends-seattle?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg","review_count":83,"categories":[{"alias":"foodtrucks","title":"Food Trucks"},{"alias":"sandwiches","title":"Sandwiches"},{"alias":"catering","title":"Caterers"}],"rating":4.5,"coordinates":{"latitude":47.61157,"longitude":-122.3353},"transactions":[],"price":"$","location":{"address1":"","address2":"","address3":"","city":"Seattle","zip_code":"98101","country":"US","state":"WA","display_address":["Seattle, WA 98101"]},"phone":"+12064594936","display_phone":"(206) 459-4936","distance":1708.1384679366677},{"id":"5ogbGkcTcZn-hND7G4s-4g","alias":"yumbit-lenora-seattle","name":"Yumbit Lenora","image_url":"","is_closed":false,"url":"https://www.yelp.com/biz/yumbit-lenora-seattle?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg","review_count":1,"categories":[{"alias":"chinese","title":"Chinese"},{"alias":"taiwanese","title":"Taiwanese"},{"alias":"foodtrucks","title":"Food Trucks"}],"rating":5,"coordinates":{"latitude":47.615574823365,"longitude":-122.339174937482},"transactions":["delivery","pickup"],"location":{"address1":"630 Lenora St","address2":null,"address3":null,"city":"Seattle","zip_code":"98121","country":"US","state":"WA","display_address":["630 Lenora St","Seattle, WA 98121"]},"phone":"+14254432822","display_phone":"(425) 443-2822","distance":1848.6720061849137},{"id":"iEqVDylPLvothpTwrRDQuw","alias":"lunch-on-the-plate-seattle","name":"LUNCH ON THE PLATE","image_url":"https://s3-media2.fl.yelpcdn.com/bphoto/5toIOLhuc76rcNEAqMYEaQ/o.jpg","is_closed":false,"url":"https://www.yelp.com/biz/lunch-on-the-plate-seattle?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg","review_count":10,"categories":[{"alias":"foodtrucks","title":"Food Trucks"},{"alias":"taiwanese","title":"Taiwanese"}],"rating":4.5,"coordinates":{"latitude":47.613428,"longitude":-122.336186},"transactions":[],"location":{"address1":"600 Olive Way","address2":null,"address3":"","city":"Seattle","zip_code":"98101","country":"US","state":"WA","display_address":["600 Olive Way","Seattle, WA 98101"]},"phone":"","display_phone":"","distance":1906.0976525270373},{"id":"zuq6gZfutnkqBYstxLtDuQ","alias":"the-seattle-barkery-seattle","name":"The Seattle Barkery","image_url":"https://s3-media1.fl.yelpcdn.com/bphoto/mU1PwoWRuf5fmCz_o8VvNQ/o.jpg","is_closed":false,"url":"https://www.yelp.com/biz/the-seattle-barkery-seattle?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg","review_count":69,"categories":[{"alias":"foodtrucks","title":"Food Trucks"},{"alias":"petstore","title":"Pet Stores"}],"rating":5,"coordinates":{"latitude":47.61747,"longitude":-122.34018},"transactions":[],"price":"$","location":{"address1":"2225 8th Ave","address2":"","address3":"","city":"Seattle","zip_code":"98121","country":"US","state":"WA","display_address":["2225 8th Ave","Seattle, WA 98121"]},"phone":"+12068511549","display_phone":"(206) 851-1549","distance":1924.7905786123263},{"id":"4g7shYUNzEjkfpBxeT6cUg","alias":"green-tree-food-truck-seattle","name":"Green Tree Food Truck","image_url":"https://s3-media1.fl.yelpcdn.com/bphoto/Qon0Xd_VshqNES8IeyORsg/o.jpg","is_closed":false,"url":"https://www.yelp.com/biz/green-tree-food-truck-seattle?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg","review_count":7,"categories":[{"alias":"foodtrucks","title":"Food Trucks"},{"alias":"mideastern","title":"Middle Eastern"}],"rating":2.5,"coordinates":{"latitude":47.61167,"longitude":-122.334671},"transactions":[],"price":"$$","location":{"address1":"1506 6th Ave","address2":"","address3":"","city":"Seattle","zip_code":"98119","country":"US","state":"WA","display_address":["1506 6th Ave","Seattle, WA 98119"]},"phone":"+16789493185","display_phone":"(678) 949-3185","distance":1930.5303532713647},{"id":"SXHcUq3LbblU47W6EDeChQ","alias":"itty-bitty-schnitty-seattle","name":"Itty Bitty Schnitty","image_url":"https://s3-media1.fl.yelpcdn.com/bphoto/jZfECIruwstH2Ailj8voow/o.jpg","is_closed":false,"url":"https://www.yelp.com/biz/itty-bitty-schnitty-seattle?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg","review_count":23,"categories":[{"alias":"foodtrucks","title":"Food Trucks"},{"alias":"german","title":"German"}],"rating":4.5,"coordinates":{"latitude":47.6062095,"longitude":-122.3320708},"transactions":[],"location":{"address1":null,"address2":"","address3":null,"city":"Seattle","zip_code":"98101","country":"US","state":"WA","display_address":["Seattle, WA 98101"]},"phone":"+12066934900","display_phone":"(206) 693-4900","distance":2002.9809223439024},{"id":"AwxF0LdpYQMBLZNpY7io-A","alias":"indochinese-wok-seattle-3","name":"Indochinese Wok","image_url":"https://s3-media2.fl.yelpcdn.com/bphoto/XF5TxcPBhZZizTSVyBvmSw/o.jpg","is_closed":false,"url":"https://www.yelp.com/biz/indochinese-wok-seattle-3?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg","review_count":9,"categories":[{"alias":"indpak","title":"Indian"},{"alias":"chinese","title":"Chinese"},{"alias":"foodtrucks","title":"Food Trucks"}],"rating":4,"coordinates":{"latitude":47.6157331399051,"longitude":-122.336643785897},"transactions":[],"location":{"address1":"2000 8th Ave","address2":"","address3":null,"city":"Seattle","zip_code":"98121","country":"US","state":"WA","display_address":["2000 8th Ave","Seattle, WA 98121"]},"phone":"","display_phone":"","distance":2008.30572278269},{"id":"j7bLg8QJKQMnkd25A8ZBlA","alias":"tats-truck-seattle","name":"Tat's Truck","image_url":"https://s3-media2.fl.yelpcdn.com/bphoto/E3i5szkNjaGx6HJ9FUSnFg/o.jpg","is_closed":false,"url":"https://www.yelp.com/biz/tats-truck-seattle?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg","review_count":69,"categories":[{"alias":"foodtrucks","title":"Food Trucks"},{"alias":"delis","title":"Delis"},{"alias":"cheesesteaks","title":"Cheesesteaks"}],"rating":4.5,"coordinates":{"latitude":47.6015215617005,"longitude":-122.332388162613},"transactions":[],"price":"$$","location":{"address1":"","address2":"","address3":"","city":"Seattle","zip_code":"98104","country":"US","state":"WA","display_address":["Seattle, WA 98104"]},"phone":"+12065382133","display_phone":"(206) 538-2133","distance":2028.0164242062265},{"id":"2l1vbc9zwpyTwzywo8Y17Q","alias":"where-ya-at-matt-seattle","name":"Where Ya At Matt","image_url":"https://s3-media2.fl.yelpcdn.com/bphoto/cjycigyHwSSpO-hdkAuYCw/o.jpg","is_closed":false,"url":"https://www.yelp.com/biz/where-ya-at-matt-seattle?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg","review_count":321,"categories":[{"alias":"cajun","title":"Cajun/Creole"},{"alias":"soulfood","title":"Soul Food"},{"alias":"foodtrucks","title":"Food Trucks"}],"rating":4,"coordinates":{"latitude":47.6032409667969,"longitude":-122.328681945801},"transactions":[],"price":"$$","location":{"address1":"","address2":"","address3":"","city":"Seattle","zip_code":"98104","country":"US","state":"WA","display_address":["Seattle, WA 98104"]},"phone":"","display_phone":"","distance":2031.0407167550275},{"id":"8esvFP1oBXmovufkZEgxzw","alias":"mami-tran-seattle","name":"Mami Tran","image_url":"https://s3-media3.fl.yelpcdn.com/bphoto/xd7OZZuKuP4jRsnbdBil-A/o.jpg","is_closed":false,"url":"https://www.yelp.com/biz/mami-tran-seattle?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg","review_count":44,"categories":[{"alias":"foodtrucks","title":"Food Trucks"},{"alias":"vietnamese","title":"Vietnamese"},{"alias":"sandwiches","title":"Sandwiches"}],"rating":4.5,"coordinates":{"latitude":47.6028213500977,"longitude":-122.329261779785},"transactions":[],"location":{"address1":null,"address2":null,"address3":"","city":"Seattle","zip_code":"98104","country":"US","state":"WA","display_address":["Seattle, WA 98104"]},"phone":"+12068839975","display_phone":"(206) 883-9975","distance":2031.0407167550275},{"id":"bQeBn2adqJC7EcgtcJ395w","alias":"kathmandu-momocha-seattle-3","name":"Kathmandu Momocha","image_url":"https://s3-media4.fl.yelpcdn.com/bphoto/GOoVzhiFDNRhGUhbbIE1WA/o.jpg","is_closed":false,"url":"https://www.yelp.com/biz/kathmandu-momocha-seattle-3?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg","review_count":45,"categories":[{"alias":"himalayan","title":"Himalayan/Nepalese"},{"alias":"foodtrucks","title":"Food Trucks"}],"rating":4.5,"coordinates":{"latitude":47.70975112915039,"longitude":-122.32057189941406},"transactions":["delivery","pickup"],"location":{"address1":"","address2":"","address3":null,"city":"Seattle","zip_code":"98175","country":"US","state":"WA","display_address":["Seattle, WA 98175"]},"phone":"+12066943651","display_phone":"(206) 694-3651","distance":2212.8457632632108},{"id":"Jir5zkSkrMpCJfFE4hiuFQ","alias":"the-peoples-burger-seattle","name":"The People's Burger","image_url":"https://s3-media1.fl.yelpcdn.com/bphoto/Ez_9l3hWRErkzyggEU2IJw/o.jpg","is_closed":false,"url":"https://www.yelp.com/biz/the-peoples-burger-seattle?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg","review_count":110,"categories":[{"alias":"foodtrucks","title":"Food Trucks"},{"alias":"burgers","title":"Burgers"},{"alias":"tradamerican","title":"American (Traditional)"}],"rating":4,"coordinates":{"latitude":47.594872355549825,"longitude":-122.33333945877544},"transactions":[],"price":"$","location":{"address1":"922 Occidental Ave S","address2":"","address3":"","city":"Seattle","zip_code":"98134","country":"US","state":"WA","display_address":["922 Occidental Ave S","Seattle, WA 98134"]},"phone":"+14254715781","display_phone":"(425) 471-5781","distance":2246.163709620432},{"id":"IhxGiOydT-wmrXeTCEjf_w","alias":"tacos-el-tajin-seattle","name":"Tacos El Tajin","image_url":"https://s3-media2.fl.yelpcdn.com/bphoto/NxA7KR9t1CBx2Njw6dh5hw/o.jpg","is_closed":false,"url":"https://www.yelp.com/biz/tacos-el-tajin-seattle?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg","review_count":106,"categories":[{"alias":"mexican","title":"Mexican"},{"alias":"foodtrucks","title":"Food Trucks"}],"rating":4,"coordinates":{"latitude":47.6232358,"longitude":-122.3430295},"transactions":[],"price":"$","location":{"address1":"Boren Ave N Republican St","address2":null,"address3":"","city":"Seattle","zip_code":"98109","country":"US","state":"WA","display_address":["Boren Ave N Republican St","Seattle, WA 98109"]},"phone":"+12537970142","display_phone":"(253) 797-0142","distance":2293.3741619512225},{"id":"o2BJ-GAetKKTJ8yqz4YI_Q","alias":"snout-and-co-seattle-2","name":"Snout & Co.","image_url":"https://s3-media3.fl.yelpcdn.com/bphoto/aFCjE2vm1tzhKVjVgM3G7A/o.jpg","is_closed":false,"url":"https://www.yelp.com/biz/snout-and-co-seattle-2?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg","review_count":119,"categories":[{"alias":"cuban","title":"Cuban"},{"alias":"catering","title":"Caterers"},{"alias":"foodtrucks","title":"Food Trucks"}],"rating":4,"coordinates":{"latitude":47.6199865379172,"longitude":-122.336797694907},"transactions":[],"price":"$","location":{"address1":"","address2":"","address3":"","city":"Seattle","zip_code":"98109","country":"US","state":"WA","display_address":["Seattle, WA 98109"]},"phone":"+12068500941","display_phone":"(206) 850-0941","distance":2299.9361115976567}]
+[
+    {
+        "id": "jL0FjyMPHAfMhGJ-N4Xu5w",
+        "alias": "nachyo-average-seattle",
+        "name": "Nach'Yo Average",
+        "image_url": "",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/nachyo-average-seattle?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg",
+        "review_count": 7,
+        "categories": [
+            {
+                "alias": "foodtrucks",
+                "title": "Food Trucks"
+            },
+            {
+                "alias": "mexican",
+                "title": "Mexican"
+            }
+        ],
+        "rating": 2,
+        "coordinates": {
+            "latitude": 47.6111153576975,
+            "longitude": -122.337820976973
+        },
+        "transactions": [],
+        "location": {
+            "address1": "391 Pine St",
+            "address2": "",
+            "address3": null,
+            "city": "Seattle",
+            "zip_code": "98101",
+            "country": "US",
+            "state": "WA",
+            "display_address": [
+                "391 Pine St",
+                "Seattle, WA 98101"
+            ]
+        },
+        "phone": "",
+        "display_phone": "",
+        "distance": 1688.0062106477583
+    },
+    {
+        "id": "WoYHgDBcV0AJi6qm6I6HHA",
+        "alias": "peri-peri-mexican-grill-seattle",
+        "name": "Peri Peri Mexican Grill",
+        "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/qkIOjSyl9YAvMULxmwuA5g/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/peri-peri-mexican-grill-seattle?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg",
+        "review_count": 3,
+        "categories": [
+            {
+                "alias": "foodtrucks",
+                "title": "Food Trucks"
+            },
+            {
+                "alias": "mexican",
+                "title": "Mexican"
+            }
+        ],
+        "rating": 3,
+        "coordinates": {
+            "latitude": 47.6167158417074,
+            "longitude": -122.338133454323
+        },
+        "transactions": [],
+        "location": {
+            "address1": "2102 Westlake Ave",
+            "address2": "",
+            "address3": null,
+            "city": "Seattle",
+            "zip_code": "98121",
+            "country": "US",
+            "state": "WA",
+            "display_address": [
+                "2102 Westlake Ave",
+                "Seattle, WA 98121"
+            ]
+        },
+        "phone": "",
+        "display_phone": "",
+        "distance": 1983.601604493819
+    },
+    {
+        "id": "IhxGiOydT-wmrXeTCEjf_w",
+        "alias": "tacos-el-tajin-seattle",
+        "name": "Tacos El Tajin",
+        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/NxA7KR9t1CBx2Njw6dh5hw/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/tacos-el-tajin-seattle?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg",
+        "review_count": 106,
+        "categories": [
+            {
+                "alias": "mexican",
+                "title": "Mexican"
+            },
+            {
+                "alias": "foodtrucks",
+                "title": "Food Trucks"
+            }
+        ],
+        "rating": 4,
+        "coordinates": {
+            "latitude": 47.6232358,
+            "longitude": -122.3430295
+        },
+        "transactions": [],
+        "price": "$",
+        "location": {
+            "address1": "Boren Ave N Republican St",
+            "address2": null,
+            "address3": "",
+            "city": "Seattle",
+            "zip_code": "98109",
+            "country": "US",
+            "state": "WA",
+            "display_address": [
+                "Boren Ave N Republican St",
+                "Seattle, WA 98109"
+            ]
+        },
+        "phone": "+12537970142",
+        "display_phone": "(253) 797-0142",
+        "distance": 2293.3741619512225
+    },
+    {
+        "id": "9E-jNy2XgjA1_KysA0wS6Q",
+        "alias": "taqueria-el-ranchero-seattle",
+        "name": "Taqueria El Ranchero",
+        "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/1o41ZFrqMEvcNseJEL2Sfg/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/taqueria-el-ranchero-seattle?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg",
+        "review_count": 24,
+        "categories": [
+            {
+                "alias": "foodtrucks",
+                "title": "Food Trucks"
+            },
+            {
+                "alias": "mexican",
+                "title": "Mexican"
+            }
+        ],
+        "rating": 4,
+        "coordinates": {
+            "latitude": 47.598486,
+            "longitude": -122.317478
+        },
+        "transactions": [
+            "delivery"
+        ],
+        "price": "$",
+        "location": {
+            "address1": "479 12th Ave S",
+            "address2": "",
+            "address3": "",
+            "city": "Seattle",
+            "zip_code": "98144",
+            "country": "US",
+            "state": "WA",
+            "display_address": [
+                "479 12th Ave S",
+                "Seattle, WA 98144"
+            ]
+        },
+        "phone": "+12066617543",
+        "display_phone": "(206) 661-7543",
+        "distance": 3193.9804181001105
+    },
+    {
+        "id": "9jB4wHM4zeAvbvOk-TZ9Uw",
+        "alias": "taqueria-latinos-ii-seattle",
+        "name": "Taqueria Latinos II",
+        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/FWZ8lYi2eWXjtzWD19Dvog/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/taqueria-latinos-ii-seattle?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg",
+        "review_count": 11,
+        "categories": [
+            {
+                "alias": "sandwiches",
+                "title": "Sandwiches"
+            },
+            {
+                "alias": "foodtrucks",
+                "title": "Food Trucks"
+            },
+            {
+                "alias": "tacos",
+                "title": "Tacos"
+            }
+        ],
+        "rating": 3.5,
+        "coordinates": {
+            "latitude": 47.5977554321289,
+            "longitude": -122.31697845459
+        },
+        "transactions": [],
+        "price": "$",
+        "location": {
+            "address1": "520 12th Ave S",
+            "address2": "",
+            "address3": "",
+            "city": "Seattle",
+            "zip_code": "98144",
+            "country": "US",
+            "state": "WA",
+            "display_address": [
+                "520 12th Ave S",
+                "Seattle, WA 98144"
+            ]
+        },
+        "phone": "",
+        "display_phone": "",
+        "distance": 3237.77288549406
+    },
+    {
+        "id": "0Zwac3agn8PAYVrRqLVuhA",
+        "alias": "antojitos-jalisco-seattle",
+        "name": "Antojitos Jalisco",
+        "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/KYRQJCRqC7393g2h70K_7w/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/antojitos-jalisco-seattle?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg",
+        "review_count": 7,
+        "categories": [
+            {
+                "alias": "foodtrucks",
+                "title": "Food Trucks"
+            },
+            {
+                "alias": "tacos",
+                "title": "Tacos"
+            }
+        ],
+        "rating": 4,
+        "coordinates": {
+            "latitude": 47.62174991211002,
+            "longitude": -122.320663765108
+        },
+        "transactions": [
+            "pickup",
+            "delivery"
+        ],
+        "location": {
+            "address1": "324 Broadway E",
+            "address2": "",
+            "address3": null,
+            "city": "Seattle",
+            "zip_code": "98102",
+            "country": "US",
+            "state": "WA",
+            "display_address": [
+                "324 Broadway E",
+                "Seattle, WA 98102"
+            ]
+        },
+        "phone": "+12066665659",
+        "display_phone": "(206) 666-5659",
+        "distance": 3376.9765168655285
+    },
+    {
+        "id": "i9DLpS-vVmFF1MKB2exHlg",
+        "alias": "taqueria-la-original-seattle",
+        "name": "Taqueria La Original",
+        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/D5_nuZqaw0ESb6WcqIRevg/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/taqueria-la-original-seattle?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg",
+        "review_count": 26,
+        "categories": [
+            {
+                "alias": "foodtrucks",
+                "title": "Food Trucks"
+            },
+            {
+                "alias": "mexican",
+                "title": "Mexican"
+            }
+        ],
+        "rating": 4.5,
+        "coordinates": {
+            "latitude": 47.5994824,
+            "longitude": -122.3124315
+        },
+        "transactions": [
+            "delivery"
+        ],
+        "price": "$",
+        "location": {
+            "address1": "1440 S Jackson St",
+            "address2": null,
+            "address3": null,
+            "city": "Seattle",
+            "zip_code": "98144",
+            "country": "US",
+            "state": "WA",
+            "display_address": [
+                "1440 S Jackson St",
+                "Seattle, WA 98144"
+            ]
+        },
+        "phone": "+12069195816",
+        "display_phone": "(206) 919-5816",
+        "distance": 3539.129128272599
+    },
+    {
+        "id": "S_hulKzY__b065ePcXV1cg",
+        "alias": "taqueria-sotelo-seattle-5",
+        "name": "Taqueria Sotelo",
+        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/hoWkdLZcvFk5M2--jmvpHg/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/taqueria-sotelo-seattle-5?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg",
+        "review_count": 11,
+        "categories": [
+            {
+                "alias": "foodtrucks",
+                "title": "Food Trucks"
+            },
+            {
+                "alias": "mexican",
+                "title": "Mexican"
+            }
+        ],
+        "rating": 4.5,
+        "coordinates": {
+            "latitude": 47.59499,
+            "longitude": -122.31044
+        },
+        "transactions": [
+            "delivery"
+        ],
+        "location": {
+            "address1": "828 Rainier Ave S",
+            "address2": "",
+            "address3": null,
+            "city": "Seattle",
+            "zip_code": "98144",
+            "country": "US",
+            "state": "WA",
+            "display_address": [
+                "828 Rainier Ave S",
+                "Seattle, WA 98144"
+            ]
+        },
+        "phone": "+12065355549",
+        "display_phone": "(206) 535-5549",
+        "distance": 3817.8312933960938
+    },
+    {
+        "id": "0fKtiyOeioQZg4Q37yyIEg",
+        "alias": "el-costeño-seattle",
+        "name": "El Costeño",
+        "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/QyfEeJr5ZaUhqNh5uT831Q/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/el-coste%C3%B1o-seattle?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg",
+        "review_count": 29,
+        "categories": [
+            {
+                "alias": "foodtrucks",
+                "title": "Food Trucks"
+            },
+            {
+                "alias": "mexican",
+                "title": "Mexican"
+            }
+        ],
+        "rating": 4,
+        "coordinates": {
+            "latitude": 47.61268,
+            "longitude": -122.3054
+        },
+        "transactions": [],
+        "location": {
+            "address1": "2015 E Union S",
+            "address2": "",
+            "address3": null,
+            "city": "Seattle",
+            "zip_code": "98122",
+            "country": "US",
+            "state": "WA",
+            "display_address": [
+                "2015 E Union S",
+                "Seattle, WA 98122"
+            ]
+        },
+        "phone": "+12064762755",
+        "display_phone": "(206) 476-2755",
+        "distance": 4076.6691889487442
+    },
+    {
+        "id": "qYiHAl-GkyuIjfX0jjzeOA",
+        "alias": "taqueria-la-monarca-seattle",
+        "name": "Taqueria La Monarca",
+        "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/iFdi7R6niRrq8VLhMtJmOg/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/taqueria-la-monarca-seattle?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg",
+        "review_count": 1,
+        "categories": [
+            {
+                "alias": "foodtrucks",
+                "title": "Food Trucks"
+            },
+            {
+                "alias": "mexican",
+                "title": "Mexican"
+            }
+        ],
+        "rating": 4,
+        "coordinates": {
+            "latitude": 47.580866,
+            "longitude": -122.405499
+        },
+        "transactions": [],
+        "location": {
+            "address1": "2504 Alki Ave SW",
+            "address2": "",
+            "address3": "",
+            "city": "Seattle",
+            "zip_code": "98116",
+            "country": "US",
+            "state": "WA",
+            "display_address": [
+                "2504 Alki Ave SW",
+                "Seattle, WA 98116"
+            ]
+        },
+        "phone": "",
+        "display_phone": "",
+        "distance": 4451.131266771909
+    },
+    {
+        "id": "UHbWy9jr1JuLfX1pnjqDTw",
+        "alias": "taqueria-latinos-seattle",
+        "name": "Taqueria Latinos",
+        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/WKi5-8G3n6-Z_1xVgaNtJQ/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/taqueria-latinos-seattle?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg",
+        "review_count": 3,
+        "categories": [
+            {
+                "alias": "mexican",
+                "title": "Mexican"
+            },
+            {
+                "alias": "foodtrucks",
+                "title": "Food Trucks"
+            }
+        ],
+        "rating": 4,
+        "coordinates": {
+            "latitude": 47.5838,
+            "longitude": -122.31187
+        },
+        "transactions": [],
+        "price": "$",
+        "location": {
+            "address1": "",
+            "address2": "",
+            "address3": "",
+            "city": "Seattle",
+            "zip_code": "98144",
+            "country": "US",
+            "state": "WA",
+            "display_address": [
+                "Seattle, WA 98144"
+            ]
+        },
+        "phone": "+12063801542",
+        "display_phone": "(206) 380-1542",
+        "distance": 4745.869466438575
+    },
+    {
+        "id": "ufr93TZVV457eMdCtmvffQ",
+        "alias": "el-chapulin-oaxaqueno-seattle-2",
+        "name": "El Chapulin Oaxaqueno",
+        "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/tZBGOkb9BuwY91mo6sNR2A/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/el-chapulin-oaxaqueno-seattle-2?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg",
+        "review_count": 69,
+        "categories": [
+            {
+                "alias": "foodtrucks",
+                "title": "Food Trucks"
+            },
+            {
+                "alias": "mexican",
+                "title": "Mexican"
+            }
+        ],
+        "rating": 4.5,
+        "coordinates": {
+            "latitude": 47.56322,
+            "longitude": -122.38699
+        },
+        "transactions": [
+            "pickup",
+            "delivery"
+        ],
+        "price": "$",
+        "location": {
+            "address1": "4451 California Ave SW",
+            "address2": "",
+            "address3": null,
+            "city": "Seattle",
+            "zip_code": "98116",
+            "country": "US",
+            "state": "WA",
+            "display_address": [
+                "4451 California Ave SW",
+                "Seattle, WA 98116"
+            ]
+        },
+        "phone": "+12067718476",
+        "display_phone": "(206) 771-8476",
+        "distance": 5163.572325180251
+    },
+    {
+        "id": "xkRmagOWbvzSs2KxTMy4ug",
+        "alias": "flair-taco-seattle",
+        "name": "Flair Taco",
+        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/37BnFqi7oo03yOqdJmusxA/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/flair-taco-seattle?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg",
+        "review_count": 132,
+        "categories": [
+            {
+                "alias": "foodtrucks",
+                "title": "Food Trucks"
+            },
+            {
+                "alias": "tacos",
+                "title": "Tacos"
+            }
+        ],
+        "rating": 3.5,
+        "coordinates": {
+            "latitude": 47.6520462036133,
+            "longitude": -122.354774475098
+        },
+        "transactions": [
+            "delivery"
+        ],
+        "price": "$",
+        "location": {
+            "address1": "315 N 36th St",
+            "address2": "",
+            "address3": "",
+            "city": "Seattle",
+            "zip_code": "98103",
+            "country": "US",
+            "state": "WA",
+            "display_address": [
+                "315 N 36th St",
+                "Seattle, WA 98103"
+            ]
+        },
+        "phone": "+12063562475",
+        "display_phone": "(206) 356-2475",
+        "distance": 5180.536545316129
+    },
+    {
+        "id": "Whd2kb10OMu8unlUZYTVVw",
+        "alias": "jennyfers-taco-truck-seattle",
+        "name": "Jennyfer's Taco Truck",
+        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/kfGl-dCig-RiI7p0IdVqgA/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/jennyfers-taco-truck-seattle?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg",
+        "review_count": 15,
+        "categories": [
+            {
+                "alias": "foodtrucks",
+                "title": "Food Trucks"
+            },
+            {
+                "alias": "tacos",
+                "title": "Tacos"
+            }
+        ],
+        "rating": 4.5,
+        "coordinates": {
+            "latitude": 47.65173714766395,
+            "longitude": -122.3764784048733
+        },
+        "transactions": [],
+        "location": {
+            "address1": "3435 15th Ave W",
+            "address2": "",
+            "address3": null,
+            "city": "Seattle",
+            "zip_code": "98119",
+            "country": "US",
+            "state": "WA",
+            "display_address": [
+                "3435 15th Ave W",
+                "Seattle, WA 98119"
+            ]
+        },
+        "phone": "+12066197509",
+        "display_phone": "(206) 619-7509",
+        "distance": 5304.4715195976205
+    },
+    {
+        "id": "v4_4hrQsQ1F-H3ItS2KJ1w",
+        "alias": "the-gulf-seattle",
+        "name": "The Gulf",
+        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/AZEcJuCTFfxGybQktaNK0w/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/the-gulf-seattle?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg",
+        "review_count": 1,
+        "categories": [
+            {
+                "alias": "foodtrucks",
+                "title": "Food Trucks"
+            },
+            {
+                "alias": "mexican",
+                "title": "Mexican"
+            }
+        ],
+        "rating": 4,
+        "coordinates": {
+            "latitude": 47.6555745451447,
+            "longitude": -122.373036689404
+        },
+        "transactions": [],
+        "price": "$$",
+        "location": {
+            "address1": "",
+            "address2": null,
+            "address3": "",
+            "city": "Seattle",
+            "zip_code": "98108",
+            "country": "US",
+            "state": "WA",
+            "display_address": [
+                "Seattle, WA 98108"
+            ]
+        },
+        "phone": "+15099891401",
+        "display_phone": "(509) 989-1401",
+        "distance": 5664.297748971342
+    },
+    {
+        "id": "WFdK84UjfyGplostKgfOiA",
+        "alias": "t-juana-tacos-seattle",
+        "name": "T’Juana Tacos",
+        "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/0b5Gkv6PydKFF0gZyZmjjQ/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/t-juana-tacos-seattle?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg",
+        "review_count": 12,
+        "categories": [
+            {
+                "alias": "fooddeliveryservices",
+                "title": "Food Delivery Services"
+            },
+            {
+                "alias": "foodtrucks",
+                "title": "Food Trucks"
+            },
+            {
+                "alias": "tacos",
+                "title": "Tacos"
+            }
+        ],
+        "rating": 4.5,
+        "coordinates": {
+            "latitude": 47.55177,
+            "longitude": -122.36272
+        },
+        "transactions": [
+            "pickup",
+            "delivery"
+        ],
+        "location": {
+            "address1": "5600 Delridge Way SW",
+            "address2": null,
+            "address3": null,
+            "city": "Seattle",
+            "zip_code": "98106",
+            "country": "US",
+            "state": "WA",
+            "display_address": [
+                "5600 Delridge Way SW",
+                "Seattle, WA 98106"
+            ]
+        },
+        "phone": "+12066198125",
+        "display_phone": "(206) 619-8125",
+        "distance": 5985.908371299106
+    },
+    {
+        "id": "MFP8MhZlBV2fuhOyHaF56w",
+        "alias": "tacos-el-asadero-seattle-2",
+        "name": "Tacos El Asadero",
+        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/MegtLYTmsvEwkP7RBAUCPA/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/tacos-el-asadero-seattle-2?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg",
+        "review_count": 340,
+        "categories": [
+            {
+                "alias": "foodtrucks",
+                "title": "Food Trucks"
+            },
+            {
+                "alias": "tacos",
+                "title": "Tacos"
+            }
+        ],
+        "rating": 4.5,
+        "coordinates": {
+            "latitude": 47.5711591,
+            "longitude": -122.2928947
+        },
+        "transactions": [
+            "delivery"
+        ],
+        "price": "$",
+        "location": {
+            "address1": "3517 Rainier Ave S",
+            "address2": null,
+            "address3": "",
+            "city": "Seattle",
+            "zip_code": "98118",
+            "country": "US",
+            "state": "WA",
+            "display_address": [
+                "3517 Rainier Ave S",
+                "Seattle, WA 98118"
+            ]
+        },
+        "phone": "+12064760793",
+        "display_phone": "(206) 476-0793",
+        "distance": 6232.56150429094
+    },
+    {
+        "id": "cKK_GWFw0UBKb4mflkljtg",
+        "alias": "siganos-seattle-6",
+        "name": "Siganos",
+        "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/T_3CDxCMLSnyaPFj2Am2Zw/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/siganos-seattle-6?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg",
+        "review_count": 4,
+        "categories": [
+            {
+                "alias": "foodtrucks",
+                "title": "Food Trucks"
+            },
+            {
+                "alias": "mexican",
+                "title": "Mexican"
+            }
+        ],
+        "rating": 2.5,
+        "coordinates": {
+            "latitude": 47.6511116027832,
+            "longitude": -122.309120178223
+        },
+        "transactions": [],
+        "price": "$",
+        "location": {
+            "address1": null,
+            "address2": "",
+            "address3": null,
+            "city": "Seattle",
+            "zip_code": "98195",
+            "country": "US",
+            "state": "WA",
+            "display_address": [
+                "Seattle, WA 98195"
+            ]
+        },
+        "phone": "+12066851850",
+        "display_phone": "(206) 685-1850",
+        "distance": 6297.795521317028
+    },
+    {
+        "id": "nHUUnGJHkwMnseXNsd-yCw",
+        "alias": "rancho-bravo-tacos-seattle",
+        "name": "Rancho Bravo Tacos",
+        "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/W-Mj8ksFd-t8iTbXZpW0sQ/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/rancho-bravo-tacos-seattle?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg",
+        "review_count": 467,
+        "categories": [
+            {
+                "alias": "mexican",
+                "title": "Mexican"
+            },
+            {
+                "alias": "foodtrucks",
+                "title": "Food Trucks"
+            }
+        ],
+        "rating": 4,
+        "coordinates": {
+            "latitude": 47.66119,
+            "longitude": -122.32651
+        },
+        "transactions": [
+            "pickup",
+            "delivery"
+        ],
+        "price": "$",
+        "location": {
+            "address1": "211 NE 45th St",
+            "address2": "",
+            "address3": "",
+            "city": "Seattle",
+            "zip_code": "98105",
+            "country": "US",
+            "state": "WA",
+            "display_address": [
+                "211 NE 45th St",
+                "Seattle, WA 98105"
+            ]
+        },
+        "phone": "",
+        "display_phone": "",
+        "distance": 6648.963731078078
+    },
+    {
+        "id": "L7EpZh_kFu8NSFrAeXY3ag",
+        "alias": "off-the-rez-seattle",
+        "name": "Off the Rez",
+        "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/6ZPkW2UAbWbYPEJPuyQL3Q/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/off-the-rez-seattle?adjust_creative=-PQIWmk6RQXe-UkeH6MNVg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=-PQIWmk6RQXe-UkeH6MNVg",
+        "review_count": 208,
+        "categories": [
+            {
+                "alias": "foodtrucks",
+                "title": "Food Trucks"
+            },
+            {
+                "alias": "burgers",
+                "title": "Burgers"
+            },
+            {
+                "alias": "tacos",
+                "title": "Tacos"
+            }
+        ],
+        "rating": 4,
+        "coordinates": {
+            "latitude": 47.6599202,
+            "longitude": -122.3118251
+        },
+        "transactions": [
+            "pickup",
+            "delivery"
+        ],
+        "price": "$",
+        "location": {
+            "address1": "4300 15th Ave NE",
+            "address2": "",
+            "address3": "",
+            "city": "Seattle",
+            "zip_code": "98101",
+            "country": "US",
+            "state": "WA",
+            "display_address": [
+                "4300 15th Ave NE",
+                "Seattle, WA 98101"
+            ]
+        },
+        "phone": "+12064148226",
+        "display_phone": "(206) 414-8226",
+        "distance": 7037.706759741505
+    }
+]
