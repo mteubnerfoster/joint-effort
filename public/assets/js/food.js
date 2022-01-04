@@ -1,10 +1,10 @@
 console.log("foodjs")
 
-let lat, long, foodVal;
+let lat, long, foodChoice;
 
 function btnClick() {
-    foodVal = $(this).data('value')
-    localStorage.setItem('food', foodVal);
+    foodChoice = $(this).data('value')
+    localStorage.setItem('food', foodChoice);
 
     navigator.geolocation.getCurrentPosition(function (position) {
         let storeLat = position.coords.latitude;
@@ -12,17 +12,26 @@ function btnClick() {
         localStorage.setItem('lat', storeLat);
         localStorage.setItem('long', storeLong);
     })
-
 }
 
-function submitBtn() {
+async function submitBtn() {
 
     lat = localStorage.getItem('lat');
     long = localStorage.getItem('long');
-    foodVal = localStorage.getItem('food');
-    console.log(lat)
-    console.log(long)
-    console.log(foodVal)
+    foodChoice = localStorage.getItem('food');
+
+    if (foodChoice) {
+        const response = await fetch(`/api/yelp?lat=${lat}&long=${long}&food=${foodChoice}&category=foodtrucks`, {
+            method: 'GET',
+            headers: { 'Content-Type': 'application/json' },
+        });
+        if (response.ok) {
+            console.log('response okay')
+        } else {
+            alert('failed to search');
+        }
+    }
+
 }
 
 $('.foodbtn').click(btnClick)
