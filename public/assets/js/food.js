@@ -29,4 +29,4 @@ async function submitBtn() {
 }
 
 $('.foodbtn').click(btnClick)
-$('#foodSubmitBtn').click(submitBtn)
+$('.submitbtn').click(submitBtn)
