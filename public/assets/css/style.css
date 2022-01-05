@@ -47,7 +47,37 @@ body {
 
 .modal {
     margin-top: 200px;
+}
 
+.modal-header {
+    background-color: var(--med-brown);
+    border:none;
+    color:var(--white);
+}
+
+.modal-body{
+    background-color: var(--khaki);
+}
+
+.modal-btn-yes{
+    background-color: var(--medgreen);
+    color: var(--white);
+}
+
+.modal-btn-no{
+    background-color: var(--lightgrey);
+    color:var(--white)
+    }
+
+.container-btn {
+    background-color: var(--khaki);
+    padding: 20px;
+}
+
+.modal-dialog {
+    -webkit-box-shadow: 5px 5px 15px 4px rgba(0,0,0,0.65); 
+    box-shadow: 5px 5px 15px 4px rgba(0,0,0,0.65);
+    max-width: 350px;
 }
 
 header {
@@ -71,6 +101,7 @@ header {
 
 .foodSectionLeft{
     max-width: 30%;
+    max-height: 300px;
 padding-top: 50px;
 padding-bottom: 50px;
 padding-right:0px;
@@ -191,6 +222,7 @@ justify-content: right;
     background-image: url("../photos/meal.jpg");
     min-height: 590px;
     padding-top: 100px;
+    max-height: 700px;
 
 
 }
@@ -199,7 +231,7 @@ justify-content: right;
     background-color: var(--white);
     opacity: .9;
     max-width:400px;
-    min-width: 300px;
+    min-width: 200px;
     max-height: 300px;
     min-height: 420px;
     margin: auto;
@@ -614,7 +646,7 @@ font-size: 10px;
         min-width: 150px;
         min-height: 300px;
         max-width: 100px;
-        margin:20px;
+        margin:10px;
     }
 
     .plantCard:hover {
@@ -622,11 +654,11 @@ font-size: 10px;
         min-width: 150px;
         min-height: 300px;
         max-width: 100px;
-        margin:20px;
+        margin:10px;
     }
 
     .dishes {
-        max-width: 250px;
+        max-width: 200px;
     }
 
   }
