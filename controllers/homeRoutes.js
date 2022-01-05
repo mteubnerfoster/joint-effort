@@ -4,6 +4,10 @@ router.get("/", async (req, res) => {
   res.render("home");
 });
 
+router.get("/plant", async (req, res) => {
+  res.render("choosePlant");
+});
+
 router.get("/login", async (req, res) => {
   res.render("login");
 });
