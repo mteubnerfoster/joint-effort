@@ -13,11 +13,7 @@ async function plantBtnClick() {
 
     lat = foodInfo.foodLat;
     long = foodInfo.foodLong
-    console.log(foodInfo)
 
-    console.log(plant)
-    console.log(foodInfo.foodLat)
-    console.log(foodInfo.foodLong)
     if (plant) {
         document.location.replace(`/search?lat=${lat}&long=${long}&term=${plant}&category=cannabisdispensaries&origin=plant`);
     }

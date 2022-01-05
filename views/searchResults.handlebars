@@ -21,7 +21,7 @@
     {{#each yelpOutput}}
     <button class="yelpPlant" data-lat={{coordinates.latitude}} data-long={{coordinates.longitude}}>
         <div>
-            <p>Name: {{name}}</p>
+            <p>Name: <span class="dispName">{{name}}</span></p>
             <p>Link:
                 <a href={{url}} target="_blank">
                     <p>{{url}}</p>
