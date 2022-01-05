@@ -21,6 +21,11 @@
           <li class="nav-item">
             <a class="nav-link" href="#food" onclick="showFoodCategories()">Eats</a>
           </li>
+          {{#if loggedIn}}
+            <li class="nav-item">
+            <a class="nav-link" href="#" id="logout">Logout</a>
+          </li>
+          {{else}}
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
@@ -34,9 +39,13 @@
 
             </div>
           </li>
+          {{/if}}
         </ul>
       </div>
     </nav>
   </div>
 
 </header>
+
+
+<script src="/assets/js/logout.js"></script>
