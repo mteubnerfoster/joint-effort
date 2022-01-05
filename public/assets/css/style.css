@@ -11,9 +11,6 @@
     --medgreen: #357335;
 }
 
-
-
-
 body {
     /* background-image: url("../photos/je-background.jpg"); */
     background-color: var(--dark-brown);
@@ -105,7 +102,7 @@ body {
 header {
     width: 100%;
     /* font-family: Copperplate, Papyrus, fantasy; */
-    font-family: copperplate;
+    font-family: economica;
 }
 
 
@@ -328,8 +325,6 @@ border-radius: 5px;
 font-size: 10px;
 }
 
-
-
 .jumbotron {
     opacity: 1;
     padding-top: 10px;
@@ -337,7 +332,6 @@ font-size: 10px;
     background: transparent;
     color: white;
     align-content: center;
-
 }
 
 .choiceCards {
@@ -349,7 +343,7 @@ font-size: 10px;
 }
 
 .foodCard {
-    background-image: url("../photos/foodCard.jpeg");
+    background-image: url("../photos/foodcard.jpeg");
     filter: grayscale(90%);
     opacity: .8;
     min-width: 250px;
@@ -460,14 +454,14 @@ font-size: 10px;
 
 .strainFont {
     color: var(--white);
-    font-family: copperplate;
+    font-family: economica;
 }
 
 
 
 .herolight {
     width: 100%;
-    font-family: copperplate;
+    font-family: economica;
     /* font-family: Copperplate, Papyrus, fantasy; */
     /* box-sizing: border-box; */
     padding-top: 50px;
@@ -489,7 +483,7 @@ font-size: 10px;
 .row {
     text-align: center;
     /* font-family: Copperplate, Papyrus, fantasy; */
-    font-family: copperplate;
+    font-family: economica;
 }
 
 .foodBtn {
@@ -588,7 +582,7 @@ font-size: 10px;
 
 /* Hover actions */
 .foodCard:hover {
-    background-image: url("../photos/foodCard.jpeg");
+    background-image: url("../photos/foodcard.jpeg");
     filter: grayscale(0%);
     opacity: 1;
     min-width: 250px;
