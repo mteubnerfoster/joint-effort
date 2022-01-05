@@ -24,7 +24,6 @@ async function foodtruckClick() {
     } else {
         document.location.replace(`/plant`);
     }
-
 }
 
 async function dispensaryClick() {

@@ -66,11 +66,8 @@ $('#save').on('click', function (event) {
   })
 })
 
-
 // plant section
-
 function showPlantTabs() {
-
   var plants = document.getElementById("plant");
   if (plants.style.display === "block") {
     $('.plantHidden').fadeToggle('slow');
@@ -82,9 +79,6 @@ function showPlantTabs() {
 
   }
 }
-
-
-
 
 // food section
 function showFoodCategories() {
@@ -110,7 +104,6 @@ function foodTypes(){
 
 // navbar scroll
 window.onscroll = function() {scrollFunction()};
-
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     document.getElementById("navbar").style.top = "0";
@@ -119,11 +112,8 @@ function scrollFunction() {
   }
 }
 
-
-
 // card animation
 $(document).ready(function() {
-
   //window and animation items
   var animation_elements = $.find('.animationCard');
   var web_window = $(window);
@@ -151,7 +141,6 @@ $(document).ready(function() {
         element.removeClass('in-view');
       }
     });
-
   }
 
   //on or scroll, detect elements in view
@@ -160,7 +149,6 @@ $(document).ready(function() {
     })
     //trigger our scroll event on initial load
   $(window).trigger('scroll');
-
 });
 
 
