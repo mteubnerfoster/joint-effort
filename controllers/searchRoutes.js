@@ -17,7 +17,18 @@ router.get("/", async (req, res) => {
         // saveJSON(response.jsonBody.businesses)
         let yelpOutput = response.jsonBody.businesses
         console.log(yelpOutput)
-        res.render("foodResults", { yelpOutput });
+
+        req.session.save(() => {
+            if (req.query.origin == 'food') {
+                req.session.food = true;
+                req.session.plant = false;
+            } else if (req.query.origin == 'plant') {
+                req.session.food = false;
+                req.session.plant = true;
+            }
+
+        });
+        res.render("searchResults", { yelpOutput, food: req.session.food, plant: req.session.plant });
 
     }).catch(e => {
         console.log(e);

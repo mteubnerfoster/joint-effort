@@ -21,7 +21,7 @@ async function submitBtn() {
     foodChoice = localStorage.getItem('food');
 
     if (foodChoice) {
-        document.location.replace(`/search?lat=${lat}&long=${long}&term=${foodChoice}&category=foodtrucks`);
+        document.location.replace(`/search?lat=${lat}&long=${long}&term=${foodChoice}&category=foodtrucks&origin=food`);
         localStorage.removeItem('food');
     } else {
         alert("Please select a food type")
