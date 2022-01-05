@@ -25,7 +25,7 @@ console.log(req.query)
             // saveJSON(response.jsonBody.businesses)
             let yelpOutput = response.jsonBody.businesses
             console.log(yelpOutput)
-            res.render("searchResults", { yelpOutput, food: req.session.food, plant: req.session.plant });
+            res.render("searchResults", { yelpOutput, food: req.session.food, plant: req.session.plant, loggedIn: req.session.loggedIn});
         });
     }).catch(e => {
         console.log(e);
