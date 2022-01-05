@@ -80,6 +80,28 @@ body {
     max-width: 350px;
 }
 
+.modal-font {
+    font-size: 10px;
+    align-content: center;
+}
+
+.modal-check {
+    margin-right: 10px;;
+    color: currentColor;
+    width: 1.5em;
+    height: 1.5em;
+    /* width: 1.15em;
+    height: 1.15em; */
+    border: 0.15em solid currentColor;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+}
+
+.check-text {
+    padding: 0 0 0 5px;
+}
+
+
 header {
     width: 100%;
     /* font-family: Copperplate, Papyrus, fantasy; */
@@ -327,7 +349,7 @@ font-size: 10px;
 }
 
 .foodCard {
-    background-image: url("../photos/foodCard.jpg");
+    background-image: url("../photos/foodCard.jpeg");
     filter: grayscale(90%);
     opacity: .8;
     min-width: 250px;
@@ -566,7 +588,7 @@ font-size: 10px;
 
 /* Hover actions */
 .foodCard:hover {
-    background-image: url("../photos/foodCard.jpg");
+    background-image: url("../photos/foodCard.jpeg");
     filter: grayscale(0%);
     opacity: 1;
     min-width: 250px;
