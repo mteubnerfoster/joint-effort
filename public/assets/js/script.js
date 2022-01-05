@@ -20,7 +20,7 @@ $('#no').on('click', function () {
   console.log('clicked no')
 })
 
-document.getElementById("no").onclick = function () {
+document.getElementById("cancel").onclick = function () {
   var status = alertBox.getAttribute('data-status')
   if (status === 'close') {
     alertBox.classList.add('d-block')
@@ -37,7 +37,8 @@ box.onclick = function () {
   document.getElementById("no").click()
 }
 
-document.getElementById("yes").onclick = function () {
+document.getElementById("submit").onclick = function () {
+  // add function that verfies check boxes when submitting
   this.setAttribute('data-dismiss', 'modal')
 }
 

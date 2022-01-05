@@ -13,17 +13,17 @@
             <div class="modal-body">
                 <div class="d-none alert alert-danger alert-dismissible" id='alertBox' data-status='close'>
                     <button type="button" class="btn-close" id='box'></button>
-                    <strong>We're sorry,</strong> you must be at least 21 years of age or a valid medical patient to use
-                    this site!
-                </div>
-                <input type='checkbox' id='auth-age'> I am 21 years of age or am a valid medical patient.
-                <input type='checkbox' id='auth-location'> I am located in King County.
+                    <strong>We're sorry,</strong> you must be at least 21 years of age or a valid medical patient to use this site! </div>
+                         {{!-- <div> Are you at least 21 years of age or a valid medical patient?</div> --}}
+                 
+                 <div class='modal-font '><input type='checkbox' id='auth-age' class='modal-check' >I am 21 years of age or a valid medical patient. </div>
+                 <div class='modal-font '> <input type='checkbox' id='auth-location' class='modal-check'> I am located in King County. </div>
             </div>
 
             <!-- Modal footer -->
             <div class="container-btn m-0">
                 <button type="button" class="btn modal-btn-yes" id='submit'>Submit</button>
-                {{!-- <button type="button" class="btn modal-btn-no" id='no' onclick="myFunction()">No</button> --}}
+                <button type="button" class="btn modal-btn-no" id='cancel' onclick="myFunction()">Cancel</button>
             </div>
 
         </div>
