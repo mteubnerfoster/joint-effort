@@ -1,12 +1,16 @@
 console.log('choose plant')
+let lat, long;
+let foodInfo = localStorage.getItem('chosenFoodStoreInfo');
+foodInfo = JSON.parse(foodInfo)
+
+let foodChoiceName = foodInfo.foodName
+$('#foodChoiceName').text(foodChoiceName)
 
 $('.plantBtn').click(plantBtnClick)
 
 async function plantBtnClick() {
     let plant = $(this).data('value')
-    let lat, long;
-    let foodInfo = localStorage.getItem('chosenStoreInfo');
-    foodInfo = JSON.parse(foodInfo)
+
     lat = foodInfo.foodLat;
     long = foodInfo.foodLong
     console.log(foodInfo)

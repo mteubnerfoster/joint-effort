@@ -4,12 +4,11 @@
     {{!-- each output will become a button that when they press will search dispensaries near them --}}
     {{#if food}}
     {{#each yelpOutput}}
-    <button class="yelpFood" data-lat={{coordinates.latitude}} data-long={{coordinates.longitude}} data-alias={{alias}}
-        data-id={{id}}>
+    <button class="yelpFood" data-lat={{coordinates.latitude}} data-long={{coordinates.longitude}}>
         <div>
             <p>Name: <span class="foodName">{{name}}</span></p>
             <p>Link:
-                <a href={{url}}>
+                <a href={{url}} target="_blank">
                     <p>{{url}}</p>
                 </a>
             </p>
@@ -20,12 +19,11 @@
     {{/if}}
     {{#if plant}}
     {{#each yelpOutput}}
-    <button class="yelpPlant" data-lat={{coordinates.latitude}} data-long={{coordinates.longitude}} data-alias={{alias}}
-        data-id={{id}}>
+    <button class="yelpPlant" data-lat={{coordinates.latitude}} data-long={{coordinates.longitude}}>
         <div>
             <p>Name: {{name}}</p>
             <p>Link:
-                <a href={{url}}>
+                <a href={{url}} target="_blank">
                     <p>{{url}}</p>
                 </a>
             </p>
