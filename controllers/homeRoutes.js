@@ -9,7 +9,7 @@ router.get("/plant", async (req, res) => {
 });
 
 router.get("/final-results", async (req, res) => {
-  res.render("finalResults");
+  res.render("finalResults", {googleMapsApiKey: process.env.GOOGLEMAP_APIKEY});
 });
 
 router.get("/login", async (req, res) => {
