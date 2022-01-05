@@ -18,5 +18,6 @@ async function foodtruckClick() {
         foodId
     }
     localStorage.setItem('chosenStoreInfo', JSON.stringify(storeInfo));
+    console.log($(this).find($('foodName')))
     document.location.replace(`/plant`);
 }

@@ -5,8 +5,8 @@ const client = yelp.client(process.env.YELP_APIKEY);
 const fs = require("fs");
 
 router.get("/", async (req, res) => {
-
-    client.search({
+console.log(req.query)
+    await client.search({
         term: req.query.term,
         latitude: req.query.lat,
         longitude: req.query.long,
@@ -14,10 +14,6 @@ router.get("/", async (req, res) => {
         sort_by: 'distance',
         limit: 30,
     }).then(response => {
-        // saveJSON(response.jsonBody.businesses)
-        let yelpOutput = response.jsonBody.businesses
-        console.log(yelpOutput)
-
         req.session.save(() => {
             if (req.query.origin == 'food') {
                 req.session.food = true;
@@ -26,10 +22,11 @@ router.get("/", async (req, res) => {
                 req.session.food = false;
                 req.session.plant = true;
             }
-
+            // saveJSON(response.jsonBody.businesses)
+            let yelpOutput = response.jsonBody.businesses
+            console.log(yelpOutput)
+            res.render("searchResults", { yelpOutput, food: req.session.food, plant: req.session.plant });
         });
-        res.render("searchResults", { yelpOutput, food: req.session.food, plant: req.session.plant });
-
     }).catch(e => {
         console.log(e);
     });

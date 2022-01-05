@@ -7,7 +7,7 @@
     <button class="yelpFood" data-lat={{coordinates.latitude}} data-long={{coordinates.longitude}} data-alias={{alias}}
         data-id={{id}}>
         <div>
-            <p>Name: {{name}}</p>
+            <p>Name: <span class="foodName">{{name}}</span></p>
             <p>Link:
                 <a href={{url}}>
                     <p>{{url}}</p>
@@ -19,6 +19,7 @@
     {{/each}}
     {{/if}}
     {{#if plant}}
+    {{#each yelpOutput}}
     <button class="yelpPlant" data-lat={{coordinates.latitude}} data-long={{coordinates.longitude}} data-alias={{alias}}
         data-id={{id}}>
         <div>
@@ -31,6 +32,7 @@
             <p>Rating: {{rating}}/5</p>
         </div>
     </button>
+    {{/each}}
     {{/if}}
 </div>
 
