@@ -241,7 +241,7 @@ justify-content: right;
 }
 
 .foodImageCard {
-    background-image: url("../photos/meal.jpg");
+    background-image: url("../photos/meal.jpeg");
     min-height: 590px;
     padding-top: 100px;
     max-height: 700px;
