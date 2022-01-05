@@ -19,11 +19,15 @@ async function foodtruckClick() {
         foodName
     }
     localStorage.setItem('chosenFoodStoreInfo', JSON.stringify(storeFoodInfo));
-    document.location.replace(`/plant`);
+    if (checkStorage()) {
+        document.location.replace(`/final-results`);
+    } else {
+        document.location.replace(`/plant`);
+    }
+
 }
 
 async function dispensaryClick() {
-    console.log('dispensary click')
     dispNameEl = $(this).find('.dispName')
     dispLat = $(this).data("lat")
     dispLong = $(this).data("long")
@@ -35,6 +39,11 @@ async function dispensaryClick() {
         dispName
     }
     localStorage.setItem('chosenDispStoreInfo', JSON.stringify(storeDispInfo));
+    if (checkStorage()) {
+        document.location.replace(`/final-results`);
+    } else {
+        document.location.replace(`/`);
+    }
 }
 
 function checkStorage() {
@@ -42,9 +51,9 @@ function checkStorage() {
     foodInfo = JSON.parse(foodInfo)
     let dispInfo = localStorage.getItem('chosenDispStoreInfo');
     dispInfo = JSON.parse(dispInfo)
-    if(foodInfo && dispInfo){
-        console.log('both data present')
-    }else{
-        console.log('data missing')
+    if (foodInfo && dispInfo) {
+        return true;
+    } else {
+        return false;
     }
 }
