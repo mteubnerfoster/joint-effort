@@ -109,9 +109,116 @@ header {
     /* max-height: 400px; */
 }
 
+/* plant section */
+.plantSection{
+    background-color: var(--dark-grey);
+}
+
+.plantSectionRight{
+    max-width: 40%;
+    max-height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right:0px;
+    /* padding-right: 0px; */
+    background-color: var(--dark-grey);
+    text-align: right;
+}
+
+.plantSectionleft{
+    max-width: 60%;
+}
+
+.plantTitle1{
+    padding-bottom:5px;
+    margin-top: 150px;
+    margin-right: 20px;
+    text-align: left;
+
+}
+
+.plantprompt-1 {
+    margin-bottom: 0px;
+    margin-right:20px;
+    font-style: italic;
+    text-align: left;
+
+}
+
+.plantprompt-2 {
+    margin-right:20px;
+    font-style: italic;
+}
+
+
+.plantDiv{
+    justify-content: left;
+    }
+
+
+    .plantbtn {
+        justify-content: right;
+        text-decoration: none;
+        background-color: var(--dark-grey) !important;
+        border: none !important;
+        border-bottom: 3px solid transparent !important;
+        font-weight: bold;
+        padding-left: 0px;
+        color: var(--lightgrey);
+        border-radius: 0px !important;
+        text-align: left;
+
+    }
+    
+    .plantbtn:hover {
+        justify-content: right;
+        text-decoration: none;
+        background-color: var(--dark-grey);
+        border: none;
+        color: var(--medgreen);
+        border-bottom: 3px solid transparent;
+        border-bottom-color: var(--medgreen) !important;
+        border-radius: 0px !important;
+    }
+    
+    .plantbtn.active {
+        justify-content: right;
+        text-decoration: none;
+        background-color: var(--dark-grey);
+        border: none;
+        border-radius: 5px 0 0 5px;
+        color:var(--green);
+        border-radius: 0px;
+        /* border-bottom: 3px solid transparent; */
+    }
+
+    .plantImageCard {
+        background-image: url("../photos/background.jpeg");
+        min-height: 590px;
+        padding-top: 100px;
+        max-height: 700px;
+    }
+    
+    .joints {
+        background-color: var(--white);
+        opacity: .9;
+        max-width:400px;
+        min-width: 200px;
+        max-height: 300px;
+        min-height: 420px;
+        margin: auto;
+        /* display: none; */
+        color: var(--dark-grey);
+        border-radius: 5px;
+        -webkit-box-shadow: 5px 5px 15px 4px rgba(0,0,0,0.65); 
+        box-shadow: 5px 5px 15px 4px rgba(0,0,0,0.65);
+    }
+
+
 /* food section */
 .foodSection{
     background-color: var(--lightgrey);
+
 }
 
 .foodSectionLeft{
@@ -123,6 +230,12 @@ header {
     /* padding-right: 0px; */
     background-color: var(--lightgrey);
     text-align: right;
+    border-radius: 10px;
+    padding-top:20px;
+}
+
+.foodSectionRight{
+    max-width: 70%;
 }
 
 .foodTitle1{
@@ -137,13 +250,11 @@ header {
 }
 
 .foodprompt-2 {
-    margin-right:20px;
+margin: 0px 20px 0px 0px;
     font-style: italic;
 }
 
-.foodSectionRight{
-    max-width: 70%;
-}
+
 
 .foodDiv{
 justify-content: right;
@@ -202,14 +313,15 @@ justify-content: right;
     margin-bottom: 10px;
 }
 
+
 .submitbtn {
-    margin-top: 20px;
+    margin-top: 10px;
     justify-content: right;
     text-decoration: none;
     background-color: var(--lightgrey);
     border: 3px solid;
     font-weight: bold;
-    margin:20px;
+    margin-right:20px;
 }
 
 .submitbtn:hover {
@@ -230,7 +342,7 @@ justify-content: right;
 }
 
 .foodImageCard {
-    background-image: url("../photos/meal.jpeg");
+    background-image: url("../photos/background.jpeg");
     min-height: 590px;
     padding-top: 100px;
     max-height: 700px;
@@ -410,7 +522,7 @@ font-size: 10px;
 }
 
 /* plant lined tabs */
-.lined .nav-link {
+/* .lined .nav-link {
     border: none;
     border-bottom: 3px solid transparent;
     color: var(--medgreen)
@@ -426,7 +538,7 @@ font-size: 10px;
     background: none;
     color: rgb(167, 167, 167);
     border-color: var(--medgreen);
-}
+} */
 
 .strainFont {
     color: var(--white);
@@ -475,6 +587,7 @@ font-size: 10px;
 .plantSection {
     align-content: center;
 }
+
 
 
 .alert {
@@ -587,6 +700,26 @@ font-size: 10px;
     text-align: center;
 }
 
+
+.plantBtn:hover {
+    background-color: #3B8C02;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 32px;
+    margin: 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    align-items: center;
+    max-width: 200px;
+    min-width: 200px;
+    text-align: center;
+}
+
+
 /* LOGIN page */
 .login-title {
     color: var(--dark-grey);
@@ -640,6 +773,12 @@ font-size: 10px;
 
     .dishes {
         max-width: 200px;
+        
+    }
+
+    .joints {
+        max-width: 200px;
+        
     }
 
   }
