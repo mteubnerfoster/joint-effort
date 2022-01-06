@@ -1,5 +1,5 @@
 :root {
-    --dark-brown: #3c1c14;
+    --dark-brown: #3c1c14fb;
     --khaki: #E7C896;
     --med-brown: #85684A;
     --light-brown: #A48467;
@@ -26,7 +26,7 @@ body {
 }
 
 .mainImage {
-    background-image: url("..//photos/mainlogo.jpeg");
+    background-image: url("..//photos/jointeffortlogo.png");
     background-color: var(--dark-brown);
     background-position: center;
     background-repeat: no-repeat;
