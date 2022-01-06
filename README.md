@@ -30,10 +30,9 @@ This application was created using:
 ## Examples
 Check out [Joint Effort](https://joint-effort-kohmm.herokuapp.com/) <br>
 Photos of the homepage: <br>
-![](/assets/photos/jointefforthomepage.jpeg)
-<br>
-![](/assets/photos/jointefforthomepage2.jpeg)
-<br>
+![Joint Effort Homepage 21 or over](/assets/photos/jointefforthomepage.jpeg) <br>
+
+![Joint Effort Homepage](/assets/photos/jointefforthomepage2.jpeg) <br>
 
 ## Author(s)
 - [Kevin Ang](https://www.github.com/cosdaman)
