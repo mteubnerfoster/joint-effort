@@ -28,8 +28,11 @@ This application was created using:
 - [Sequelize](https://www.npmjs.com/package/sequelize)
 
 ## Examples
-A photo of the homepage: <br>
-![](images/Example-generated-README.JPG)
+Check out [Joint Effort](https://joint-effort-kohmm.herokuapp.com/) <br>
+Photos of the homepage: <br>
+![](/assets/photos/jointefforthomepage.jpeg)
+<br>
+![](/assets/photos/jointefforthomepage2.jpeg)
 <br>
 
 ## Author(s)
