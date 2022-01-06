@@ -134,6 +134,7 @@ header {
     margin-top: 150px;
     margin-right: 20px;
     text-align: left;
+    max-height: 40px;
 
 }
 
@@ -241,6 +242,9 @@ header {
 .foodTitle1{
     padding-bottom:5px;
     margin-right: 20px;
+    text-align: right;
+    max-height: 40px;
+    margin-top: 60px;;
 }
 
 .foodprompt-1 {
