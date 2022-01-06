@@ -1,5 +1,5 @@
 <div class="testingDiv">
-    <h1> search</h1>
+    <h1>search</h1>
     <h2>results</h2>
     {{!-- each output will become a button that when they press will search dispensaries near them --}}
     {{#if food}}
@@ -33,5 +33,24 @@
     {{/each}}
     {{/if}}
 </div>
+
+
+<div class="row">
+    {{#if food}}
+    {{#each yelpOutput}}
+  <div class="col-sm-4 my-3">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">{{name}}</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+  {{/each}}
+    {{/if}}
+</div>
+
+
 
 <script src='/assets/js/searchResults.js'></script>

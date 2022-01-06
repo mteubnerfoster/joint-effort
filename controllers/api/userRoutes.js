@@ -2,9 +2,11 @@ const router = require("express").Router();
 const { User } = require("../../models");
 
 router.post("/", (req, res) => {
+  console.log(req.body)
   User.create({
     username: req.body.username,
-    password: req.body.password
+    password: req.body.password,
+    dateOfBirth: req.body.dateOfBirth
   })
   .then(dbdbUserData => {
     req.session.save(() => {
@@ -50,7 +52,7 @@ router.post("/login", (req, res) => {
 });
 
 router.post('/logout', (req, res) => {
-  if (req.session.logged_in) {
+  if (req.session.loggedIn) {
     req.session.destroy(() => {
       res.status(204).end();
     });

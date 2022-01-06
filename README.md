@@ -28,9 +28,11 @@ This application was created using:
 - [Sequelize](https://www.npmjs.com/package/sequelize)
 
 ## Examples
-A photo of the homepage: <br>
-![](images/Example-generated-README.JPG)
-<br>
+Check out [Joint Effort](https://joint-effort-kohmm.herokuapp.com/) <br>
+Photos of the homepage: <br>
+![Joint Effort Homepage 21 or over](public/assets/photos/jointefforthomepage.jpg) <br>
+
+![Joint Effort Homepage](public/assets/photos/jointefforthomepage2.jpg) <br>
 
 ## Author(s)
 - [Kevin Ang](https://www.github.com/cosdaman)

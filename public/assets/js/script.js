@@ -8,7 +8,15 @@ let foodTypeCard = $('#foodTypeCard')
 let food = document.querySelector('#food')
 let plant = document.getElementById('plant')
 let foodCategories = ['Chicken', 'Chinese', 'Pizza', 'Burgers', 'Sushi', 'Mexican', 'Pasta', 'Randomizer']
+let authAge = document.querySelector('#auth-age')
+let authLocation = document.querySelector('#auth-location')
+let cancel = document.querySelector('#cancel')
+let submit = document.querySelector('submit')
+let btnClose = document.querySelector('.btn-close')
 
+
+
+console.log(authAge.value, authLocation.value)
 
 console.log('js file load')
 
@@ -33,16 +41,34 @@ document.getElementById("cancel").onclick = function () {
   }
 }
 
-box.onclick = function () {
-  document.getElementById("no").click()
-}
-
 document.getElementById("submit").onclick = function () {
   // add function that verfies check boxes when submitting
-  this.setAttribute('data-dismiss', 'modal')
+  console.log(authAge.value, authLocation.value)
+  if(authAge.value === 'on' && authLocation.value === 'on') {
+     this.setAttribute('data-dismiss', 'modal')
+     authAge.value='off'
+     authLocation.value='off'
+  } else{
+    if(authAge.value === 'off') {
+      cancel.click()
+    }
+  }
 }
 
-modalBtn.click()
+$('.modal-check').on('click', function() {
+  if($(this).val()==="off"){
+    $(this).val('on')
+  } else {
+    $(this).val('off')
+  }
+})
+
+btnClose.addEventListener('click', function() {
+  cancel.click()
+})
+
+// modalBtn.click()
+$("#myModal").modal({"backdrop": "static"});
 
 $('#save').on('click', function (event) {
   event.preventDefault();
@@ -66,11 +92,8 @@ $('#save').on('click', function (event) {
   })
 })
 
-
 // plant section
-
 function showPlantTabs() {
-
   var plants = document.getElementById("plant");
   if (plants.style.display === "block") {
     $('.plantHidden').fadeToggle('slow');
@@ -82,9 +105,6 @@ function showPlantTabs() {
 
   }
 }
-
-
-
 
 // food section
 function showFoodCategories() {
@@ -110,7 +130,6 @@ function foodTypes(){
 
 // navbar scroll
 window.onscroll = function() {scrollFunction()};
-
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     document.getElementById("navbar").style.top = "0";
@@ -119,11 +138,8 @@ function scrollFunction() {
   }
 }
 
-
-
 // card animation
 $(document).ready(function() {
-
   //window and animation items
   var animation_elements = $.find('.animationCard');
   var web_window = $(window);
@@ -151,7 +167,6 @@ $(document).ready(function() {
         element.removeClass('in-view');
       }
     });
-
   }
 
   //on or scroll, detect elements in view
@@ -160,7 +175,6 @@ $(document).ready(function() {
     })
     //trigger our scroll event on initial load
   $(window).trigger('scroll');
-
 });
 
 
