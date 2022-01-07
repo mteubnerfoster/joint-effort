@@ -1,5 +1,4 @@
 const router = require("express").Router();
-const fs = require("fs");
 
 router.post("/", async (req, res) => {
     req.session.save(() => {
