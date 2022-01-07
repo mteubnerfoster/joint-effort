@@ -4,10 +4,16 @@
 </div>
 <div class='testingDiv'>
   <h1>test</h1>
-  <div id='foodResults'>
-    {{>foodTruckResults}}
+  <div id='searchResults'>
+    {{#each searchResults}}
+    <div>
+      <h2>Food Truck</h2>
+      <p>Food Truck Name: {{name}}</p>
+            <h3>Nearest Dispensary</h3>
+      <p>{{nearestDisp.name}}</p>
+    </div>
+    {{/each}}
   </div>
-  <div id='dispResults'></div>
   <div id="map" style="height: 500px; width: 50%; display:flex; position:absolute; left: 350px; bottom: 200px"></div>
 </div>
 
