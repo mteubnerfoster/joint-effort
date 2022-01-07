@@ -3,58 +3,39 @@
     <h2>Savory, sour, or sweet??</h2>
 </div>
     {{!-- each output will become a button that when they press will search dispensaries near them --}}
+    {{!-- Result cards --}}
 
- {{#if food}}
-    {{#each yelpOutput}}
-    <button class="yelpFood" data-lat={{coordinates.latitude}} data-long={{coordinates.longitude}}>
-        <div>
-            <p>Name: <span class="foodName">{{name}}</span></p>
-            <p>Link:
-                <a href={{url}} target="_blank">
-                    <p>{{url}}</p>
-                </a>
-            </p>
-            <p>Rating: {{rating}}/5</p>
-        </div>
-    </button>
-    {{/each}}
-    {{/if}}
-
-
-
-
-
-  {{!-- Result cards --}}
-    {{#if food}}
-    {{#each yelpOutput}}
-    <button class="yelpFood" data-lat={{coordinates.latitude}} data-long={{coordinates.longitude}}></button>
+    
+<div class="row">
+{{#if food}}
+{{#each yelpOutput}} 
   <div class="col-sm-4 my-3">
+    <button class="yelpFood" data-lat={{coordinates.latitude}} data-long={{coordinates.longitude}}>
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">{{name}}</h5>
-            <a href={{url}} target="_blank"></a>
-            <p>Rating: {{rating}}/5</p>
-        <p class="card-text">text</p>
+        <p>Rating: {{rating}}/5</p>
+        <a href="#" class="btn btn-primary">Choose Me!</a></button>
       </div>
     </div>
   </div>
-    {{/each}}
-    {{/if}}
+{{/each}}
+{{/if}}
 </div>
 
-<button class="yelpPlant" data-lat={{coordinates.latitude}} data-long={{coordinates.longitude}}><div>
+
 <div class="row">
-    {{#if plant}}
-    {{#each yelpOutput}}
+{{#if plant}}
+{{#each yelpOutput}}
   <div class="col-sm-4 my-3">
+    <button class="yelpPlant" data-lat={{coordinates.latitude}} data-long={{coordinates.longitude}}>
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Name: {{name}}</h5>
-        <p class="card-text">text</p>
-        <a href="#" class="btn btn-primary">Take me there!</a>
+        <h5 class="card-title">{{name}}</h5>
+        <a href="#" class="btn btn-primary">Take me there!</a></button>
       </div>
     </div>
-  </div>
+    </div>
     {{/each}}
     {{/if}}
 </div>
