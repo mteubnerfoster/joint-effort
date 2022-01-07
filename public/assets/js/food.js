@@ -1,7 +1,6 @@
 console.log("foodjs")
 
 
-
 function btnClick() {
     foodChoice = $(this).data('value')
     localStorage.setItem('food', foodChoice);
