@@ -1,0 +1,15 @@
+<div>
+    {{#each foodTrucks}}
+    <div class="col-sm-4 my-3">
+        <button class="yelpFood" data-lat={{coordinates.latitude}} data-long={{coordinates.longitude}}>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">{{name}}</h5>
+                    <p>Rating: {{rating}}/5</p>
+                    <a href="#" class="btn btn-primary">Choose Me!</a>
+        </button>
+    </div>
+    {{/each}}
+</div>
+
+<script src='/assets/js/foodTruckResults.js'></script>

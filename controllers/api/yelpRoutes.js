@@ -4,19 +4,18 @@ const yelp = require("yelp-fusion");
 const client = yelp.client(process.env.YELP_APIKEY);
 
 router.get("/", async (req, res) => {
-    console.log(req.query)
+    // console.log(req.query)
     await client.search({
         term: req.query.term,
         latitude: req.query.lat,
         longitude: req.query.long,
         categories: req.query.category,
         sort_by: 'distance',
-        limit: 30,
+        limit: req.query.limit || 5,
     }).then(response => {
         // saveJSON(response.jsonBody.businesses)
         let yelpOutput = response.jsonBody.businesses
-        console.log(yelpOutput)
-        res.status(200).json('response recieved');
+        res.status(200).json(yelpOutput);
     }).catch(e => {
         console.log(e);
     });
