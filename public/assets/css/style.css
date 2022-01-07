@@ -13,7 +13,7 @@
 
 body {
     /* background-image: url("../photos/je-background.jpg"); */
-    background-color: var(--dark-brown);
+    background-color: var(--dark-grey);
     /* background-attachment: fixed; */
     /* background-repeat: repeat; */
     background-size: cover;
@@ -21,26 +21,61 @@ body {
     font-family: "Economica", sans-serif;
 }
 
-.mainlogo {
+.mainLogo {
     justify-content: center;
 }
 
-.mainImage {
-    background-image: url("..//photos/jointeffortlogo.png");
-    background-color: var(--dark-brown);
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-top: 200px;
-    padding-bottom: 800px;
+.video{
+    filter:grayscale(100%)
 }
 
-.plantHidden {
+/* .logo-overlay{
+    max-height: 150px;
+    max-width: 150px;
+    margin-left: 50%;
+} */
+
+.video video, .overlay img {
+    /* width:50%;
+   height:100%; */
+   position:absolute;
+   top:0;
+   left:0;
+   object-fit:scale-down;
+   overflow:scroll
+ } 
+ 
+ img{
+width:45%;
+margin-top:200px;
+margin-left: 30%;
+margin-right: 25%;
+ }
+
+ .overlay img {
+   z-index:2
+ }
+
+.mainImage {
+    /* background-image: url("..//photos/jointeffortlogo.png"); */
+    /* background-color: var(--dark-grey); */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: auto; */
+    min-height: 700px;
+    width: 100%;
+    filter:grayscale(100%)
+    /* padding-top: 200px;
+    padding-bottom: 800px; */
+}
+
+/* .plantHidden {
     display: none;
 }
 
 .foodHidden {
     display: none;
-}
+} */
 
 .modal {
     margin-top: 200px;
@@ -115,7 +150,7 @@ header {
 }
 
 .plantSectionRight{
-    max-width: 40%;
+    max-width: 30%;
     max-height: 300px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -126,7 +161,7 @@ header {
 }
 
 .plantSectionleft{
-    max-width: 60%;
+    max-width: 70%;
 }
 
 .plantTitle1{
@@ -202,7 +237,7 @@ header {
     
     .joints {
         background-color: var(--white);
-        opacity: .9;
+        opacity: .6;
         max-width:400px;
         min-width: 200px;
         max-height: 300px;
@@ -354,7 +389,7 @@ justify-content: right;
 
 .dishes {
     background-color: var(--white);
-    opacity: .9;
+    opacity: .6;
     max-width:400px;
     min-width: 200px;
     max-height: 300px;
@@ -366,6 +401,7 @@ justify-content: right;
     -webkit-box-shadow: 5px 5px 15px 4px rgba(0,0,0,0.65); 
     box-shadow: 5px 5px 15px 4px rgba(0,0,0,0.65);
 }
+
 
 ul{
     list-style-type: none;
@@ -385,7 +421,7 @@ nav {
     z-index: 9999;
     opacity: .9;
     transition: top 0.3s;
-    background-color: var(--khaki) !important;
+    background-color: var(--medgreen) !important;
 }
 
 .navbar-nav{

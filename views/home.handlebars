@@ -4,16 +4,23 @@
 
 {{!-- Main Section --}}
 <section class='mainLogo'>
-    <div class="mainImage zoom" id='zoom'>
+    {{!-- <div class="mainImage zoom" id='zoom'>
+    </div> --}}
+    <div class='logo-overlay'>
+        <div class='overlay '>
+        <img src="../assets/photos/logo.png" alt="" >
+        </div>
+        <video src="../assets/photos/food.mp4" muted loop autoplay class='video'></video>
     </div>
+
 </section>
 
-<section class='herolight light'>
+{{!-- <section class='herolight light'>
     <div class="d-flex flex-row herokhaki mx-0">
         <div class="row choiceCards p-0 justify-content-around">
             <button class="col plantCard my-1 animationCard slide-left" onclick="showPlantTabs()">
                 <h3>CANNABIS</h3>
-                <p class="mb-0">Plant Info</p>
+                <p class="mb-0">Pick your plant</p>
             </button>
 
             <button class="col foodCard my-1 animationCard slide-right" onclick="showFoodCategories()">
@@ -24,7 +31,7 @@
     </div>
 
 
-</section>
+</section> --}}
 <section id="plant" class='bg-dark plantSection plantHidden'>
     <div id='plantTypeCard ' class='plantInfo'>
         {{>plant}}

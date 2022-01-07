@@ -1,12 +1,12 @@
 <section class="foodSection row ">
     <div class="foodSectionLeft col">
         <h1 class='foodTitle1 mb-0'>EATS</h1>
-        <p class='foodprompt-1'>choose your food </p>
+        <p class='foodprompt-1'>2. choose your food </p>
 
         <div class="foodDiv">
             <div class="nav flex-column nav-pills me-3 btnList" id="v-pills-tab" role="tablist"
                 aria-orientation="vertical">
-                <button class="nav-link foodbtn" id="v-pills-chinese-tab" data-bs-toggle="pill"
+                <button class="nav-link foodbtn active" id="v-pills-chinese-tab" data-bs-toggle="pill"
                     data-bs-target="#v-pills-chinese" type="button" role="tab" aria-controls="v-pills-chinese"
                     aria-selected="true" data-value='Chinese'>Chinese</button>
                 <button class="nav-link foodbtn" id="v-pills-chicken-tab" data-bs-toggle="pill"
@@ -29,7 +29,7 @@
                     aria-selected="false" data-value='Italian'>Italian</button>
             </div>
         </div>
-        <p class='foodprompt-2'></p>
+        <p class='foodprompt-2'>3. click submit </p>
         <button class='submitbtn' data-value="submit">SUBMIT</button>
     </div>
 
@@ -37,7 +37,7 @@
         <div class="foodImageCard">
             <div class="dishes">
                 <div class="tab-content" id="v-pills-tabContent">
-                    <div class="tab-pane fade show" id="v-pills-chinese" role="tabpanel"
+                    <div class="tab-pane active show" id="v-pills-chinese" role="tabpanel"
                         aria-labelledby="v-pills-chinese-tab">
                         <div id="chineseFoodIdeas">
                             <h1 class='idea-title'>Chinese Food Ideas</h1>
@@ -151,7 +151,6 @@
                     </div>
                 </div>
             </div>
-    </div>
+        </div>
 </section>
 <script src='/public/assets/js/food.js'></script>
-
