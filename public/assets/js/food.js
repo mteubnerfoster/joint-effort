@@ -1,6 +1,6 @@
 console.log("foodjs")
 
-let lat, long, foodChoice;
+// let lat, long, foodChoice;
 
 function btnClick() {
     foodChoice = $(this).data('value')

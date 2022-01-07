@@ -14,9 +14,7 @@ let cancel = document.querySelector('#cancel')
 let submit = document.querySelector('submit')
 let btnClose = document.querySelector('.btn-close')
 
-
-
-console.log(authAge.value, authLocation.value)
+// console.log(authAge.value, authLocation.value)
 
 console.log('js file load')
 
