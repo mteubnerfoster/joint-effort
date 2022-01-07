@@ -32,12 +32,12 @@
 
 
 </section> --}}
-<section id="plant" class='bg-dark plantSection plantHidden'>
+<section id="plant" class='bg-dark'>
     <div id='plantTypeCard ' class='plantInfo'>
         {{>plant}}
     </div>
 </section>
-<section id="food" class='foodHidden'>
+<section id="food" >
     {{!-- <div class="container d-flex flex-row bg-dark herodark p-2"> --}}
         <div id=' foodTypeCard'>
             {{>food}}
@@ -45,6 +45,13 @@
         {{!--
     </div> --}}
 </section>
+<section>
+    <div class="submitCard">
+        {{>submit}}
+
+    </div>
+</section>
+
 
 <div class="modal-container container">
     {{>modal}}
