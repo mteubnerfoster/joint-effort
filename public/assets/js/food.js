@@ -1,7 +1,7 @@
 console.log("foodjs")
 
 
-function btnClick() {
+function foodBtnClick() {
     foodChoice = $(this).data('value')
     localStorage.setItem('food', foodChoice);
 
@@ -27,5 +27,5 @@ async function submitBtn() {
     }
 }
 
-$('.foodbtn').click(btnClick)
+$('.foodbtn').click(foodBtnClick)
 $('.submitbtn').click(submitBtn)
