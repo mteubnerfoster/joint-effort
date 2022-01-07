@@ -4,11 +4,11 @@
 </div>
     {{!-- each output will become a button that when they press will search dispensaries near them --}}
     {{!-- Result cards --}}
-
     
 <div class="row">
 {{#if food}}
 {{#each yelpOutput}} 
+
   <div class="col-sm-4 my-3">
     <button class="yelpFood" data-lat={{coordinates.latitude}} data-long={{coordinates.longitude}}>
     <div class="card">

@@ -1,10 +1,6 @@
 console.log('final results js')
 // display google maps with two locations
 
-{/* <script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDn7niUq1uRwf01rUB5fhwornrQLFt58iU"
-    async></script> */}
-
 let map;
 
 function initMap() {
