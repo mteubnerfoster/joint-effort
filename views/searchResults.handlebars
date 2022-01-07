@@ -1,45 +1,50 @@
 <div>
-    <h1>Search your flavor!</h1>
-    <h2>Savory, sour, or sweet??</h2>
+  <h1>Search your flavor!</h1>
+  <h2>Savory, sour, or sweet??</h2>
 </div>
-    {{!-- each output will become a button that when they press will search dispensaries near them --}}
-    {{!-- Result cards --}}
-    
-<div class="row">
-{{#if food}}
-{{#each yelpOutput}} 
+{{!-- each output will become a button that when they press will search dispensaries near them --}}
+{{!-- Result cards --}}
+
+
+
+
+
+{{!-- <div class="row">
+  {{#if food}}
+  {{#each yelpOutput}}
 
   <div class="col-sm-4 my-3">
     <button class="yelpFood" data-lat={{coordinates.latitude}} data-long={{coordinates.longitude}}>
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">{{name}}</h5>
-        <p>Rating: {{rating}}/5</p>
-        <a href="#" class="btn btn-primary">Choose Me!</a></button>
-      </div>
-    </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{name}}</h5>
+          <p>Rating: {{rating}}/5</p>
+          <a href="#" class="btn btn-primary">Choose Me!</a>
+    </button>
   </div>
+</div>
+</div>
 {{/each}}
 {{/if}}
 </div>
 
 
 <div class="row">
-{{#if plant}}
-{{#each yelpOutput}}
+  {{#if plant}}
+  {{#each yelpOutput}}
   <div class="col-sm-4 my-3">
     <button class="yelpPlant" data-lat={{coordinates.latitude}} data-long={{coordinates.longitude}}>
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">{{name}}</h5>
-        <a href="#" class="btn btn-primary">Take me there!</a></button>
-      </div>
-    </div>
-    </div>
-    {{/each}}
-    {{/if}}
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{name}}</h5>
+          <a href="#" class="btn btn-primary">Take me there!</a>
+    </button>
+  </div>
 </div>
+</div>
+{{/each}}
+{{/if}}
+</div> --}}
 
 
 <script src='/assets/js/searchResults.js'></script>
-

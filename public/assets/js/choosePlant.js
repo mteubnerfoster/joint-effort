@@ -1,20 +1,20 @@
-console.log('choose plant')
-let lat, long;
-let foodInfo = localStorage.getItem('chosenFoodStoreInfo');
-foodInfo = JSON.parse(foodInfo)
+// console.log('choose plant')
+// let lat, long;
+// let foodInfo = localStorage.getItem('chosenFoodStoreInfo');
+// foodInfo = JSON.parse(foodInfo)
 
-let foodChoiceName = foodInfo.foodName
-$('#foodChoiceName').text(foodChoiceName)
+// let foodChoiceName = foodInfo.foodName
+// $('#foodChoiceName').text(foodChoiceName)
 
-$('.plantBtn').click(plantBtnClick)
+// $('.plantBtn').click(plantBtnClick)
 
-async function plantBtnClick() {
-    let plant = $(this).data('value')
+// async function plantBtnClick() {
+//     let plant = $(this).data('value')
 
-    lat = foodInfo.foodLat;
-    long = foodInfo.foodLong
+//     lat = foodInfo.foodLat;
+//     long = foodInfo.foodLong
 
-    if (plant) {
-        document.location.replace(`/search?lat=${lat}&long=${long}&term=${plant}&category=cannabisdispensaries&origin=plant`);
-    }
-}
+//     if (plant) {
+//         document.location.replace(`/search?lat=${lat}&long=${long}&term=${plant}&category=cannabisdispensaries&origin=plant`);
+//     }
+// }
