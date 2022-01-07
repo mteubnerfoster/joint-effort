@@ -9,7 +9,7 @@ router.post("/", async (req, res) => {
 });
 
 router.get("/", async (req, res) => {
-    console.log(req.session.foodTrucks)
+    console.log(req.session.searchResults)
     res.status(200).render("searchResults", { searchResults: req.session.searchResults, googleMapsApiKey: process.env.GOOGLEMAP_APIKEY });
 });
 

@@ -35,9 +35,10 @@ async function nearestDispensary(lat, long, plantChoice, foodTruck) {
     await fetch(url)
         .then(response => response.json())
         .then(data => {
+            foodTruck.nearestDisp = data[0]
             placeholder = data[0];
         });
-    return [foodTruck, placeholder];
+    return foodTruck;
 }
 
 async function getFoodTruckData() {
@@ -52,6 +53,7 @@ async function getFoodTruckData() {
 }
 
 async function handoverData(data) {
+    console.log(data)
     await fetch('/search', {
         method: 'POST',
         headers: {
