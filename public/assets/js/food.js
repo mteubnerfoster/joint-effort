@@ -1,6 +1,6 @@
 console.log("foodjs")
 
-let lat, long, foodChoice;
+
 
 function btnClick() {
     foodChoice = $(this).data('value')
@@ -15,7 +15,7 @@ function btnClick() {
 }
 
 async function submitBtn() {
-
+    let lat, long, foodChoice;
     lat = localStorage.getItem('lat');
     long = localStorage.getItem('long');
     foodChoice = localStorage.getItem('food');
