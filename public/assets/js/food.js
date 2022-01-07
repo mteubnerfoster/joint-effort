@@ -13,5 +13,4 @@ function foodBtnClick() {
     })
 }
 
-
 $('.foodbtn').click(foodBtnClick)

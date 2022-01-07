@@ -4,10 +4,13 @@
 </div>
 <div class='testingDiv'>
   <h1>test</h1>
-  <div id='foodResults'>
-    {{>foodTruckResults}}
+  <div id='searchResults'>
+    {{#each searchResults}}
+{{#each this}}
+<p>{{name}}</p>
+{{/each}}
+    {{/each}}
   </div>
-  <div id='dispResults'></div>
   <div id="map" style="height: 500px; width: 50%; display:flex; position:absolute; left: 350px; bottom: 200px"></div>
 </div>
 
