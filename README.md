@@ -1,18 +1,30 @@
 # Joint Effort
 
 ## Table of Contents
-- [About](#about)
+- [Getting Started](#getting_started)
 - [User Story](#user_story)
 - [Technologies](#technologies)
 - [Examples](#examples)
 - [Author(s)](#author(s))
 - [License](#license)
 
-## About
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## Getting Started
+Required program(s) needed is any common internet browser with Javascript enabled (most browsers already have it installed and enabled).
 
 ## User Story
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+* AS someone who enjoys both cannabis and food
+* I WANT to find a dispensary and a food truck near one another
+* SO THAT I can order food and cannabis and pick them up for an enjoyable evening at home
+
+* WHEN I choose a cannabis type, and
+* WHEN I choose a food type and click 'SUBMIT',
+* THEN I see a list of five restaurant and dispensary combinations
+* WHEN I click on one of the five choices
+* THEN I am given a map showing me where the restaurant and dispensary are in relation to each other
+* WHEN I sign up to be a member
+* THEN my searches are kept in the search history
+* WHEN I click on my search history
+* THEN I can go back to a previous search
 
 ## Technologies
 This application was created using:
