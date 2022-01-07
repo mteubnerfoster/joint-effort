@@ -13,7 +13,7 @@
 
 body {
     /* background-image: url("../photos/je-background.jpg"); */
-    background-color: var(--dark-brown);
+    background-color: var(--dark-grey);
     /* background-attachment: fixed; */
     /* background-repeat: repeat; */
     background-size: cover;
@@ -21,39 +21,76 @@ body {
     font-family: "Economica", sans-serif;
 }
 
-.mainlogo {
+.mainLogo {
     justify-content: center;
 }
 
-.mainImage {
-    background-image: url("..//photos/jointeffortlogo.png");
-    background-color: var(--dark-brown);
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-top: 200px;
-    padding-bottom: 800px;
+.video{
+    filter:grayscale(100%)
 }
 
-.plantHidden {
+/* .logo-overlay{
+    max-height: 150px;
+    max-width: 150px;
+    margin-left: 50%;
+} */
+
+.video video, .overlay img {
+    /* width:50%;
+   height:100%; */
+   position:absolute;
+   top:0;
+   left:0;
+   object-fit:scale-down;
+   overflow:scroll
+ } 
+ 
+ img{
+width:45%;
+margin-top:200px;
+margin-left: 30%;
+margin-right: 25%;
+ }
+
+ .overlay img {
+   z-index:2
+ }
+
+.mainImage {
+    /* background-image: url("..//photos/jointeffortlogo.png"); */
+    /* background-color: var(--dark-grey); */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: auto; */
+    min-height: 700px;
+    width: 100%;
+    filter:grayscale(100%)
+    /* padding-top: 200px;
+    padding-bottom: 800px; */
+}
+
+/* .plantHidden {
     display: none;
 }
 
 .foodHidden {
     display: none;
-}
+} */
 
 .modal {
     margin-top: 200px;
 }
 
 .modal-header {
-    background-color: var(--med-brown);
+    background-color: var(--medgreen);
     border:none;
     color:var(--white);
+    justify-content: center;
 }
 
 .modal-body{
-    background-color: var(--khaki);
+    background-color: var(--dark-grey);
+    color: var(--lightgrey);
 }
 
 .modal-btn-yes{
@@ -67,7 +104,7 @@ body {
     }
 
 .container-btn {
-    background-color: var(--khaki);
+    background-color: var(--dark-grey);
     padding: 20px;
 }
 
@@ -112,10 +149,11 @@ header {
 /* plant section */
 .plantSection{
     background-color: var(--dark-grey);
+    min-height: 600px;
 }
 
 .plantSectionRight{
-    max-width: 40%;
+    max-width: 30%;
     max-height: 300px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -125,13 +163,15 @@ header {
     text-align: right;
 }
 
-.plantSectionleft{
-    max-width: 60%;
+.plantSectionLeft{
+    max-width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .plantTitle1{
     padding-bottom:5px;
-    margin-top: 150px;
+    margin-top: 100px;
     margin-right: 20px;
     text-align: left;
     max-height: 40px;
@@ -143,7 +183,7 @@ header {
     margin-right:20px;
     font-style: italic;
     text-align: left;
-
+    color: var(--medgreen);
 }
 
 .plantprompt-2 {
@@ -195,16 +235,17 @@ header {
 
     .plantImageCard {
         background-image: url("../photos/background.jpeg");
-        min-height: 590px;
-        padding-top: 100px;
+        min-height: 500px;
+        padding-top: 40px;
         max-height: 700px;
+        border-radius: 0 100px 100px 0;
     }
     
     .joints {
         background-color: var(--white);
-        opacity: .9;
+        opacity: .6;
         max-width:400px;
-        min-width: 200px;
+        min-width: 400px;
         max-height: 300px;
         min-height: 420px;
         margin: auto;
@@ -219,6 +260,7 @@ header {
 /* food section */
 .foodSection{
     background-color: var(--lightgrey);
+    min-height: 600px;
 
 }
 
@@ -231,12 +273,14 @@ header {
     /* padding-right: 0px; */
     background-color: var(--lightgrey);
     text-align: right;
-    border-radius: 10px;
-    padding-top:20px;
+    /* border-radius: 10px;
+    padding-top:20px; */
 }
 
 .foodSectionRight{
     max-width: 70%;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 .foodTitle1{
@@ -251,6 +295,7 @@ header {
     margin-bottom: 0px;
     margin-right:20px;
     font-style: italic;
+    color: var(--medgreen);
 }
 
 .foodprompt-2 {
@@ -318,43 +363,19 @@ justify-content: right;
 }
 
 
-.submitbtn {
-    margin-top: 10px;
-    justify-content: right;
-    text-decoration: none;
-    background-color: var(--lightgrey);
-    border: 3px solid;
-    font-weight: bold;
-    margin-right:20px;
-}
 
-.submitbtn:hover {
-    justify-content: right;
-    text-decoration: none;
-    background-color: var(--lightgrey);
-    color: var(--green);
-    border: 3px solid transparent;
-    border-color: var(--medgreen);
-}
-
-.submitbtn.active {
-    justify-content: right;
-    text-decoration: none;
-    background-color: var(--medgreen);
-    border: none;
-    border-bottom: 3px solid transparent;
-}
 
 .foodImageCard {
     background-image: url("../photos/background.jpeg");
-    min-height: 590px;
-    padding-top: 100px;
+    min-height: 500px;
+    padding-top: 40px;
     max-height: 700px;
+    border-radius: 100px 0  0 100px;
 }
 
 .dishes {
     background-color: var(--white);
-    opacity: .9;
+    opacity: .6;
     max-width:400px;
     min-width: 200px;
     max-height: 300px;
@@ -366,6 +387,7 @@ justify-content: right;
     -webkit-box-shadow: 5px 5px 15px 4px rgba(0,0,0,0.65); 
     box-shadow: 5px 5px 15px 4px rgba(0,0,0,0.65);
 }
+
 
 ul{
     list-style-type: none;
@@ -385,7 +407,7 @@ nav {
     z-index: 9999;
     opacity: .9;
     transition: top 0.3s;
-    background-color: var(--khaki) !important;
+    background-color: var(--medgreen) !important;
 }
 
 .navbar-nav{
@@ -610,6 +632,50 @@ font-size: 10px;
     justify-content: center;
     margin: 20px;
 }
+
+
+/* submit section */
+.submitSection {
+    text-align: center;
+}
+
+.submitprompt {
+    color:var(--medgreen);
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.submitbtn {
+    /* margin-top: 10px; */
+    width: 150px;
+    height: 150px;
+    justify-content: right;
+    text-decoration: none;
+    background-color: var(--medgreen);
+    border: 3px solid;
+    font-weight: bold;
+    border-radius: 150px;
+    color: var(--white);
+    border-color: var(--medgreen);
+}
+
+.submitbtn:hover {
+    justify-content: right;
+    text-decoration: none;
+    background-color: var(--white);
+    color: var(--dark-grey);
+    border: 3px solid transparent;
+    border-color: var(--white);
+}
+
+.submitbtn.active {
+    justify-content: right;
+    text-decoration: none;
+    background-color: var(--medgreen);
+    border: none;
+    border-bottom: 3px solid transparent;
+}
+
 
 /* ICONS */
 /* .icon-bar {

@@ -91,30 +91,30 @@ $('#save').on('click', function (event) {
 })
 
 // plant section
-function showPlantTabs() {
-  var plants = document.getElementById("plant");
-  if (plants.style.display === "block") {
-    $('.plantHidden').fadeToggle('slow');
-    plants.style.display = "none";
+// function showPlantTabs() {
+//   var plants = document.getElementById("plant");
+//   if (plants.style.display === "block") {
+//     $('.plantHidden').fadeToggle('slow');
+//     plants.style.display = "none";
 
-  } else {
-    $('.plantHidden').fadeToggle('slow');
-    plants.style.display = "block";
+//   } else {
+//     $('.plantHidden').fadeToggle('slow');
+//     plants.style.display = "block";
 
-  }
-}
+//   }
+// }
 
 // food section
-function showFoodCategories() {
-  var foods = document.getElementById("food");
-  if (foods.style.display === "block") {
-    $('.foodHidden').fadeOut('slow');
-    foods.style.display = "none";
-  } else {
-    $('.foodHidden').fadeIn('slow');
-    foods.style.display = "block";
-  }
-}
+// function showFoodCategories() {
+//   var foods = document.getElementById("food");
+//   if (foods.style.display === "block") {
+//     $('.foodHidden').fadeOut('slow');
+//     foods.style.display = "none";
+//   } else {
+//     $('.foodHidden').fadeIn('slow');
+//     foods.style.display = "block";
+//   }
+// }
 
 function foodTypes(){
   for (let i = 0; i < foodCategories.length; i++) {
