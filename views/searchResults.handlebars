@@ -1,8 +1,10 @@
-<div class="testingDiv">
-    <h1>search</h1>
-    <h2>results</h2>
+<div>
+    <h1>Search your flavor!</h1>
+    <h2>Savory, sour, or sweet??</h2>
+</div>
     {{!-- each output will become a button that when they press will search dispensaries near them --}}
-    {{#if food}}
+
+ {{#if food}}
     {{#each yelpOutput}}
     <button class="yelpFood" data-lat={{coordinates.latitude}} data-long={{coordinates.longitude}}>
         <div>
@@ -17,40 +19,46 @@
     </button>
     {{/each}}
     {{/if}}
+
+
+
+
+
+  {{!-- Result cards --}}
+    {{#if food}}
+    {{#each yelpOutput}}
+    <button class="yelpFood" data-lat={{coordinates.latitude}} data-long={{coordinates.longitude}}></button>
+  <div class="col-sm-4 my-3">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">{{name}}</h5>
+            <a href={{url}} target="_blank"></a>
+            <p>Rating: {{rating}}/5</p>
+        <p class="card-text">text</p>
+      </div>
+    </div>
+  </div>
+    {{/each}}
+    {{/if}}
+</div>
+
+<button class="yelpPlant" data-lat={{coordinates.latitude}} data-long={{coordinates.longitude}}><div>
+<div class="row">
     {{#if plant}}
     {{#each yelpOutput}}
-    <button class="yelpPlant" data-lat={{coordinates.latitude}} data-long={{coordinates.longitude}}>
-        <div>
-            <p>Name: <span class="dispName">{{name}}</span></p>
-            <p>Link:
-                <a href={{url}} target="_blank">
-                    <p>{{url}}</p>
-                </a>
-            </p>
-            <p>Rating: {{rating}}/5</p>
-        </div>
-    </button>
+  <div class="col-sm-4 my-3">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Name: {{name}}</h5>
+        <p class="card-text">text</p>
+        <a href="#" class="btn btn-primary">Take me there!</a>
+      </div>
+    </div>
+  </div>
     {{/each}}
     {{/if}}
 </div>
 
 
-<div class="row">
-    {{#if food}}
-    {{#each yelpOutput}}
-  <div class="col-sm-4 my-3">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">{{name}}</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-  {{/each}}
-    {{/if}}
-</div>
-
-
-
 <script src='/assets/js/searchResults.js'></script>
+
