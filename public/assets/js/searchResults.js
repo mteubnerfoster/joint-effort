@@ -17,6 +17,8 @@ function initMap() {
 
 function choiceClick() {
     console.log('choice click')
+    let coords = $(this).data()
+    console.log(coords)
     deleteMarkers();
 }
 
