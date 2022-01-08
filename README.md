@@ -43,7 +43,7 @@ This application was created using:
 - [express-session](https://www.npmjs.com/package/express-session)
 - [MySql2](https://www.npmjs.com/package/mysql2)
 - [Sequelize](https://www.npmjs.com/package/sequelize)
-- [Yelp Fusion API](https://fusion.yelp.com/)
+- [Yelp Fusion API](https://www.npmjs.com/package/yelp-fusion)
 - [Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/overview)
 
 ## Examples
