@@ -1,18 +1,11 @@
 console.log('submit js')
 
 let resultCombo = []
-let userLat = localStorage.getItem('lat');
-let userLong = localStorage.getItem('long');
+
 
 async function submitBtn() {
-    navigator.geolocation.getCurrentPosition(function (position) {
-        let storeLat = position.coords.latitude;
-        let storeLong = position.coords.longitude;
-        localStorage.setItem('lat', storeLat);
-        localStorage.setItem('long', storeLong);
-    })
-    userLat = localStorage.getItem('lat');
-    userLong = localStorage.getItem('long');
+    let userLat = localStorage.getItem('lat');
+    let userLong = localStorage.getItem('long');
     let foodChoice = localStorage.getItem('food');
     let plantChoice = localStorage.getItem('plant');
     if (userLat && userLong) {
@@ -30,9 +23,6 @@ async function submitBtn() {
             }
         } else { alert('Please select a food type.') }
     } else { alert("An error occured, please enable location services or try again.") }
-
-
-
 }
 
 // wip
