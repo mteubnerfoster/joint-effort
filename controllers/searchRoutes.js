@@ -1,8 +1,9 @@
 const router = require("express").Router();
 
 router.post("/", async (req, res) => {
-    req.session.save(() => {
-        req.session.searchResults = req.body
+    console.log('before session save', req.body)
+    req.session.save(async () => {
+        req.session.searchResults = await req.body;
         res.status(200).send('ok');
     });
 });
