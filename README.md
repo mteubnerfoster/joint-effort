@@ -33,7 +33,6 @@ THEN I can go back to a previous search
 
 ## Technologies
 This application was created using:
-- [NPM (Inquirer)](https://www.npmjs.com/package/inquirer)
 - [JavaScript](https://www.javascript.com/)
 - [bcrypt](https://www.npmjs.com/package/bcrypt)
 - [connect-session-sequelize](https://www.npmjs.com/package/connect-session-sequelize)
