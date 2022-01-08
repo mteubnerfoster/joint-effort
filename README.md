@@ -2,6 +2,7 @@
 
 ## Table of Contents
 - [Getting Started](#getting_started)
+- [About](#about)
 - [User Story](#user_story)
 - [Technologies](#technologies)
 - [Examples](#examples)
