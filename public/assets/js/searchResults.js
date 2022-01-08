@@ -1,58 +1,42 @@
-console.log('food results')
+console.log('search results js ')
 
-let foodLat, dispLat;
-let foodLong, dispLong;
-let foodName, dispName;
-let foodNameEl, dispNameEl;
+let map;
+let markers = [];
 
-$('.yelpFood').click(foodtruckClick)
-$('.yelpPlant').click(dispensaryClick)
 
-async function foodtruckClick() {
-    foodNameEl = await $(this).find('.foodName')
-    foodLat = await $(this).data("lat");
-    foodLong = await $(this).data("long");
-    foodName = await foodNameEl.text();
-    let storeFoodInfo = {
-        foodLat,
-        foodLong,
-        foodName
-    }
-    localStorage.setItem('chosenFoodStoreInfo', JSON.stringify(storeFoodInfo));
-    if (checkStorage()) {
-        document.location.replace(`/final-results`);
-    } else {
-        document.location.replace(`/plant`);
+function initMap() {
+    let userLat = localStorage.getItem('lat');
+    let userLong = localStorage.getItem('long');
+    const user = { lat: parseFloat(userLat), lng: parseFloat(userLong) };
+    map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 13,
+        center: user,
+    });
+    addMarker(user);
+}
+
+function choiceClick() {
+    console.log('choice click')
+    deleteMarkers();
+}
+
+function addMarker(position) {
+    const marker = new google.maps.Marker({
+        position,
+        map,
+    });
+    markers.push(marker);
+}
+
+function deleteMarkers() {
+    setMapOnAll(null);
+    markers = [];
+}
+
+function setMapOnAll(map) {
+    for (let i = 0; i < markers.length; i++) {
+        markers[i].setMap(map);
     }
 }
 
-async function dispensaryClick() {
-    dispNameEl = $(this).find('.dispName')
-    dispLat = $(this).data("lat")
-    dispLong = $(this).data("long")
-    dispName = dispNameEl.text();
-
-    let storeDispInfo = {
-        dispLat,
-        dispLong,
-        dispName
-    }
-    localStorage.setItem('chosenDispStoreInfo', JSON.stringify(storeDispInfo));
-    if (checkStorage()) {
-        document.location.replace(`/final-results`);
-    } else {
-        document.location.replace(`/`);
-    }
-}
-
-function checkStorage() {
-    let foodInfo = localStorage.getItem('chosenFoodStoreInfo');
-    foodInfo = JSON.parse(foodInfo)
-    let dispInfo = localStorage.getItem('chosenDispStoreInfo');
-    dispInfo = JSON.parse(dispInfo)
-    if (foodInfo && dispInfo) {
-        return true;
-    } else {
-        return false;
-    }
-}
+$('.choiceBtn').click(choiceClick)

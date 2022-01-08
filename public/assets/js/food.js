@@ -13,19 +13,4 @@ function foodBtnClick() {
     })
 }
 
-async function submitBtn() {
-    let lat, long, foodChoice;
-    lat = localStorage.getItem('lat');
-    long = localStorage.getItem('long');
-    foodChoice = localStorage.getItem('food');
-
-    if (foodChoice) {
-        document.location.replace(`/search?lat=${lat}&long=${long}&term=${foodChoice}&category=foodtrucks&origin=food`);
-        localStorage.removeItem('food');
-    } else {
-        alert("Please select a food type")
-    }
-}
-
 $('.foodbtn').click(foodBtnClick)
-$('.submitbtn').click(submitBtn)
