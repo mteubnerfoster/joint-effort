@@ -7,7 +7,8 @@
     {{#each searchResults}}
     <div>
       <button class='choiceBtn' data-foodLat='{{coordinates.latitude}}' data-foodLong='{{coordinates.longitude}}'
-        data-dispLat='{{nearestDisp.coordinates.latitude}}' data-dispLong='{{nearestDisp.coordinates.longitude}}'>
+        data-foodName='{{name}}' data-dispLat='{{nearestDisp.coordinates.latitude}}'
+        data-dispLong='{{nearestDisp.coordinates.longitude}}' data-dispName='{{nearestDisp.name}}'>
         <h2>Food Truck</h2>
         <p>Food Truck Name: {{name}}</p>
         <h3>Nearest Dispensary</h3>
