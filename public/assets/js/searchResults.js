@@ -1,20 +1,42 @@
-console.log('search results')
+console.log('search results js ')
 
 let map;
+let markers = [];
+
 
 function initMap() {
-    // The location of Uluru
-    const uluru = { lat: -25.344, lng: 131.036 };
-    // The map, centered at Uluru
-    const map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 4,
-        center: uluru,
+    let userLat = localStorage.getItem('lat');
+    let userLong = localStorage.getItem('long');
+    const user = { lat: parseFloat(userLat), lng: parseFloat(userLong) };
+    map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 13,
+        center: user,
     });
-    // The marker, positioned at Uluru
-    const marker = new google.maps.Marker({
-        position: uluru,
-        map: map,
-    });
+    addMarker(user);
 }
 
+function choiceClick() {
+    console.log('choice click')
+    deleteMarkers();
+}
 
+function addMarker(position) {
+    const marker = new google.maps.Marker({
+        position,
+        map,
+    });
+    markers.push(marker);
+}
+
+function deleteMarkers() {
+    setMapOnAll(null);
+    markers = [];
+}
+
+function setMapOnAll(map) {
+    for (let i = 0; i < markers.length; i++) {
+        markers[i].setMap(map);
+    }
+}
+
+$('.choiceBtn').click(choiceClick)

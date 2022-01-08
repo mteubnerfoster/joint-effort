@@ -3,14 +3,16 @@
   <h2>Savory, sour, or sweet??</h2>
 </div>
 <div class='testingDiv'>
-  <h1>test</h1>
   <div id='searchResults'>
     {{#each searchResults}}
     <div>
-      <h2>Food Truck</h2>
-      <p>Food Truck Name: {{name}}</p>
-            <h3>Nearest Dispensary</h3>
-      <p>{{nearestDisp.name}}</p>
+      <button class='choiceBtn' data-foodLat='{{coordinates.latitude}}' data-foodLong='{{coordinated.longitude}}'
+        data-dispLat='{{nearestDisp.coordinates.latitude}}' data-dispLong='{{nearestDisp.coordinates.longitude}}'>
+        <h2>Food Truck</h2>
+        <p>Food Truck Name: {{name}}</p>
+        <h3>Nearest Dispensary</h3>
+        <p>{{nearestDisp.name}}</p>
+      </button>
     </div>
     {{/each}}
   </div>
