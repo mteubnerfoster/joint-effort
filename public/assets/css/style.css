@@ -636,29 +636,32 @@ font-size: 10px;
 
 /* submit section */
 .submitSection {
-    text-align: center;
+    text-align: start;
+    min-height: 75px;
+    background-color: var(--medgreen);
 }
 
 .submitprompt {
     color:var(--medgreen);
     margin-top: 50px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 
 .submitbtn {
     /* margin-top: 10px; */
-    width: 150px;
-    height: 150px;
-    justify-content: right;
-    text-decoration: none;
+    font-size: 75px;
+    min-height: 75px;
+    /* justify-content: right; */
+    /* text-decoration: none; */
     background-color: var(--medgreen);
-    border: 3px solid;
+    /* border: 3px solid; */
     font-weight: bold;
-    border-radius: 150px;
+    border:none;
+    /* border-radius: 150px; */
     color: var(--white);
-    border-color: var(--medgreen);
+    /* border-color: var(--medgreen); */
 }
-
+/* 
 .submitbtn:hover {
     justify-content: right;
     text-decoration: none;
@@ -674,7 +677,7 @@ font-size: 10px;
     background-color: var(--medgreen);
     border: none;
     border-bottom: 3px solid transparent;
-}
+} */
 
 
 /* ICONS */
