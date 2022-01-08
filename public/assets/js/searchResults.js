@@ -17,6 +17,8 @@ function initMap() {
 
 function choiceClick() {
     console.log('choice click')
+    let coords = $(this).data()
+    console.log(coords)
     deleteMarkers();
 }
 
@@ -42,8 +44,11 @@ function setMapOnAll(map) {
 $('.choiceBtn').click(choiceClick)
 
 if ($('.choiceBtn').length == 0) {
-    location.reload()
+    setTimeout(refreshPage, 1000)
 }
 
+function refreshPage() {
+    location.reload()
+}
 //https://developers.google.com/maps/documentation/javascript/examples/marker-remove
 
