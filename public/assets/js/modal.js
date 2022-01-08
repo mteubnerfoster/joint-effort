@@ -1,5 +1,4 @@
 function locationCheck() {
-    console.log('location check')
 
     navigator.geolocation.getCurrentPosition(function (position) {
         let storeLat = position.coords.latitude;

@@ -1,8 +1,5 @@
-console.log('search results js ')
-
 let map;
 let markers = [];
-
 
 function initMap() {
     let userLat = localStorage.getItem('lat');
@@ -16,7 +13,6 @@ function initMap() {
 }
 
 function choiceClick() {
-    console.log('choice click')
     deleteMarkers();
     let dataVals = $(this).data()
     const foodMarker = { lat: dataVals.foodlat, lng: dataVals.foodlong };
@@ -26,11 +22,11 @@ function choiceClick() {
         zoom: 12,
         center: foodMarker
     });
+
     addMarker(foodMarker, `${dataVals.foodname}`)
     addMarker(dispMarker, `${dataVals.dispname}`)
 
 }
-
 
 //map functions
 function addMarker(position, title) {
@@ -60,7 +56,7 @@ if ($('.choiceBtn').length == 0) {
     setTimeout(refreshPage, 1000)
 }
 
-//misc function
+//misc functions
 function refreshPage() {
     location.reload()
 }

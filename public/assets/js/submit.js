@@ -1,7 +1,4 @@
-console.log('submit js')
-
 let resultCombo = []
-
 
 async function submitBtn() {
     let userLat = localStorage.getItem('lat');
@@ -25,7 +22,6 @@ async function submitBtn() {
     } else { alert("An error occured, please enable location services or try again.") }
 }
 
-// wip
 async function nearestDispensary(lat, long, plantChoice, foodTruck) {
     let url = `/api/yelp?lat=${lat}&long=${long}&term=${plantChoice}&category=cannabisdispensaries&limit=1`
     let placeholder;
@@ -51,6 +47,8 @@ async function getFoodTruckData(userLat, userLong, foodChoice) {
 
 async function handoverData(data) {
     console.log(data)
+    localStorage.removeItem("food");
+    localStorage.removeItem("plant");
     await fetch('/search', {
         method: 'POST',
         headers: {
