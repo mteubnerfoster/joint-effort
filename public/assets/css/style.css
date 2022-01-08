@@ -636,49 +636,52 @@ font-size: 10px;
 
 /* submit section */
 .submitSection {
-    text-align: start;
+    text-align: center;
     min-height: 75px;
-    background-color: var(--medgreen);
+    /* background-color: var(--); */
 }
 
 .submitprompt {
     color:var(--medgreen);
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 
 .submitbtn {
-    /* margin-top: 10px; */
-    font-size: 75px;
-    min-height: 75px;
-    /* justify-content: right; */
-    /* text-decoration: none; */
-    background-color: var(--medgreen);
-    /* border: 3px solid; */
+    font-size: 30px;
+    min-height: 80px;
+    min-width: 300px;
+    background-color: var(--dark-grey);
+    border: 3px solid;
     font-weight: bold;
-    border:none;
-    /* border-radius: 150px; */
+    border-radius: 25px;
     color: var(--white);
-    /* border-color: var(--medgreen); */
-}
-/* 
-.submitbtn:hover {
-    justify-content: right;
-    text-decoration: none;
-    background-color: var(--white);
-    color: var(--dark-grey);
-    border: 3px solid transparent;
     border-color: var(--white);
 }
 
-.submitbtn.active {
-    justify-content: right;
-    text-decoration: none;
-    background-color: var(--medgreen);
-    border: none;
-    border-bottom: 3px solid transparent;
-} */
+.submitbtn:hover {
+    /* justify-content: right; */
+    /* text-decoration: none; */
+    background-color: var(--dark-grey);
+    color: var(--medgreen);
+    border: 3px solid transparent;
+    border-color: var(--medgreen);
+}
 
+.submitbtn:active {
+    background-color: var(--lightgrey);
+    color: var(--medgreen);
+    border: 3px solid transparent;
+    border-color: var(--medgreen);
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.submitbtn:active:after {
+    opacity: 1;
+    transition: 0s;
+
+}
 
 /* ICONS */
 /* .icon-bar {
