@@ -6,7 +6,7 @@
 - [User Story](#user_story)
 - [Technologies](#technologies)
 - [Examples](#examples)
-- [Author(s)](#author(s))
+- [Authors](#authors)
 - [License](#license)
 
 ## Getting Started
@@ -53,7 +53,7 @@ Photos of the homepage: <br>
 
 ![Joint Effort Homepage](public/assets/photos/jointefforthomepage2.jpg) <br>
 
-## Author(s)
+## Authors
 - [Kevin Ang](https://www.github.com/cosdaman)
 - [Marc Pacampara](https://github.com/SnkrFr3sh)
 - [Oscar Plumridge](https://github.com/OscarP76)
