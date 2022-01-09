@@ -1,0 +1,17 @@
+[
+  {
+    "username": "Sal",
+    "password": "password12345",
+    "dateOfBirth": "1976-05-26"
+  },
+  {
+    "username": "Lernantino",
+    "password": "password12345",
+    "dateOfBirth": "1976-05-26"
+  },
+  {
+    "username": "Amiko",
+    "password": "password12345",
+    "dateOfBirth": "1976-05-26"
+  }
+]

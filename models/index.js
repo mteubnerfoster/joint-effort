@@ -2,6 +2,7 @@ const User = require('./user');
 const Strain = require('./strain');
 const Category = require('./category');
 const Product = require('./product');
+const SearchHistory = require('./searchHistory');
 
 // Working on these still 
 
@@ -15,4 +16,11 @@ Product.belongsTo(Strain, {
   foreignKey: 'strain_id',
 });
 
-module.exports = { User, Strain, Category, Product };
+SearchHistory.belongsTo(User, {
+  foreignKey: 'user_id',
+});
+
+User.hasMany(SearchHistory, {
+  foreignKey: 'user_id',
+});
+module.exports = { User, Strain, Category, Product, SearchHistory };
