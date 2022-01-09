@@ -4,7 +4,6 @@ const yelp = require("yelp-fusion");
 const client = yelp.client(process.env.YELP_APIKEY);
 
 router.get("/", async (req, res) => {
-    // console.log(req.query)
     await client.search({
         term: req.query.term,
         latitude: req.query.lat,
