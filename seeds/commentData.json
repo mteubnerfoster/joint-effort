@@ -1,0 +1,17 @@
+[
+    {
+      "comment": "I like music",
+      "user_id": 1,
+      "blog_id": 1
+    },
+    {
+      "comment": "I like Tech",
+      "user_id": 2,
+      "blog_id": 2
+    },
+    {
+      "comment": "Roll 'Em Up",
+      "user_id": 3,
+      "blog_id": 3
+    }
+  ]
