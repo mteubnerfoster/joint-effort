@@ -1,29 +1,40 @@
-.testingDiv {
-    background-color: wheat;
-}
-
-.letsEat {
+.container {
+    color: whitesmoke;
     text-align: center;
-    font-size: larger;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.card-group {
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-div h1 {
-    height: 100%;
-    text-align: center;
+.cardResults {
+    background-color: rgb(67, 109, 67);
+    background-image: url('public/assets/photos/background.jpeg');
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px;
+    
+}
+
+.choiceBtn {
+    color: whitesmoke;
+    background-color: rgb(177, 177, 177);
+    border-radius: 10px;
+    border: 10px;
+   
+}
+.card-footer {
 
 }
 
-<div class="testingDiv" style="height: 100%">
-    <h1>header move pls</h1>
-    <h1>more</h1>
-    <p>both locations in 1 google map display here</p>
-
-    <div id="map" style="height: 500px; width: 50%; display:flex; position:absolute; left: 300px; bottom: 200px"></div>
-
-</div>
-<h1>header move pls</h1>
-    <h1>more</h1>
-    <p>both locations in 1 google map display here</p>
-
+.coverMap {
+    background-size: cover;
+    height: 800px;
+    background-image: url('public/assets/photos/background.jpeg');
+}

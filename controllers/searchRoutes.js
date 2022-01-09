@@ -9,10 +9,10 @@ router.post("/", async (req, res) => {
 
 router.get("/", async (req, res) => {
     let searchResults = req.session.searchResults
-    console.log(searchResults)
     req.session.save(async () => {
         req.session.searchResults = [];
     });
+    console.log(searchResults)
     res.status(200).render("searchResults", { searchResults, googleMapsApiKey: process.env.GOOGLEMAP_APIKEY });
 });
 
