@@ -1,0 +1,46 @@
+<section class="user-profile-section">
+    <div class="user-profile-card">
+        <div class='user-profile'>
+            <h1 class='username-title'> *Username here*</h1>
+            <div class='user-password-change'>
+                Change Password: <input type="text" class='change-password'>
+            </div>
+            <div class='saved-items'>
+                {{!-- {{#each *placeholder*}} --}}
+                <div class='row saved-item'>
+                    <button class='saved-item-btn coll' data-foodLat='{{coordinates.latitude}}'
+                        data-foodLong='{{coordinated.longitude}}' data-dispLat='{{nearestDisp.coordinates.latitude}}'
+                        data-dispLong='{{nearestDisp.coordinates.longitude}}'>
+                        <h2>Food Truck</h2>
+                        <p>{{name}}</p>
+                        <h3>Nearest Dispensary</h3>
+                        <p>{{nearestDisp.name}}</p>
+                    </button>
+
+                </div>
+                {{!-- <div class='col'>
+                    <button class='saved-item' data-foodLat='{{coordinates.latitude}}'
+                        data-foodLong='{{coordinated.longitude}}' data-dispLat='{{nearestDisp.coordinates.latitude}}'
+                        data-dispLong='{{nearestDisp.coordinates.longitude}}'>
+                        <h2>Food Truck</h2>
+                        <p>{{name}}</p>
+                        <h3>Nearest Dispensary</h3>
+                        <p>{{nearestDisp.name}}</p>
+                    </button>
+                </div>
+                <div class=''>
+                    <button class='saved-item' data-foodLat='{{coordinates.latitude}}'
+                        data-foodLong='{{coordinated.longitude}}' data-dispLat='{{nearestDisp.coordinates.latitude}}'
+                        data-dispLong='{{nearestDisp.coordinates.longitude}}'>
+                        <h2>Food Truck</h2>
+                        <p>{{name}}</p>
+                        <h3>Nearest Dispensary</h3>
+                        <p>{{nearestDisp.name}}</p>
+                    </button>
+                </div> --}}
+                {{!-- {{/each}} --}}
+            </div>
+        </div>
+    </div>
+</section>
+
