@@ -1,17 +1,14 @@
-console.log('submit js')
-
 let resultCombo = []
-let userLat = localStorage.getItem('lat');
-let userLong = localStorage.getItem('long');
-let foodChoice = localStorage.getItem('food');
-let plantChoice = localStorage.getItem('plant');
 
 async function submitBtn() {
-
+    let userLat = localStorage.getItem('lat');
+    let userLong = localStorage.getItem('long');
+    let foodChoice = localStorage.getItem('food');
+    let plantChoice = localStorage.getItem('plant');
     if (userLat && userLong) {
         if (foodChoice) {
             if (plantChoice) {
-                let results = await getFoodTruckData()
+                let results = await getFoodTruckData(userLat, userLong, foodChoice)
                 for (let i = 0; i < results.length; i++) {
                     const element = results[i];
                     let nearestDisp = await nearestDispensary(element.coordinates.latitude, element.coordinates.longitude, plantChoice, element)
@@ -22,13 +19,9 @@ async function submitBtn() {
                 alert('Please select a plant type.')
             }
         } else { alert('Please select a food type.') }
-    } else { alert("An error occured, please enable location services") }
-
-
-
+    } else { alert("An error occured, please enable location services or try again.") }
 }
 
-// wip
 async function nearestDispensary(lat, long, plantChoice, foodTruck) {
     let url = `/api/yelp?lat=${lat}&long=${long}&term=${plantChoice}&category=cannabisdispensaries&limit=1`
     let placeholder;
@@ -41,7 +34,7 @@ async function nearestDispensary(lat, long, plantChoice, foodTruck) {
     return foodTruck;
 }
 
-async function getFoodTruckData() {
+async function getFoodTruckData(userLat, userLong, foodChoice) {
     let foodTruckData = [];
     let url = `/api/yelp?lat=${userLat}&long=${userLong}&term=${foodChoice}&category=foodtrucks`
     await fetch(url)
@@ -54,6 +47,8 @@ async function getFoodTruckData() {
 
 async function handoverData(data) {
     console.log(data)
+    localStorage.removeItem("food");
+    localStorage.removeItem("plant");
     await fetch('/search', {
         method: 'POST',
         headers: {

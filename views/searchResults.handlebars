@@ -1,25 +1,32 @@
-<div>
-  <h1>Search your flavor!</h1>
-  <h2>Savory, sour, or sweet??</h2>
-</div>
-<div class='testingDiv'>
-  <div id='searchResults'>
-    {{#each searchResults}}
-    <div>
-      <button class='choiceBtn' data-foodLat='{{coordinates.latitude}}' data-foodLong='{{coordinated.longitude}}'
-        data-dispLat='{{nearestDisp.coordinates.latitude}}' data-dispLong='{{nearestDisp.coordinates.longitude}}'>
-        <h2>Food Truck</h2>
-        <p>Food Truck Name: {{name}}</p>
-        <h3>Nearest Dispensary</h3>
-        <p>{{nearestDisp.name}}</p>
-      </button>
-    </div>
-    {{/each}}
-  </div>
-  <div id="map" style="height: 500px; width: 50%; display:flex; position:absolute; left: 350px; bottom: 200px"></div>
-</div>
 
-<script src="https://maps.googleapis.com/maps/api/js?key={{googleMapsApiKey}}&callback=initMap&v=weekly&channel=2" async
-  class='googleMap'></script>
+<content class="container">
+  <h1>Feed Your Appetite</h1>
+</content>
+
+
+<div class="card-group">
+   {{#each searchResults}}
+
+<div class="cardResults">
+    <button class='choiceBtn' data-foodLat='{{coordinates.latitude}}' data-foodLong='{{coordinates.longitude}}'
+        data-foodName='{{name}}' data-dispLat='{{nearestDisp.coordinates.latitude}}'
+        data-dispLong='{{nearestDisp.coordinates.longitude}}' data-dispName='{{nearestDisp.name}}'>
+  <img src="{{image_url}}" class="card-img-top w-100">
+<div class="card-body">
+    <h5 class="card-title" style="color: rgb(126, 48, 48);">Food Truck | Dispencery</h5>
+    <p class="card-text">{{name}}</p>
+    <p class="card-text">{{nearestDisp.name}}</p>
+</div>
+<div class="card-footer">
+    </div>
+    </div>
+   {{/each}}
+</div>
+  </div>
+
+<div class="googleMap" id="map" style="height: 400px; background-size:cover: top:1200px"></div>
+<script src="https://maps.googleapis.com/maps/api/js?key={{googleMapsApiKey}}&callback=initMap&v=weekly&channel=2" async></script>
+
+
 
 <script src='/assets/js/searchResults.js'></script>

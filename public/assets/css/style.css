@@ -257,12 +257,10 @@ header {
         box-shadow: 5px 5px 15px 4px rgba(0,0,0,0.65);
     }
 
-
 /* food section */
 .foodSection{
     background-color: var(--lightgrey);
     min-height: 600px;
-
 }
 
 .foodSectionLeft{
@@ -363,9 +361,6 @@ justify-content: right;
     margin-bottom: 10px;
 }
 
-
-
-
 .foodImageCard {
     background-image: url("../photos/background.jpeg");
     min-height: 500px;
@@ -388,7 +383,6 @@ justify-content: right;
     -webkit-box-shadow: 5px 5px 15px 4px rgba(0,0,0,0.65); 
     box-shadow: 5px 5px 15px 4px rgba(0,0,0,0.65);
 }
-
 
 ul{
     list-style-type: none;
@@ -615,8 +609,6 @@ font-size: 10px;
     align-content: center;
 }
 
-
-
 .alert {
     position: relative;
     top: 0px;
@@ -633,7 +625,6 @@ font-size: 10px;
     justify-content: center;
     margin: 20px;
 }
-
 
 /* submit section */
 .submitSection {
@@ -670,14 +661,16 @@ font-size: 10px;
 }
 
 .submitbtn:active {
+    background-color: var(--dark-grey);
+    color: var(--medgreen);
+    border: 3px solid transparent;
+    border-color: var(--medgreen); 
 }
 
 .submitbtn:active:after {
     opacity: 1;
     transition: 0s;
-  }
-  
-  
+}
 
 /* ICONS */
 /* .icon-bar {
@@ -732,7 +725,6 @@ font-size: 10px;
     font-size: 30px;
 } */
 
-
 /* Hover actions */
 .foodCard:hover {
     background-image: url("../photos/foodcard.jpeg");
@@ -772,7 +764,6 @@ font-size: 10px;
     text-align: center;
 }
 
-
 .plantBtn:hover {
     background-color: #3B8C02;
     color: white;
@@ -790,7 +781,6 @@ font-size: 10px;
     min-width: 200px;
     text-align: center;
 }
-
 
 /* LOGIN page */
 .login-title {
