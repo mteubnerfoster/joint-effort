@@ -1,3 +1,6 @@
+const { SearchHistory } = require("../models");
+const { User } = require("../models");
+
 const router = require("express").Router();
 
 router.get("/", async (req, res) => {
@@ -17,7 +20,21 @@ router.get("/login", async (req, res) => {
 });
 
 router.get("/userprofile", async (req, res) => {
-  res.render("userprofile");
+  const userData = await SearchHistory.findAll({
+    include: [
+      {
+        model: User,
+        attributes: ['id'],
+      }, 
+    ],
+    where: {
+      user_id: req.session.userId,
+    },
+  })
+  console.log(userData)
+  res.render("userprofile", {
+    userData
+  });
 });
 
 

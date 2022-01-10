@@ -2,19 +2,19 @@
   {
     "truck_name": "Wicked Pies",
     "dispensary_name": "Shawn Kemp's Cannabis",
-    "user_id": 3,
-    "image":"https://s3-media1.fl.yelpcdn.com/bphoto/pm3_jLajNyy6qXM4kvZxuQ/o.jpg"
+    "image":"https://s3-media1.fl.yelpcdn.com/bphoto/pm3_jLajNyy6qXM4kvZxuQ/o.jpg",
+    "user_id": 3
   },
   {
     "truck_name": "In Pizza we Crust",
     "dispensary_name": "The Novel Tree",
-    "user_id": 2,
-    "image": "https://s3-media1.fl.yelpcdn.com/bphoto/pm3_jLajNyy6qXM4kvZxuQ/o.jpg"
+    "image": "https://s3-media1.fl.yelpcdn.com/bphoto/pm3_jLajNyy6qXM4kvZxuQ/o.jpg",
+    "user_id": 2
   },
   {
     "truck_name": "Oskar's Pizza",
     "dispensary_name": "Uncle Ike's - White Center",
-    "user_id": 1,
-    "image": "https://s3-media1.fl.yelpcdn.com/bphoto/pm3_jLajNyy6qXM4kvZxuQ/o.jpg"
+    "image": "https://s3-media1.fl.yelpcdn.com/bphoto/pm3_jLajNyy6qXM4kvZxuQ/o.jpg",
+    "user_id": 1
   }
 ]
