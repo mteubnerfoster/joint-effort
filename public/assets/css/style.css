@@ -179,6 +179,15 @@ header {
 
 }
 
+.plant-title{
+    padding-top:40px;
+    border-bottom: 3px solid transparent;
+    border-bottom-color: var(--medgreen);
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
 .plantprompt-1 {
     margin-bottom: 0px;
     margin-right:20px;
@@ -246,7 +255,7 @@ header {
         background-color: var(--white);
         opacity: .6;
         max-width:400px;
-        min-width: 400px;
+        min-width: 200px;
         max-height: 300px;
         min-height: 420px;
         margin: auto;
@@ -350,6 +359,7 @@ justify-content: right;
     border-bottom-color: var(--medgreen);
     margin-left: 50px;
     margin-right: 50px;
+    margin-bottom: 30px;
 }
 
 .dishtop {
@@ -845,7 +855,8 @@ font-size: 10px;
     }
 
     .joints {
-        max-width: 200px;
+        max-width: 220px;
+        font-size: 12px;
         
     }
 
