@@ -26,7 +26,8 @@ body {
 }
 
 .video{
-    filter:grayscale(100%)
+    filter:grayscale(100%);
+    max-width:2000px;
 }
 
 /* .logo-overlay{
@@ -660,12 +661,10 @@ font-size: 10px;
 }
 
 .submitbtn:active {
-    background-color: var(--lightgrey);
+    background-color: var(--dark-grey);
     color: var(--medgreen);
     border: 3px solid transparent;
-    border-color: var(--medgreen);
-    opacity: 0;
-    transition: all 0.8s
+    border-color: var(--medgreen); 
 }
 
 .submitbtn:active:after {
@@ -846,3 +845,69 @@ font-size: 10px;
 
   }
   
+/* submit button loading icon */
+/* .loader {
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid var(--medgreen);
+    width: 50px;
+    height: 50px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    /* animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  /* @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  } */ 
+
+
+  /* login page */
+  .user-profile-section{
+      color: var(--lightgrey)
+  }
+
+  .user-profile{
+      padding-top: 150px;
+      text-align: -webkit-center;
+      max-width: 500px;
+      min-width: 300px;
+
+  }
+
+  .username-title{
+      background-color: var(--medgreen);
+  }
+
+  .user-history-card{
+      max-width: 500px;
+      min-width: 300px;
+      background-color: var(--medgreen);
+      opacity: .9;
+      text-align-last: left;
+  }
+
+  .saved-item {
+      background-color: var(--lightgrey);
+  }
+
+  .saved-item-btn {
+    background-color: var(--lightgrey);
+    max-width: 400px;
+    max-height: 100px;
+}
+
+.user-password-change{
+    padding: 15px;
+}
+
+.change-password{
+    border-radius: 5px;
+    background-color: var(--white);
+}
