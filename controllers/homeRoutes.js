@@ -21,6 +21,7 @@ router.get("/login", async (req, res) => {
 
 router.get("/userprofile", async (req, res) => {
   const userData = await SearchHistory.findAll({
+    raw: true,
     include: [
       {
         model: User,
