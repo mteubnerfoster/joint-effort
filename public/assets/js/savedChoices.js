@@ -1,11 +1,6 @@
 const saveBtn = document.querySelector('.save-choice-btn')
 const saveFormHandler = async (event) => {
     event.preventDefault();
-    alert('Trying to see if it works!!!!')
-    // const username = document.querySelector('#username-signup').value.trim();
-    // const password = document.querySelector('#password-signup').value.trim();
-    // const dateOfBirth = document.querySelector('#birthdate-signup').value.trim();
-    // const isValidPassword = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$/.test(password)
     let {
       truck_name, 
       dispensary_name,
