@@ -179,6 +179,15 @@ header {
 
 }
 
+.plant-title{
+    padding-top:40px;
+    border-bottom: 3px solid transparent;
+    border-bottom-color: var(--medgreen);
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
 .plantprompt-1 {
     margin-bottom: 0px;
     margin-right:20px;
@@ -246,7 +255,7 @@ header {
         background-color: var(--white);
         opacity: .6;
         max-width:400px;
-        min-width: 400px;
+        min-width: 200px;
         max-height: 300px;
         min-height: 420px;
         margin: auto;
@@ -350,6 +359,7 @@ justify-content: right;
     border-bottom-color: var(--medgreen);
     margin-left: 50px;
     margin-right: 50px;
+    margin-bottom: 20px;
 }
 
 .dishtop {
@@ -627,9 +637,13 @@ font-size: 10px;
 }
 
 /* submit section */
+.submitcard{
+    min-height: 500px;
+}
 .submitSection {
     text-align: center;
     min-height: 75px;
+    padding-bottom: 50px;
     /* background-color: var(--); */
 }
 
@@ -637,6 +651,8 @@ font-size: 10px;
     color:var(--medgreen);
     margin-top: 30px;
     margin-bottom: 10px;
+    font-size: 17px;
+    font-style: italic;
 }
 
 .submitbtn {
@@ -839,7 +855,8 @@ font-size: 10px;
     }
 
     .joints {
-        max-width: 200px;
+        max-width: 220px;
+        font-size: 12px;
         
     }
 
@@ -910,4 +927,56 @@ font-size: 10px;
 .change-password{
     border-radius: 5px;
     background-color: var(--white);
+}
+
+/* "Save to profile" section */
+
+.save-choice-btn {
+    font-size: 30px;
+    min-height: 80px;
+    min-width: 300px;
+    background-color: var(--dark-grey);
+    border: 3px solid;
+    font-weight: bold;
+    border-radius: 25px;
+    color: var(--white);
+    border-color: var(--white);
+}
+
+.save-choice-btn:hover {
+    /* justify-content: right; */
+    /* text-decoration: none; */
+    background-color: var(--dark-grey);
+    color: var(--medgreen);
+    border: 3px solid transparent;
+    border-color: var(--medgreen);
+}
+
+.save-choice-btn:active {
+    background-color: var(--dark-grey);
+    color: var(--medgreen);
+    border: 3px solid transparent;
+    border-color: var(--medgreen); 
+}
+
+.save-choice-btn:active:after {
+    opacity: 1;
+    transition: 0s;
+}
+
+.save-choice-section {
+    margin: 20px;
+    text-align: center;
+}
+
+
+/* footer */
+
+.footer-section .footer-container .footer-sm {
+    background-color: var(--dark-grey);
+    color: var(--white);
+}
+
+.copywrite{
+    background-color: var(--lightgrey);
 }
