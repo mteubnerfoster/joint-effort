@@ -627,9 +627,13 @@ font-size: 10px;
 }
 
 /* submit section */
+.submitcard{
+    min-height: 500px;
+}
 .submitSection {
     text-align: center;
     min-height: 75px;
+    padding-bottom: 100px;
     /* background-color: var(--); */
 }
 
@@ -637,6 +641,8 @@ font-size: 10px;
     color:var(--medgreen);
     margin-top: 30px;
     margin-bottom: 10px;
+    font-size: 17px;
+    font-style: italic;
 }
 
 .submitbtn {
