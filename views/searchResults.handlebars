@@ -8,7 +8,7 @@
    {{#each searchResults}}
 
 <div class="cardResults">
-    <button class='choiceBtn' data-foodLat='{{coordinates.latitude}}' data-foodLong='{{coordinates.longitude}}'
+    <button class='choiceBtn' data-image_url="{{image_url}}" data-truck_name ="{{name}}" data-foodLat='{{coordinates.latitude}}' data-foodLong='{{coordinates.longitude}}'
         data-foodName='{{name}}' data-dispLat='{{nearestDisp.coordinates.latitude}}'
         data-dispLong='{{nearestDisp.coordinates.longitude}}' data-dispName='{{nearestDisp.name}}'>
   <img src="{{image_url}}" class="card-img-top w-50">
@@ -32,3 +32,4 @@
 
 
 <script src='/assets/js/searchResults.js'></script>
+<script src='/assets/js/savedChoices.js'></script>
