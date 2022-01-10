@@ -18,6 +18,10 @@ function choiceClick() {
     const foodMarker = { lat: dataVals.foodlat, lng: dataVals.foodlong };
     const dispMarker = { lat: dataVals.displat, lng: dataVals.displong };
 
+    //over here oscar
+    console.log(foodMarker)
+    console.log(dispMarker)
+
     map = new google.maps.Map(document.getElementById("map"), {
         zoom: 12,
         center: foodMarker
@@ -25,7 +29,6 @@ function choiceClick() {
 
     addMarker(foodMarker, `${dataVals.foodname}`)
     addMarker(dispMarker, `${dataVals.dispname}`)
-
 }
 
 //map functions
