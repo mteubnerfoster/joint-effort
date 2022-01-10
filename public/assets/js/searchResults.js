@@ -1,3 +1,7 @@
+let userSelection = {}
+// if(localStorage.getItem('userSelection')) {
+//     userSelection = JSON.parse(localStorage.getItem('userSelection'))
+// }
 let map;
 let markers = [];
 
@@ -15,6 +19,12 @@ function initMap() {
 function choiceClick() {
     deleteMarkers();
     let dataVals = $(this).data()
+    userSelection = {
+        truck_name: $(this).attr('data-truck_name'),
+        dispensary_name: $(this).attr('data-dispName'),
+        image: $(this).attr('data-image_url')
+    }
+    localStorage.setItem('userSelection', JSON.stringify(userSelection))
     const foodMarker = { lat: dataVals.foodlat, lng: dataVals.foodlong };
     const dispMarker = { lat: dataVals.displat, lng: dataVals.displong };
 
