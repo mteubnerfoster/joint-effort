@@ -1,7 +1,9 @@
 <!-- INvisible button to Open the Modal -->
 <button type="button" class="d-none btn btn-primary" data-toggle="modal" data-target="#myModal" id='modalBtn'>test
     button</button>
-
+<div class="modal-container ">
+    {{>modal}}
+</div>
 {{!-- Main Section --}}
 <section class='mainLogo'>
     {{!-- <div class="mainImage zoom" id='zoom'>
@@ -53,9 +55,7 @@
 </section>
 
 
-<div class="modal-container ">
-    {{>modal}}
-</div>
+
 
 
 <!-- The social media icon bar, commented out to see if we can get it icons in footer, will un-comment if we move it back to side - Meg -->
