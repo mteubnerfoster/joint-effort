@@ -12,7 +12,6 @@ router.get("/", async (req, res) => {
     req.session.save(async () => {
         req.session.searchResults = [];
     });
-    console.log(searchResults)
     res.status(200).render("searchResults", { searchResults, googleMapsApiKey: process.env.GOOGLEMAP_APIKEY });
 });
 

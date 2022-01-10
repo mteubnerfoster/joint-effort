@@ -62,15 +62,15 @@ router.post('/logout', (req, res) => {
 });
 
 // adding user-profile route
-router.post('/user-profile', (req, res) => {
-  if (req.session.loggedIn) {
-    req.session.destroy(() => {
-      res.status(204).end();
-    });
-  } else {
-    res.status(404).end();
-  };
-});
+// router.post('/user-profile', (req, res) => {
+//   if (req.session.loggedIn) {
+//     req.session.destroy(() => {
+//       res.status(204).end();
+//     });
+//   } else {
+//     res.status(404).end();
+//   };
+// });
 
 
 router.delete("/user/:id", (req, res) => {
