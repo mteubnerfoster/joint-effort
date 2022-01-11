@@ -46,9 +46,7 @@ async function getFoodTruckData(userLat, userLong, foodChoice) {
 }
 
 async function handoverData(data) {
-    console.log(data)
-    localStorage.removeItem("food");
-    localStorage.removeItem("plant");
+    localStorage.removeItem("counter");
     await fetch('/search', {
         method: 'POST',
         headers: {
