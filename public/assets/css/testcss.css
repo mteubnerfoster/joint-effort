@@ -10,13 +10,17 @@
     justify-content: center;
 }
 
+.card-body {
+    padding: 10px;
+    height: 200px;
+}
+
 .cardResults {
     background-color: rgb(67, 109, 67);
-    background-image: url('public/assets/photos/background.jpeg');
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px;
     margin: 20px;
     
@@ -25,16 +29,21 @@
 .choiceBtn {
     color: whitesmoke;
     background-color: rgb(177, 177, 177);
+    align-items: center;
     border-radius: 10px;
+    padding: 10px;
     border: 10px;
+    height: 280px;
+    width: 320px;
    
 }
-/* .card-footer {
 
-} */
+.resultImg {
+    height: 150px;
+    width: 175px; 
+}
 
 .coverMap {
     background-size: cover;
     height: 800px;
-    background-image: url('public/assets/photos/background.jpeg');
 }

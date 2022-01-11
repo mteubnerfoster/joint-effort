@@ -43,11 +43,11 @@ body {
    overflow:scroll
  } 
  
- img{
-width:45%;
-margin-top:200px;
-margin-left: 30%;
-margin-right: 25%;
+ .imgLogo {
+    width:45%;
+    margin-top:200px;
+    margin-left: 30%;
+    margin-right: 25%;
  }
 
  .overlay img {
