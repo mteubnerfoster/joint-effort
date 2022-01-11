@@ -27,9 +27,9 @@ THEN I see a list of five restaurant and dispensary combinations
 WHEN I click on one of the five choices
 THEN I am given a map showing me where the restaurant and dispensary are in relation to each other
 WHEN I sign up to be a member
-THEN my searches are kept in the search history
+THEN I have the ability to save my searches
 WHEN I click on my search history
-THEN I can go back to a previous search
+THEN I can go back to a previous selection
 ```
 
 ## Technologies
