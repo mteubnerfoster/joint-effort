@@ -190,7 +190,7 @@ jQuery(function($){
     }).done(function() {
       setTimeout(function(){
         $("#loaderOverlay").fadeOut(300);
-      },5000);
+      },4000);
     });
   });	
 });

@@ -139,6 +139,11 @@ header {
     font-family: "Economica", sans-serif;
 }
 
+.nav-link:hover {
+    color: var(--white) !important;
+}
+
+
 #plant {
     color: white;
     /* max-height: 400px; */
@@ -910,11 +915,16 @@ font-size: 10px;
       color: var(--lightgrey)
   }
 
+  .user-profile-card{
+    text-align: -webkit-center;
+  }
+
   .user-profile{
       padding-top: 150px;
       text-align: -webkit-center;
       max-width: 500px;
       min-width: 300px;
+      color:var(--dark-grey)
 
   }
 
@@ -932,12 +942,15 @@ font-size: 10px;
 
   .saved-item {
       background-color: var(--lightgrey);
+      border-radius: 10px;
+
   }
 
   .saved-item-btn {
     background-color: var(--lightgrey);
     max-width: 400px;
-    max-height: 100px;
+    max-height: 200px;
+    color: var(--dark-grey)
 }
 
 .user-password-change{
