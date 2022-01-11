@@ -2,21 +2,21 @@
     <div class="user-profile-card">
 
         <div class='user-profile'>
-            <h1 class='username-title'> *Username here*</h1>
-            <div class='user-password-change'>
+            <h1 class='username-title'>Your Saved Selections</h1>
+            {{!-- <div class='user-password-change'>
                 Change Password: <input type="text" class='change-password'>
-            </div>
+            </div> --}}
             <div class='saved-items'>
                 {{#each userData}}
-                <div class='row saved-item'>
-                    <button class='saved-item-btn col' data-foodLat='{{coordinates.latitude}}'
+                <div class='saved-item'>
+                    <div class='saved-item-btn' data-foodLat='{{coordinates.latitude}}'
                         data-foodLong='{{coordinated.longitude}}' data-dispLat='{{nearestDisp.coordinates.latitude}}'
                         data-dispLong='{{nearestDisp.coordinates.longitude}}'>
                         <h2>Food Truck</h2>
                         <p>{{truck_name}}</p>
                         <h3>Nearest Dispensary</h3>
                         <p>{{dispensary_name}}</p>
-                    </button>
+                    </div>
 
                 </div>
 
