@@ -10,7 +10,7 @@
 - [License](#license)
 
 ## Getting Started
-Required program(s) needed is any common internet browser with Javascript enabled (most browsers already have it installed and enabled).
+Users can utilize any common internet browser with Javascript enabled (most browsers already have it installed and enabled) to access the Joint Effort site.
 
 ## About
 This app assists users in choosing a cannabis dispensary and a food truck near one another so that they can pick up both in a fast and efficient manner.
@@ -34,7 +34,7 @@ THEN I can go back to a previous search
 
 ## Technologies
 This application was created using:
-- [JavaScript](https://www.javascript.com/)
+- [Javascript](https://www.javascript.com/)
 - [bcrypt](https://www.npmjs.com/package/bcrypt)
 - [connect-session-sequelize](https://www.npmjs.com/package/connect-session-sequelize)
 - [dotenv](https://www.npmjs.com/package/dotenv)
@@ -44,7 +44,7 @@ This application was created using:
 - [MySql2](https://www.npmjs.com/package/mysql2)
 - [Sequelize](https://www.npmjs.com/package/sequelize)
 - [Yelp Fusion API](https://www.npmjs.com/package/yelp-fusion)
-- [Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/overview)
+- [Google Maps Javascript API](https://developers.google.com/maps/documentation/javascript/overview)
 
 ## Examples
 Check out [Joint Effort](https://joint-effort-kohmm.herokuapp.com/) <br>

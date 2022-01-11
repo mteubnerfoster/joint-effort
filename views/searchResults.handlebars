@@ -1,35 +1,35 @@
-
 {{!-- <content class="container">
   <h1>Feed Your Appetite</h1>
 </content> --}}
 
-
 <div class="card-group">
-   {{#each searchResults}}
+  {{#each searchResults}}
 
-<div class="cardResults">
-    <button class='choiceBtn' data-image_url="{{image_url}}" data-truck_name ="{{name}}" data-foodLat='{{coordinates.latitude}}' data-foodLong='{{coordinates.longitude}}'
-        data-foodName='{{name}}' data-dispLat='{{nearestDisp.coordinates.latitude}}'
-        data-dispLong='{{nearestDisp.coordinates.longitude}}' data-dispName='{{nearestDisp.name}}'>
-  <img class="resultImg" src="{{image_url}}" >
-<div class="card-body">
-    <h5 class="card-title" style="color: rgb(126, 48, 48);">Food Truck | Dispensary</h5>
-    <p class="card-text">{{name}}</p>
-    <p class="card-text">{{nearestDisp.name}}</p>
-</div>
-</div>
-   {{/each}}
+  <div class="cardResults">
+    <button class='choiceBtn' data-image_url="{{image_url}}" data-truck_name="{{name}}"
+      data-foodLat='{{coordinates.latitude}}' data-foodLong='{{coordinates.longitude}}' data-foodName='{{name}}'
+      data-dispLat='{{nearestDisp.coordinates.latitude}}' data-dispLong='{{nearestDisp.coordinates.longitude}}'
+      data-dispName='{{nearestDisp.name}}'>
+      <img class="resultImg" src="{{image_url}}">
+      <div class="card-body">
+        <h5 class="card-title" style="color: rgb(126, 48, 48);">Food Truck | Dispensary</h5>
+        <p class="card-text">{{name}}</p>
+        <p class="card-text">{{nearestDisp.name}}</p>
+      </div>
+  </div>
+  {{/each}}
 </div>
 </div>
 
-<marquee behavior="scroll" direction="down">Feed Your Appetite!</marquee>
+<marquee behavior="scroll" direction="down" style="font-size:50px; color:white; margin:10px; font-family:sans-serif">
+  Feed Your Appetite!</marquee>
 
-<div class="googleMap" id="map" style="height: 600px; background-size:cover;"></div>
-<script src="https://maps.googleapis.com/maps/api/js?key={{googleMapsApiKey}}&callback=initMap&v=weekly&channel=2" async></script>
+<div class="googleMap" id="map" style="height: 500px; background-size:cover;"></div>
+<script src="https://maps.googleapis.com/maps/api/js?key={{googleMapsApiKey}}&callback=initMap&v=weekly&channel=2"
+  async></script>
 <div class="save-choice-section">
   <button class="save-choice-btn">SAVE TO PROFILE</button>
 </div>
-
 
 <script src='/assets/js/searchResults.js'></script>
 <script src='/assets/js/savedChoices.js'></script>

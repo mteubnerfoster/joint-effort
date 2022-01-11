@@ -1,13 +1,13 @@
 marquee {
     color: whitesmoke;
     text-align: center;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Economica", sans-serif;
     font-size:xx-large;
 }
 
 .card-group {
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
     display: flexbox;
     flex-wrap: wrap;
     justify-content: center;
@@ -26,7 +26,6 @@ marquee {
     padding: 20px;
     border-radius: 10px;
     margin: 20px;
-    
 }
 
 .choiceBtn {
@@ -38,7 +37,6 @@ marquee {
     border: 10px;
     height: 280px;
     width: 300px;
-   
 }
 
 .resultImg {
