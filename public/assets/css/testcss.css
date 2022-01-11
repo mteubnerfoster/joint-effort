@@ -5,9 +5,10 @@ marquee {
     font-size:xx-large;
 }
 
+
 .card-group {
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
     display: flexbox;
     flex-wrap: wrap;
     justify-content: center;
