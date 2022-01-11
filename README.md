@@ -10,7 +10,7 @@
 - [License](#license)
 
 ## Getting Started
-Users can utilize any common internet browser with Javascript enabled (most browsers already have it installed and enabled) to access the Joint Effort site.
+Users can utilize any common internet browser with Javascript enabled to access the Joint Effort site.
 
 ## About
 This app assists users in choosing a cannabis dispensary and a food truck near one another so that they can pick up both in a fast and efficient manner.
