@@ -13,7 +13,7 @@
 Users can utilize any common internet browser with Javascript enabled to access the Joint Effort site.
 
 ## About
-This app assists users in choosing a cannabis dispensary and a food truck near one another so that they can pick up both in a fast and efficient manner.
+This app will assist users in choosing a cannabis dispensary and a food truck near one another so that they can pick up both in a fast and efficient manner.
 
 ## User Story
 ```
