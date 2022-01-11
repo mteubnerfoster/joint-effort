@@ -3,8 +3,7 @@ const loginFormHandler = async (event) => {
 
   const username = document.querySelector('#username-login').value.trim();
   const password = document.querySelector('#password-login').value.trim();
-  
-  
+
   if (username && password) {
     const response = await fetch('/api/users/login', {
       method: 'POST',
@@ -27,7 +26,7 @@ const signupFormHandler = async (event) => {
   const password = document.querySelector('#password-signup').value.trim();
   const dateOfBirth = document.querySelector('#birthdate-signup').value.trim();
   const isValidPassword = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$/.test(password)
-  
+
   if (username && password && dateOfBirth && isValidPassword) {
     const response = await fetch('/api/users', {
       method: 'POST',
@@ -41,7 +40,7 @@ const signupFormHandler = async (event) => {
       alert(response.statusText);
     }
   }
-  else{
+  else {
     alert('Minimum eight characters, at least one uppercase letter, one lowercase letter, one number and one special character')
   }
 };

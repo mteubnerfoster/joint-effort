@@ -31,8 +31,6 @@ body {
     /* overflow: 'hidden'; */
 }
 
-
-
 .video video, .overlay img {
     /* width:50%;
    height:100%; */
@@ -143,7 +141,6 @@ header {
     color: var(--white) !important;
 }
 
-
 #plant {
     color: white;
     /* max-height: 400px; */
@@ -178,7 +175,6 @@ header {
     margin-right: 20px;
     text-align: left;
     max-height: 40px;
-
 }
 
 .plant-title{
@@ -187,7 +183,6 @@ header {
     border-bottom-color: var(--medgreen);
     margin-left: 50px;
     margin-right: 50px;
-
 }
 
 .plantprompt-1 {
@@ -203,11 +198,9 @@ header {
     font-style: italic;
 }
 
-
 .plantDiv{
     justify-content: left;
     }
-
 
     .plantbtn {
         justify-content: right;
@@ -220,7 +213,6 @@ header {
         color: var(--lightgrey);
         border-radius: 0px !important;
         text-align: left;
-
     }
     
     .plantbtn:hover {
@@ -312,8 +304,6 @@ header {
 margin: 0px 20px 0px 0px;
     font-style: italic;
 }
-
-
 
 .foodDiv{
 justify-content: right;
@@ -690,7 +680,6 @@ font-size: 10px;
     transition: 0s;
 }
 
-
 /* #submitButton{
     display:block;
     margin:20px auto;
@@ -699,6 +688,7 @@ font-size: 10px;
     border:solid #ccc 1px;
     cursor: pointer;
   } */
+
   #loaderOverlay{	
     position: fixed;
     top: 0;
@@ -708,12 +698,14 @@ font-size: 10px;
     display: none;
     background: rgba(0,0,0,0.6);
   }
+
   .cv-spinner {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;  
   }
+
   .spinner {
     width: 40px;
     height: 40px;
@@ -727,10 +719,10 @@ font-size: 10px;
       transform: rotate(360deg); 
     }
   }
+
   .is-hide{
     display:none;
   }
-
 
 /* Hover actions */
 .foodCard:hover {
@@ -805,7 +797,6 @@ font-size: 10px;
     border-radius: 5px;
     -webkit-box-shadow: 5px 5px 15px 4px rgba(0,0,0,0.65); 
     box-shadow: 5px 5px 15px 4px rgba(0,0,0,0.65);
-        
 }
 
 .loginbtn {
@@ -841,7 +832,6 @@ font-size: 10px;
     transition: 0s;
 }
 
-
 /* Media Screens */
 @media screen and (max-width: 768px) {
     .foodCard {
@@ -876,13 +866,11 @@ font-size: 10px;
 
     .dishes {
         max-width: 200px;
-        
     }
 
     .joints {
         max-width: 220px;
         font-size: 12px;
-        
     }
 
   }
@@ -908,7 +896,6 @@ font-size: 10px;
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   } */ 
-
 
   /* login page */
   .user-profile-section{
@@ -963,7 +950,6 @@ font-size: 10px;
 }
 
 /* "Save to profile" section */
-
 .save-choice-btn {
     font-size: 30px;
     min-height: 80px;
@@ -1002,9 +988,7 @@ font-size: 10px;
     text-align: center;
 }
 
-
 /* footer */
-
 .footer-section{
     margin: 0px;
     padding:0px;
@@ -1040,7 +1024,6 @@ font-size: 10px;
   
 .footer-links{
     margin-bottom: 10px;
-
 }
 
 .footer-link{
