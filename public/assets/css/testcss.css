@@ -1,10 +1,13 @@
-.container {
+marquee {
     color: whitesmoke;
     text-align: center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:xx-large;
 }
 
 .card-group {
+    padding-top: 100px;
+    padding-bottom: 50px;
     display: flexbox;
     flex-wrap: wrap;
     justify-content: center;
@@ -34,16 +37,11 @@
     padding: 10px;
     border: 10px;
     height: 280px;
-    width: 320px;
+    width: 300px;
    
 }
 
 .resultImg {
     height: 150px;
     width: 175px; 
-}
-
-.coverMap {
-    background-size: cover;
-    height: 800px;
 }
