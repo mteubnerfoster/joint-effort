@@ -175,4 +175,22 @@ $(document).ready(function() {
   $(window).trigger('scroll');
 });
 
-
+// loading icon
+jQuery(function($){
+  $(document).ajaxSend(function() {
+    $("#loaderOverlay").fadeIn(300);　
+  });
+		
+  $('#submitButton').click(function(){
+    $.ajax({
+      type: 'GET',
+      success: function(data){
+        console.log(data);
+      }
+    }).done(function() {
+      setTimeout(function(){
+        $("#loaderOverlay").fadeOut(300);
+      },4000);
+    });
+  });	
+});
