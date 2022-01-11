@@ -15,7 +15,7 @@ async function initMap() {
 function choiceClick() {
     deleteMarkers();
     let dataVals = $(this).data()
-    
+
     userSelection = {
         truck_name: $(this).attr('data-truck_name'),
         dispensary_name: $(this).attr('data-dispName'),
@@ -62,9 +62,7 @@ function setMapOnAll(map) {
 //button functions
 $('.choiceBtn').click(choiceClick)
 
-if ($('.choiceBtn').length == 0) {
-    setTimeout(refreshPage, 1000)
-}
+refreshPage();
 
 //misc functions
 function refreshPage() {
