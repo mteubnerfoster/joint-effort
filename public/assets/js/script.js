@@ -42,31 +42,31 @@ document.getElementById("cancel").onclick = function () {
 document.getElementById("submit").onclick = function () {
   // add function that verfies check boxes when submitting
   console.log(authAge.value, authLocation.value)
-  if(authAge.value === 'on' && authLocation.value === 'on') {
-     this.setAttribute('data-dismiss', 'modal')
-     authAge.value='off'
-     authLocation.value='off'
-  } else{
-    if(authAge.value === 'off') {
+  if (authAge.value === 'on' && authLocation.value === 'on') {
+    this.setAttribute('data-dismiss', 'modal')
+    authAge.value = 'off'
+    authLocation.value = 'off'
+  } else {
+    if (authAge.value === 'off') {
       cancel.click()
     }
   }
 }
 
-$('.modal-check').on('click', function() {
-  if($(this).val()==="off"){
+$('.modal-check').on('click', function () {
+  if ($(this).val() === "off") {
     $(this).val('on')
   } else {
     $(this).val('off')
   }
 })
 
-btnClose.addEventListener('click', function() {
+btnClose.addEventListener('click', function () {
   cancel.click()
 })
 
 // modalBtn.click()
-$("#myModal").modal({"backdrop": "static"});
+$("#myModal").modal({ "backdrop": "static" });
 
 $('#save').on('click', function (event) {
   event.preventDefault();
@@ -116,18 +116,18 @@ $('#save').on('click', function (event) {
 //   }
 // }
 
-function foodTypes(){
+function foodTypes() {
   for (let i = 0; i < foodCategories.length; i++) {
     var foodButton = $('<button>');
     foodButton.attr('class', 'foodBtn')
     foodButton.text(foodCategories[i]);
     foodTypeCard.append(foodButton)
-    
+
   }
 };
 
 // navbar scroll
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () { scrollFunction() };
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     document.getElementById("navbar").style.top = "0";
@@ -137,7 +137,7 @@ function scrollFunction() {
 }
 
 // card animation
-$(document).ready(function() {
+$(document).ready(function () {
   //window and animation items
   var animation_elements = $.find('.animationCard');
   var web_window = $(window);
@@ -150,7 +150,7 @@ $(document).ready(function() {
     var window_bottom_position = (window_top_position + window_height);
 
     //iterate through elements to see if its in view
-    $.each(animation_elements, function() {
+    $.each(animation_elements, function () {
 
       //get the element sinformation
       var element = $(this);
@@ -168,11 +168,29 @@ $(document).ready(function() {
   }
 
   //on or scroll, detect elements in view
-  $(window).on('scroll resize', function() {
-      check_if_in_view()
-    })
-    //trigger our scroll event on initial load
+  $(window).on('scroll resize', function () {
+    check_if_in_view()
+  })
+  //trigger our scroll event on initial load
   $(window).trigger('scroll');
 });
 
+// loading icon
+jQuery(function ($) {
+  $(document).ajaxSend(function () {
+    $("#loaderOverlay").fadeIn(300);
+  });
 
+  $('#submitButton').click(function () {
+    $.ajax({
+      type: 'GET',
+      success: function (data) {
+        console.log(data);
+      }
+    }).done(function () {
+      setTimeout(function () {
+        $("#loaderOverlay").fadeOut(300);
+      }, 4000);
+    });
+  });
+});

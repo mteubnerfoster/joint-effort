@@ -1,40 +1,45 @@
-.container {
+marquee {
     color: whitesmoke;
     text-align: center;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Economica", sans-serif;
+    font-size:xx-large;
 }
 
 .card-group {
+    padding-top: 100px;
+    padding-bottom: 40px;
     display: flexbox;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+.card-body {
+    padding: 10px;
+    height: 200px;
+}
+
 .cardResults {
     background-color: rgb(67, 109, 67);
-    background-image: url('public/assets/photos/background.jpeg');
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px;
     margin: 20px;
-    
 }
 
 .choiceBtn {
     color: whitesmoke;
     background-color: rgb(177, 177, 177);
+    align-items: center;
     border-radius: 10px;
+    padding: 10px;
     border: 10px;
-   
+    height: 280px;
+    width: 300px;
 }
-/* .card-footer {
 
-} */
-
-.coverMap {
-    background-size: cover;
-    height: 800px;
-    background-image: url('public/assets/photos/background.jpeg');
+.resultImg {
+    height: 150px;
+    width: 175px; 
 }

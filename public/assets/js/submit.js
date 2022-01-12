@@ -58,5 +58,4 @@ async function handoverData(data) {
     )
 }
 
-
 $('.submitbtn').click(submitBtn)
