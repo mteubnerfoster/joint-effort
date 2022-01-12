@@ -1,15 +1,11 @@
-let userSelection = {}
-// if(localStorage.getItem('userSelection')) {
-//     userSelection = JSON.parse(localStorage.getItem('userSelection'))
-// }
 let map;
 let markers = [];
 
-function initMap() {
+async function initMap() {
     let userLat = localStorage.getItem('lat');
     let userLong = localStorage.getItem('long');
     const user = { lat: parseFloat(userLat), lng: parseFloat(userLong) };
-    map = new google.maps.Map(document.getElementById("map"), {
+    map = await new google.maps.Map(document.getElementById("map"), {
         zoom: 13,
         center: user,
     });
@@ -19,6 +15,7 @@ function initMap() {
 function choiceClick() {
     deleteMarkers();
     let dataVals = $(this).data()
+
     userSelection = {
         truck_name: $(this).attr('data-truck_name'),
         dispensary_name: $(this).attr('data-dispName'),
@@ -28,7 +25,7 @@ function choiceClick() {
     const foodMarker = { lat: dataVals.foodlat, lng: dataVals.foodlong };
     const dispMarker = { lat: dataVals.displat, lng: dataVals.displong };
 
-    //over here oscar
+    //over here
     console.log(foodMarker)
     console.log(dispMarker)
 
@@ -65,11 +62,14 @@ function setMapOnAll(map) {
 //button functions
 $('.choiceBtn').click(choiceClick)
 
-if ($('.choiceBtn').length == 0) {
-    setTimeout(refreshPage, 1000)
-}
+refreshPage();
 
 //misc functions
 function refreshPage() {
-    location.reload()
+    let i = localStorage.getItem('counter') || 0;
+    if (i < 1) {
+        location.reload()
+        i++
+        localStorage.setItem('counter', i);
+    }
 }
